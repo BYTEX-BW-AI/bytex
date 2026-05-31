@@ -1,126 +1,99 @@
 # 🌞 Soberanía Energética — Marketplace de IA para independencia energética en Bolivia
 
-> **Bolivia agotó el gas que alimenta el 70% de su electricidad. Antes de 2031 la tarifa sube. Las empresas que construyan su infraestructura hoy van a estar protegidas. Las que esperen van a pagar el doble.**
+> **Bolivia agotó el gas que genera el 66% de su electricidad. En 2031 tendrá que importar gas a precio internacional. Las empresas que construyan infraestructura propia hoy pagarán 50–60% menos que las que esperen.**
 
-[![Hackathon](https://img.shields.io/badge/hackathon-Build%20With%20AI%202026-blue)](https://gdg.community.dev/events/details/google-developer-groups-santa-cruz-presents-build-with-ai-hackathon-2026/)
-[![Tech Stack](https://img.shields.io/badge/stack-Angular%2B%2BFirebase%2B%2BGemini-orange)](https://firebase.google.com/)
-[![License](https://img.shields.io/badge/license-MIT-green)](#licencia)
+**Status:** Negocio real en validación. Compite en hackathon Build With AI 2026.
 
 ---
 
-## 🎯 El Problema
+## 🎯 El Problema Real (Verificable)
 
-**Bolivia tiene un problema energético con fecha de vencimiento.**
+### Colapso de reservas de gas en Bolivia
+- **2013:** 10.45 TCF de reservas probadas
+- **2026 (hoy):** 3.7 TCF (caída del 65%)
+- **2031:** Bolivia importará gas a precio internacional
 
-- 🔴 **Reservas de gas:** cayeron 65% en 12 años (10.45 → 3.7 TCF)
-- 🔴 **Importación de gas:** YPFB admitió (marzo 2026) que Bolivia importará antes de 2031
-- 🔴 **Costo:** ~$400M/año adicionales → tarifa eléctrica sube de $0.084 a $0.15–$0.20/kWh
-- 🔴 **Empresas afectadas:** 10.000–12.000 empresas B2B en Santa Cruz sin solución clara
+**Fuente:** [YPFB advierte que Bolivia podría importar gas desde 2031](https://prensamercosur.org/2026/04/01/reservas-de-gas-caen-a-37-tcf-y-ypfb-advierte-que-bolivia-podria-importar-gas-desde-2031/)
 
-**Status quo:** Las empresas consultan a instaladoras de forma aislada, sin datos reales, sin ROI personalizado, sin comparación objetiva entre proveedores.
+### Electricidad = Gas quemado
+- **66% de la electricidad viene de termoeléctricas a gas natural**
+- Cuando Bolivia importe gas, el costo sube de $0.084 a $0.15–$0.20/kWh
+
+**Fuente:** [World Bank: Electricity generation from gas in Bolivia](https://datos.bancomundial.org/indicador/EG.ELC.NGAS.ZS?locations=BO)
+
+### Mercado cautivo: 10.000–12.000 empresas B2B en Santa Cruz
+- **117.894 empresas registradas en Santa Cruz** (29.9% de Bolivia)
+- **Energo-intensivas:** 10.000–12.000 empresas
+
+**Fuente:** [SEPREC Base Empresarial 2025](https://www.seprec.gob.bo/)
+
+### No existe simulador con IA en Bolivia
+**Hallazgo crítico:** Ninguna empresa ofrece análisis de IA + marketplace integrado.
 
 ---
 
 ## ✅ Nuestra Solución
 
-**Un marketplace de IA que analiza tu situación energética real y te conecta con proveedores certificados.**
+Marketplace de IA que analiza la energía real de una empresa y la conecta con proveedores certificados.
 
-### Flujo del cliente en 3 pasos
 
-**1. Subís tu factura CRE (o seleccionás tu rubro)**
-```
-Foto de factura → Gemini 2.5 extrae kWh, kW pico, costo real
-                → NASA POWER API entrega irradiación solar de tu zona
-                → Calculadora de IA dimensiona el sistema exacto que necesitás
-```
 
-**2. La IA te analiza y recomienda**
-```
-"Para lograr 70% de independencia con tu consumo de 47.000 kWh/mes en Warnes:
- • 182 paneles 550W + 10 baterías Pylontech + inversor Huawei 100kW
- • Costo: $58.000–$72.000 | Payback: 4.8 años
- • CO₂ evitado: 59 ton/año"
-```
-
-**3. Elegís tu proveedor**
-```
-3 proveedores certificados en tu zona
-↓
-Ordenados por precio, tiempo de instalación, reputación
-↓
-Cotización directa, instalación verificada, monitoreo en tiempo real
-```
-
-### Por qué esto gana la hackathon
-
-✅ **Gemini es el motor central** — no decorativo. Extrae datos, razona sobre sizing, personaliza.  
-✅ **Problema validado** — 10.000+ empresas, datos reales.  
-✅ **Solución viable** — MVP en 36h, stack 100% gratuito.  
-✅ **Impacto medible** — marketplace de dos lados, escala sin capital.
+**Output:** Recomendación personalizada con ROI exacto.
 
 ---
 
-## 🚀 Quick Start (2 minutos)
+## 💰 Modelo de Negocio
 
-```bash
-git clone https://github.com/BYTEX-BW-AI/bytex.git
-cd bytex
-npm install
-npm run dev
-```
+Marketplace de dos lados. **NO somos instaladores.**
 
-La app abre en `http://localhost:5173`
+### Revenue Streams (Año 1)
+
+| Stream | Precio | Volumen | Revenue anual |
+|---|---|---|---|
+| Suscripción proveedores | $150–$700/mes | 5 proveedores promedio | $28.000 |
+| Comisión por deal | 3–5% proyecto | 30 deals × $2.500 | $84.000 |
+| Leads calificados | $50–$150 | 200 leads × $75 | $15.000 |
+| **TOTAL** | — | — | **$132.000** |
+
+**Margen operativo: 53%** (vs. 20–32% instaladora directa)
 
 ---
 
-## 🏗️ Arquitectura Técnica
+## 🏗️ Tech Stack (MVP)
 
-| Capa | Tecnología |
+| Componente | Tecnología |
 |---|---|
 | Frontend | Angular 18 + PWA |
 | Backend | Firebase Cloud Functions |
 | Database | Cloud Firestore |
-| **IA + OCR** | **Gemini 2.5 Flash-Lite** |
-| Solar Data | **NASA POWER API** |
+| **IA Central** | **Gemini 2.5 Flash-Lite** |
+| **Datos solares** | **NASA POWER API** |
 | Hosting | Firebase Hosting |
 
----
-
-## 📊 Mercado
-
-- **117.894 empresas en Santa Cruz** (29.9% de Bolivia)
-- **10.000–12.000 energo-intensivas** (target real)
-- **27 empresas solares activas** (proveedores potenciales)
-- **0 simuladores con IA en Bolivia** (espacio vacío)
+**Costo:** $0 (free tiers)
 
 ---
 
-## 📈 Modelo de Negocio
+## 🚀 Quick Start
 
-Marketplace de dos lados:
-- **Clientes:** App gratuita + análisis IA
-- **Proveedores:** Suscripción $150–$700/mes + comisión 3–5%
 
-**Revenue año 1:** $132K (margen 53%)
+
+Demo en vivo: https://bytex-demo.web.app
 
 ---
 
-## 📁 Estructura del Repo
+## 🔗 Todas las Fuentes
 
-```
-bytex/
-├── src/app/
-├── functions/
-├── research/
-└── README.md
-```
-
----
-
-## 📜 Licencia
-
-MIT License
+- [YPFB: Bolivia importará gas desde 2031](https://prensamercosur.org/2026/04/01/)
+- [World Bank: Electricity from gas](https://datos.bancomundial.org/indicador/EG.ELC.NGAS.ZS?locations=BO)
+- [SEPREC: Empresas registradas](https://www.seprec.gob.bo/)
+- [CRE: Tarifas oficiales](https://www.cre.com.bo/)
+- [PILAT](https://pilatsrl.com/)
+- [Enersol](https://www.enersol-sa.com/)
+- [InnovaSol](https://innovasol.com.bo/)
 
 ---
 
-**Hecho con ❤️ para la soberanía energética de Bolivia.**
+**Negocio real. La hackathon es solo la primera etapa.**
+
+Hecho con ❤️ para la soberanía energética de Bolivia.
