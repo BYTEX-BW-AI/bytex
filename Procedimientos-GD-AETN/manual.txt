@@ -1,0 +1,1788 @@
+MANUAL
+del Consumidor
+
+Introducción
+Comprender los diferentes conceptos eléctricos que son incluidos en la facturación del servicio, en cumplimiento de la legislación establecida para tal fin, es fundamental para que cada consumidor realice una gestión eficiente de su consumo. La información relativa al detalle de los conceptos facturados mensualmente se encuentra en el Aviso de Cobranza. El análisis de ésta información a través del tiempo, permite al consumidor identificar los factores que determinan la variabilidad del consumo y por ende, el importe de la factura. En este Manual, se busca entregar las herramientas al Consumidor para que identifique más fácilmente estos factores, de manera que pueda tomar las acciones necesarias que le permitan optimizar su consumo. Este manual informativo contiene información sobre: · El Sistema Interconectado Nacional. · Los sistemas eléctricos de CRE. · Energía y potencia eléctrica. · La estructura tarifaría. · El contenido del Aviso de Cobranza. · Modalidades de medición. · Interpretación de las lecturas del consumo y factores de medición.
+1
+
+Sistema Interconectado Nacional SIN
+El Sistema Interconectado Nacional (SIN) es el sistema eléctrico interconectado que abastece de electricidad en los departamentos de La Paz, Cochabamba, Santa Cruz, Oruro, Chuquisaca, Potosí, Beni, Tarija y los Sistemas Eléctricos que en el futuro se interconecten con éste. El Sistema Troncal de Interconexión (STI) es la parte del SIN que comprende las líneas de alta tensión en 230, 115 y 69 kV y las correspondientes subestaciones asociadas, donde los Agentes del Mercado Eléctrico Mayorista (MEM) compran y venden electricidad. El Mercado Eléctrico Mayorista (MEM) está integrado por Generadores, Transmisores, Distribuidores y Consumidores No Regulados, que efectúan operaciones de compra, venta y transporte de electricidad en el SIN. Dentro del Sistema Interconectado Nacional (SIN), CRE R.L. participa en la distribución de electricidad, siendo la transmisión y generación responsabilidad de otras empresas privadas y estatales.
+2
+
+Sistema Interconectado Nacional (SIN)
+
+Generación
+
+Industrias
+
+Transporte de Energía
+Consumidores no regulados
+
+Distribución
+CRE
+
+Comercios
+Domicilios 3
+
+Comité Nacional de Despacho de Carga (CNDC)
+El CNDC es responsable de realizar la operación del Sistema Interconectado Nacional (SIN), coordinando de forma integrada la operación de las instalaciones de generación y transmisión con el despacho de carga en tiempo real, atendiendo la demanda horaria en forma segura, confiable y a costo mínimo. Administrar el Sistema Eléctrico Nacional, de forma confiable y transparente con todos los agentes del Mercado Eléctrico Mayorista (MEM), que realizan transacciones de compra ­ venta y transporte de energía eléctrica en el SIN, a través de la elaboración del balance valorado del movimiento de electricidad, garantizando los derechos y obligaciones que les faculta la Ley de Electricidad, sus reglamentos y demás disposiciones vigentes. Planificar la expansión óptima del SIN, bajo las directrices del Ministerio de Energías, buscando el desarrollo eficiente y sostenible de la industria eléctrica, aprovechando las fuentes energéticas de forma racional y promoviendo las condiciones de acceso universal al servicio de energía eléctrica, a fin de garantizar el abastecimiento de la demanda futura, manteniendo los niveles de calidad requeridos por las condiciones de desempeño mínimo a menor costo.
+Autoridad de Fiscalización y Control Social de Electricidad (AE)
+La Autoridad de Fiscalización y Control Social de Electricidad (AE) es el organismo con jurisdicción nacional que cumple la función de Regulación de las actividades de la Industria Eléctrica. Entre sus principales atribuciones están: · Proteger los derechos de los consumidores. · Aplicar los procedimientos de cálculo de precios y tarifas para las activida-
+des de Generación, Transmisión y Distribución. · Aprobar y controlar, cuando corresponda, los precios y tarifas máximos
+aplicables a las actividades de la Industria Eléctrica y publicarlos en medios de difusión nacional. · Supervisar el funcionamiento del Comité Nacional de Despacho de Carga.
+4
+
+Sistemas Eléctricos de CRE
+Sistema Área Integrada
+Es el sistema eléctrico de distribución que se encuentra conectado al SIN y opera en las siguientes provincias: Andrés Ibañez; Warnes, Obispo Santistevan, Sara, Ichilo, parte de Cordillera y las tierras bajas del este en las provincias de Ñuflo de Chávez y Chiquitos.
+
+Sistemas Aislados
+Es todo sistema eléctrico que no se encuentra conectado al Sistema Interconectado Nacional (SIN). En los sistemas aislados las actividades de generación, transmisión y distribución están integradas verticalmente.
+Actualmente CRE opera ocho sistemas aislados:
+
+· Cordillera · Valles · German Busch
+
+· Chiquitos · Velasco · Las Misiones
+
+· Charagua · El Espino
+
+CRE brinda energía a 14 de las 15 provincias del departamento de Santa Cruz.
+
+Sistema eléctrico
+Área Integrada
+Creación: 14 de noviembre 1962
+Provincias: Andrés Ibañez, Warnes, Obispo Santistevan, Sara, Ichilo, parte de Cordillera y las tierras bajas del este en las provincias de Ñuflo de Chávez y Chiquitos.
+
+Sistema eléctrico Valles Creación: 26 de febrero 1994 Provincias: Florida, Manuel María Caballero y Vallegrande.
+Sistema eléctrico German Busch Creación: 11 de noviembre 1994 Provincia: German Busch
+
+Sistema eléctrico Cordillera Creación: 1 de octubre 1993 Provincia: Cordillera
+
+Sistema eléctrico Chiquitos Creación: 18 de diciembre 2007 Provincia: Chiquitos
+
+Sistema eléctrico Velasco Creación: 7 de enero 1997 Provincia: José Miguel de Velasco
+
+Sistema eléctrico Las Misiones
+Creación: 29 de abril 2000 Provincias: Ñuflo de Chávez y Guarayos
+
+Sistema eléctrico Charagua Creación: Provincias: Cordillera
+
+Sistema eléctrico El Espino Creación: Provincias: Cordillera
+
+Oficinas de Atención al Consumidor
+
+Sistema CAMIRI
+
+Oficina ODECO
+Camiri
+
+Dirección de Oficina
+Av. Petrolera Nº 147
+
+Número de Teléfono
+952 2302 952 2556
+
+CHARAGUA
+
+Charagua
+
+Calle Nila de Suárez esq. 24 de Septiembre
+
+954 2020
+
+VALLES
+GERMÁN BUSCH CHIQUITOS VELASCO LAS MISIONES
+SISTEMA INTEGRADO
+
+Samaipata Mairana Comarapa Vallegrande Mataral
+Puerto Suarez
+Puerto Quijarro Roboré
+San José
+San Ignacio
+San Miguel
+Concepción
+Ascención de Guarayos San Javier San Ramon
+San Julian
+Santa Cruz Villa 1º de Mayo
+
+Calle Sucre esq. Murillo
+
+944 6077
+
+Calle Bolivar esq. Parí
+
+948 2028
+
+Plaza 11 de Junio Nº 140
+
+946 2054
+
+Calle Monte Claros Nº 166 942 2177
+
+Km 187 antigua Carr. a Cochabamba
+
+944 1101 010 3 313 6031
+
+Av. Bolívar esq. Chuquisaca
+
+976 2500 976 2501
+
+Av. Luis Salazar de La Vega 978 3040
+
+Calle Humberto Tórrez Ortiz frente Plaza Dr. Angel Sandóval
+
+974 2138
+
+Calle Humberto Paredes Zona Plaza Felipe Suárez
+
+972 2350
+
+Calle La Paz esq. Oruro
+
+962 2345 962 2350
+
+Acera Norte de la Plaza principal de San Miguel
+
+962 4229
+
+Calle Padre Lucas Caballero esq. Cabo Moreno
+
+964 3127
+
+Barrio 1o de Noviembre Calle Tiluchi esq. Las Garzas
+
+966 7127
+
+Calle Miguel Hurtado Nº 22 963 5116
+
+Calle Nemecio Mansilla esq. Carmelo Núñez
+
+965 6021
+
+Centro Zonal Calle 6 de Agosto
+
+965 8050
+
+Av. Busch/Honduras
+
+338 1373
+
+Av.Cumavi entrada principal a 1 1/2 cuadra antes de la plaza s/n
+
+346 1490
+
+6
+
+SISTEMA INTEGRADO
+
+Sistema
+
+Oficina ODECO Plan Tres Mil
+Pampa de la Isla
+Cotoca
+La Guardia
+El Bajío (km.6)
+Santos Dumont
+Roca y Coronado Pailón
+Warnes Montero Okinawa Portachuelo Buena Vista
+Santa Fé Yapacani (El Comando) Santa Rosa Mineros San Pedro
+
+Dirección de Oficina
+
+Número de Teléfono
+
+Av. Paurito Nº 6330 , UV: 0150- , MZ: 046
+
+362 0238
+
+Carretera a cotoca Km.6, pasando 80 mts del matadero Municipal(diagonal Hipermaxi)
+
+348 1382
+
+Calle Heroes del chaco/Def. Del Acre s/n, frente al coliseo
+
+388 2138
+
+Km. 20 Carret. Antigua Cbba, diagonal a la Alcaldia Municipal
+
+384 0031
+
+Km. 6 Carret. Antigua Cbba s/n
+
+357 8907
+
+Av Santos Dumont/quinto anillo, acera este
+
+351 9140
+
+Av. Roca Y Coronado entre 2do y 3er. anillo Nº 532
+
+352 8884
+
+Av Principal de Doble vía s/n a cuadra y media de la entrada principal( Acera izquierda)
+
+388 2707
+
+Recaredo Roda Final s/n
+
+923 2457
+
+Ayacucho No. 115
+
+922 0480
+
+B:Avaroa/15 de Agosto s/n
+
+923 7059
+
+Warnes No. 400
+
+924 2077
+
+Mariano Saucedo/Av. Landivar
+
+932 2066
+
+12 de octubre s/n
+
+934 3352
+
+Libertad No. 230
+
+933 6057
+
+Santa Rosa s/n Bolivar y Darío Bejarano Bolivar esq. 25 de Diciembre
+
+323 1028 924 6077 925 5634
+
+El Centro de Atención al Consumidor (Call Center) atiende las 24 horas bajo el No. Piloto 176 - 336-6666
+
+7
+
+Potencia Eléctrica
+Potencia Activa
+Es la capacidad que tiene un equipo o artefacto eléctrico para desarrollar trabajo. A mayor potencia, el equipo estará en capacidad de desarrollar más trabajo. Veamos ejemplos, donde cada uno se refiere a equipos del mismo tipo: · Un foco de 100 W ilumina más que uno de 50 W. · Una bomba de agua de 750 W tiene capacidad para bombear más que
+una de 400 W. · Un hornilla eléctrica de 1800 W provee más calor que otra de 1000 W.
+
+100 W
+
+750 W
+
+1800 W
+
+Por tanto, la potencia es un dato característico de cada equipo.
+En el ejemplo anterior se usó la expresión "del mismo tipo", debido a que hay tecnologías más eficientes que otras.
+
+Eficiencia
+Ser eficiente significa cubrir todas las necesidades con el menor costo posible.
+Veamos una situación común con artefactos eléctricos:
+
+=
+Iluminación
+
+Foco Incandescente Foco Bajo Consumo
+
+100 W
+
+20 W
+
+8
+
+Como ejemplo vemos que un foco de bajo consumo solo necesita 20 vatios de potencia para irradiar la misma iluminación que uno del tipo incandescente de 100 vatios, por lo tanto es más eficiente, vale decir, produce más iluminación por Vatio obteniendo así menores costos de operación.
+Por este motivo, todo equipo adquirido por el Consumidor debe ser el más eficiente en su género, balanceando esta exigencia con la contraparte "costo".
+Asimismo, en toda instalación eléctrica que requiera incorporar un puesto de transformación mediante un Proyecto Eléctrico, el Consumidor debe exigir a su Técnico Proyectista la máxima seriedad en el cálculo de la potencia requerida, respetando las normas técnicas de instalación, vigentes en CRE1
+Unidades
+La unidad de Potencia Activa es el Vatio (W), aunque generalmente son más utilizados sus múltiplos:
+Kilovatio (kW), igual a 1000 W.
+Megavatio (MW), igual a 1.000.000 W.
+Gigavatio (GW), igual a 1.000.000.000 W.
+Potencia Instalada
+Corresponde a la suma aritmética de las potencias de todos los equipos que existen en el interior de una instalación.
+Cuando el consumidor solicita una nueva conexión debe declarar la potencia máxima que demandará.
+
++
+
++
+
+= Demanda Total
+
++ 100 W
+
+750 W
+
++
+
+= 250 W
+
+1100 W
+
+o
+
+= 1,1 kW
+
+1. Consultar en www.cre.com.bo "Guía para la Elaboración y Aprobación de Proyectos Eléctricos", de CRE, Santa Cruz ­ Bolivia
+
+9
+
+Potencia máxima
+
+Es la demanda2 máxima de potencia en kW, integrada de quince (15) minutos consecutivos de registro, que se produce durante un periodo determinado, en cada punto de suministro y en el respectivo nivel de tensión.
+
+Ejemplo de cálculo de la potencia máxima en un periodo determinado de tiempo
+
+Una empresa tiene funcionando simultáneamente a las 19:00 h del 07 de enero del presente año, los siguientes equipos eléctricos:
+
+Carga total de iluminación, 13 kW.
+
+Un compresor de 
+
+40 kW.
+
+Dos motores, 
+
+50 kW.
+
+Un aire acondicionado,
+
+15 kW.
+
+Un horno, 
+
+27 kW.
+
+La potencia que está demandando esta instalación al sistema eléctrico de la empresa distribuidora, el día 07 de enero a las 19:00 Horas, es la suma aritmética de las potencias simultáneas mencionadas.
+
+P = (13 + 40 + 50 + 15 + 27) kW = 145 kW
+
+Demanda kW
+
+160
+
+Dem. Máxima
+
+150 140
+
+145
+
+130
+
+120
+
+110
+
+100
+
+90
+
+80
+
+70
+
+60
+
+50
+
+40
+
+30
+
+20
+
+10
+
+0 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+
+HRS
+
+2. La demanda de potencia en una instalación corresponde a la suma aritmética de las potencias de todos los equipos que se tienen funcionando simultáneamente, a requerimiento del consumidor.
+
+10
+
+La potencia máxima se determina a través de los registros en un Medidor de Demanda o Demandimetro, el cual se encuentra tomando una cantidad de muestras definidas, en periodos de 15 minutos y registrando la potencia promedio demandada por la instalación, de manera ininterrumpida.
+(Actualmente adquiere una muestra por segundo, es decir 900 muestras en 15 minutos)
+REGISTRO DE POTENCIA EN MEDIDORES ELECTRÓNICOS MD Y GD
+
+230
+
+226
+
+206 198
+
+Demanda kW
+
+15
+
+30
+
+45
+
+60
+
+minutos
+
+Para el gráfico anterior observamos que su demanda máxima promedio registrada en una hora es de 230 kW.
+Para el cálculo de la energía consumida dentro de este periodo aplicamos la siguiente fórmula:
+
+kWh consumidos =
+
+kW  k=1n registrados Nº registros en una hora
+
+Una vez efectuada la lectura mensual de la demanda máxima, el personal de la empresa distribuidora reajusta a cero el registro de demanda (actividad comúnmente conocida como "reseteo"), para iniciar un nuevo periodo de registro mensual.
+
+11
+
+Criterio para la facturación de la potencia máxima
+El criterio para la facturación de la potencia máxima obedece a la necesidad de cubrir los costos fijos asociados a la implementación de la infraestructura necesaria para poder satisfacer la demanda en un momento determinado, a pesar de que esa infraestructura permanezca subutilizada el resto del tiempo.
+Curva de Carga
+Curva de carga es la representación gráfica de los valores de Potencia (kW), registrados por el uso de los equipos eléctricos del consumidor, en un determinado intervalo de tiempo. El intervalo de tiempo puede ser diario, mensual, anual o cualquier otro que sea útil para el análisis.
+CURVA DE CARGA
+12
+
+Factor de carga (fc)
+Es un indicador numérico que refleja la eficiencia en el uso de la potencia instalada. Un factor de carga alto es un indicativo de que se está aprovechando adecuadamente las instalaciones.
+El análisis de éste indicador puede ser utilizado para tomar decisiones sobre el uso de los equipos eléctricos de manera que se optimicen los procesos productivos, en términos de la potencia máxima requerida o facturada.
+El factor de carga (fc) se define como la relación entre la demanda promedio del periodo y la demanda máxima en el mismo periodo, es decir:
+
+c =
+
+Demanda Promedio Demanda Máxima
+
+Determinación de la demanda promedio
+
+Demanda Promedio =
+
+kWhconsumidos Nº horas del periodo
+
+de consumo
+
+Ejemplo
+Para los propósitos de este ejemplo trataremos una Curva de Carga de una instalación sobre un periodo de un día típico, con muestreo horario del uso de los equipos eléctricos.
+Los datos tomados del medidor y su gráfica asociada se presentan en la gráfica de la curva de carga mostrada anteriormente.
+Según las lecturas registradas por el medidor su demanda máxima es de 150 kW.
+De la Curva de Carga de cada consumidor se puede extraer información útil, como la descrita a continuación:
+
+Periodo de baja carga
+El periodo de menor consumo, que para este ejemplo va desde la medianoche hasta las 04:00 h y desde las 21:00 h hasta medianoche, debido a que sólo corresponde a iluminación de exteriores y de seguridad.
+
+Ascenso y descenso
+En la mañana la curva asciende hasta alcanzar su pico máximo matutino, igual a 120 kW, probablemente por el encendido de equipos eléctricos asociados a la producción de los bienes o servicios que ofrece la empresa. Al mediodía, decrece la utilización de los equipos eléctricos (hora de almuerzo), y posteriormente, cuando se renuevan las actividades, vuelve a crecer hasta su valor máximo diario, el cual se presenta a las 15:00 h con una demanda de 150 kW.
+
+Picos y Valles
+La curva de carga muestra una utilización variable de la potencia demandada a través del día. Sería deseable, por propósitos de eficiencia en la producción, que el uso fuera más constante (mayor factor de carga).
+Los desequilibrios mencionados reciben el nombre de picos (las crestas) y valles (las depresiones). Es entonces aconsejable, llevar a cabo un programa de optimización del uso de los equipos eléctricos, con el propósito de disminuir los picos y rellenar los valles.
+
+Desplazamiento de los procesos productivos
+Una forma de optimizar el consumo de energía y obtener consecuentemente beneficios económicos, es desplazar los procesos productivos mediante la implantación de nuevos horarios de trabajo o desplazamiento de los procesos productivos para los periodos de menor exigencia para el sistema eléctrico.
+El encargado de la instalación debe efectuar un profundo análisis comparativo, si la inclinación es implantar un nuevo horario de trabajo, por ejemplo, después de las 23:00 h, con los beneficios asociados en materia de electricidad y el incremento a nivel salarial y prestaciones a sus empleados.
+Si efectúa un buen desplazamiento de los procesos productivos desde las puntas hacia los valles, principalmente mediante redistribución de las jornadas de trabajo o mejor planeamiento de la secuencia de los procesos productivos, se logran significativos beneficios económicos si el Consumidor está asociado a la modalidad de medición de energía activa y demanda. (Ver Modalidades de Medición)
+
+Cálculo del Factor de Carga
+En el caso de nuestro ejemplo, el factor de carga para el día considerado (día típico de la instalación) es:
+
+c =
+
+1505 kWh 150 kW x 24h
+
+= 0,42
+
+Este factor de carga es relativamente bajo para una Industria. Es recomendable llevar a cabo acciones para tratar de reducir la demanda máxima de la instalación, con el consecuente aumento del indicador anterior.
+Un alto factor de carga nos indica un uso más eficiente de la energía y sus instalaciones, al no tener que realizar inversiones en sobredimensionar la capacidad de sus transformadores y conductores para pequeños intervalos de tiempo y luego mantenerlos subutilizados, ahorrando así en costos de inversión y mantenimiento.
+
+14
+
+FACTOR DE CARGA IDEAL
+FC = Demanda Promedio / Demanda máxima FC = 80 / 80 FC = 1
+FACTOR DE CARGA REAL
+FC = Demanda Promedio/Demanda máxima FC = 60 / 150 FC = 0.4 15
+
+Gestión de Carga
+Las acciones encaminadas al manejo adecuado de la Curva de Carga de una instalación, con el fin de optimizar el uso de los equipos disponibles y por lo tanto el servicio de electricidad, se conocen con el nombre de Gestión de Carga. Si el consumidor está categorizado como Gran Demanda y realiza el desplazamiento sugerido durante el año eléctrico3 , le significaría una reducción de costo considerable del cargo por potencia
+
+Potencia (kW)
+
+Gestión de Carga
+80
+
+70
+
+60
+
+50
+
+40
+
+Manejo de
+
+30
+
+carga en el
+
+Bloque Alto
+
+20
+
+10
+
+0
+
+Horas (h)
+Gráfica de la forma en que el consumidor hace uso de sus equipos eléctricos
+
+0:00:00 0:45:00 1:30:00 3:00:00 3:45:00 4:30:00 4:30:00 5:15:00 6:00:00 6:45:00 7:00:00 7:30:00 8:00:00 8:30:00 9:00:00 9:30:00 3:00:00 4:30:00 5:15:00 6:00:00 6:45:00 7:30:00 8:15:00 9:00:00 9:45:00 10:30:00 11:15:00 12:00:00 12:45:00 16:30:00 13:30:00 17:30:00 14:15:00 15:00:00 15:45:00 16:30:00 18:00:00 18:45:00 19:30:00 20:15:00 21:00:00 21:45:00 22:30:00 23:15:00 0:00:00
+
+3. Es el periodo que abarca desde la factura de Noviembre de cada año hasta la factura de Octubre del año siguiente.
+16
+
+Energía Eléctrica
+Energía Activa (kWh)
+La energía activa es aquella que al ingresar en una instalación por los conductores de electricidad produce luz, calor y movimiento. Es la que calienta las resistencias de un horno, provee las fuerzas para mover motores, produce luz al atravesar el filamento de un foco incandescente, es decir produce trabajo.
+
+Luz
+
+Movimiento
+
+La energía activa representa numéricamente la dedicación que tuvo una porción de las máquinas generadoras de electricidad hacia nuestra instalación durante una determinada cantidad de tiempo, o lo que es lo mismo, desde el punto de vista del Consumidor, el consumo resultante del uso de sus equipos eléctricos durante cierta cantidad de tiempo.
+
+Componentes de la energía activa
+Los componentes de la energía activa son los siguientes: La potencia, cuyas unidades se miden en kilovatios (kW). De ahí que el consumo de energía sea proporcional a la potencia de los equipos, dato característico de cada uno de ellos. El tiempo, cuya unidad más usual es la hora (h). De ahí que el consumo de energía sea proporcional al tiempo de uso de los equipos.
+Motor
+Ejemplo Si se lee en la placa de un motor que su potencia es de 3 kW, y si mantenemos el motor funcionando 10 horas continuas a plena potencia, el consumo de energía será:
+E = P x t = 3 kW x 10 h = 30 kWh
+17
+
+Motor
+Los motores vienen especificados en HP o CV. En estos casos, se debe realizar la conversión de unidades multiplicando por el factor 0.746 el dato en HP o por 0.736 si el dato es en CV.
+Ejemplo
+Para un motor con un valor de placa de 10 HP que funciona a plena carga por 10 horas continuas, el consumo de energía será:
+Motor
+
+1HP = 0.746 kW P(kW)= 10 HP x 0.746 = 7.46 kW E = P x t = 7.46 kW x 10 h = 74.6 kWh
+
+Unidad de medida
+La unidad de medida de la energía activa se abrevia (Wh), aunque generalmente son más utilizados sus múltiplos:
+
+Kilovatio-hora Megavatio-hora Gigavatio-hora
+
+(kWh), igual (MWh), igual (GWh), igual
+
+a 1000 Wh. a 1.000.000 Wh. a 1.000.000.000 Wh.
+
+18
+
+La medición de la energía activa se realiza mediante el Medidor o Contador de energía activa (kWh), el mismo que es instalado en el Punto de Medición (Caja o Panel) de cada Consumidor, conectándose a la red de baja tensión, de media tensión o de alta tensión.
+
+Pequeña Demanda
+
+Mediana y Gran Demanda
+
+Energía Reactiva (kVARh)
+Aparte de la energía activa, algunos de los equipos eléctricos también usan otro tipo de energía para funcionar satisfactoriamente. Este tipo de energía es llamada energía reactiva, y los equipos que la usan son los conformados internamente por bobinas o inducidos, es decir principalmente los motores y transformadores. La energía reactiva no produce trabajo, pero es necesaria para producirlo.
+Esta energía reactiva es la requerida para crear campos magnéticos en las bobinas de motores, transformadores, balastros magnéticos, etc., y tiene características diferentes a la energía activa. Ella como tal no produce luz, movimiento ni calor.
+
+Transformador
+
+Balastros
+
+Bobinas de motores
+19
+
+Unidad de medida
+La unidad de medida de la energía reactiva se abrevia (VARh), aunque generalmente son más utilizados sus múltiplos:
+Kilovar-hora (kVARh), igual a 1000 VARh. Megavar-hora (MVARh), igual a 1.000.000 VARh. Gigavar-hora (GVARh), igual a 1.000.000.000 VARh.
+Su consumo es determinado a través del medidor de energía reactiva, de características similares al de energía activa (medidor electrónico).
+Factor de Potencia
+Es un indicador de la relación de consumo entre la energía reactiva (kVAr) y la energía activa (kWh), en una instalación. A continuación se muestran los distintos tipos de cargas lineales que se presentan en las instalaciones eléctricas de los consumidores y el efecto de desfase o no entre las magnitudes de voltaje (V) y corriente eléctrica (I) que provoca en las mismas. Cabe aclarar que las cargas inductivas son las que generan un bajo factor de potencia y conlleva a posibles penalizaciones.
+
+Carga Resistiva
+
+Carga Inductiva
+
+I V
+20
+
+V Ø
+I
+
+Carga Capacitiva
+I Ø V
+
+TRIÁNGULO DE POTENCIA
+Potencia Reactiva (kVAR)
+
+Potencia Aparente Real (kVA)
+S´
+
+Potencia Reactiva Deseada (kVAR)
+
+´ S
+
+Q´
+
+Potencia Aparente
+
+Q
+
+
+
+Deseada (kVA)
+
+Potencia Activa (kW)
+
+Ejemplo
+
+Una instalación industrial presenta en un mes 5.000 kWh de consumo de energía activa y 2.000 kVARh de consumo de energía reactiva.
+
+El Factor de Potencia de la instalación se encuentra expresado por la siguiente ecuación:
+
+( ) p = cos
+
+tan-1 kVARh kWh
+
+o bien,
+
+p =
+
+kWh kWh2 + kVARh2
+
+Reemplazando valores, tenemos
+
+o bien,
+
+( ) p = cos tan-1 2.000 5.000
+
+= 0,93
+
+p =
+
+5.000 5.0002 + 2.0002
+
+= 0,93
+
+21
+
+En las instalaciones de los Consumidores, el factor de potencia varía entre 0 y 1. Este puede variar mes a mes debido a los cambios en los consumos de energía activa y de energía reactiva.
+Para evitar una penalización por bajo factor de potencia, se debe mantener el Factor de Potencia por encima de 0,9.
+
+"Un alto factor de potencia minimiza inversiones"
+
+Valor Max. = 1
+
+Uso eficiente
+
+0,9
+
+de energía
+
+Uso ineficiente de energía
+Valor Min. = 0
+
+Calculo de la penalización por Bajo Factor de Potencia
+Ejemplo:
+Una instalación industrial presenta en un mes, un consumo total registrado de 597.730 kWh de energía activa, y 359.738 kVARh de energía reactiva.
+Calculamos el Factor de Potencia:
+
+( ) p = cos
+
+tan-1
+
+359.738 597.730
+
+= 0,86
+
+El Factor de Potencia obtenido está por debajo de 0.9, debiendo aplicarse la penalización correspondiente.
+
+Para obtener el valor a ser penalizado como Energía Activa (kWh), por Bajo Factor de Potencia (BFP), se aplica la siguiente fórmula:
+
+( BFP (kWh) = kWhconsumidos
+
+) 0,9 - 1
+FPcalc
+
+22
+
+Sustituyendo valores, tenemos:
+
+( ) BFP (kWh) = 597.730
+
+0,9 - 1 = 27.801(kWh) 0,86
+
+El valor obtenido es adicionado al total de Energía Activa consumida, obteniéndose el total de kWh por facturarse:
+
+Total kWh x facturar = (597.730 + 27.801) kWh = 625.531 kWh
+
+La corrección del factor de potencia
+Para mantener este indicador por arriba de 0.9, mientras se consume la misma cantidad de energía reactiva, se recomienda la instalación de los bancos de condensadores o capacitores. A este procedimiento se le denomina corrección del factor de potencia o compensación de reactivos. Mediante la conexión o instalación de estos equipos, el Consumidor produce o genera su propia energía reactiva sin extraerla ni sobrecargar las redes de la empresa prestadora del servicio. La conexión de estos bancos de condensadores capacitores puede hacerse, generalmente, de dos formas diferentes:
+Compensación Global
+En la compensación global, se ubican los capacitores condensadores en la subestación de entrada de la instalación, con lo que se facilita el trabajo y, generalmente, se ahorra dinero.
+Compensación por grupos zonificados
+En la compensación localizada, se ubica a los capacitores condensadores en forma de pequeños grupos que atienden cada una de las cargas específicas, generalmente dispersas en la instalación del Consumidor. El consumidor puede evitar el pago de la penalización por bajo factor de potencia instalando bancos de Capacitores.
+El factor de potencia es un indicador hallado a partir de los consumos de energía activa y reactiva. Económica y técnicamente conviene mantenerlo por encima de 0,9 para no tener que pagar innecesariamente costos extras por consumo de energía reactiva, y minimizar inversiones por realizar un uso más eficiente de sus instalaciones eléctricas.
+23
+
+La Estructura Tarifaria
+Definiciones
+Tarifa
+Precio unitario fijado por las autoridades para los servicios públicos realizados a su cargo. Desde el punto de vista de la distribución de electricidad, es el precio de venta de electricidad a los consumidores.
+Estructura Tarifaria: Es el listado de cargos regulados que se cobran a los distintos consumidores, agrupados de acuerdo a las categorías establecidas en la legislación vigente.
+Categoría
+Es un elemento de clasificación de los consumidores. De acuerdo a la reglamentación vigente, las categorías se definen en función del CONSUMO, la ACTIVIDAD y el NIVEL DE TENSION del suministro.
+Categoría Estadística: Es la agrupación de los consumidores en función a la actividad que realizan.
+Categoría de Régimen: Es la agrupación de los consumidores en función a su consumo y el nivel de tensión del suministro.
+Determinación de Precios y Tarifas
+Las tarifas son aprobadas por la Autoridad de Fiscalización y Control Social de Electricidad (AE) cada cuatro años de acuerdo a lo establecido en la legislación vigente. Las tarifas se calculan tomando en cuenta los costos de suministro, vale decir:
+· Costo de compra y transporte de electricidad en el caso del Sistema Integrado o costo de generación en el caso de Sistemas Aislados Integrados Verticalmente.
+· Costos de operación, mantenimiento y administración, tasas e impuestos · Costos de capital
+24
+
+No se incluyen los costos que, a criterio de la AE, sean excesivos, no reflejen condiciones de eficiencia o no correspondan al ejercicio de la concesión. Las tarifas son indexadas mensualmente mediante el cálculo de fórmulas que reflejan la variación de los costos de distribución
+Tasas Municipales En el caso de las Tasas Municipales, CRE como distribuidora de Energía Eléctrica, actúa como agente de retención, siendo competencia de cada municipio determinar las tasas de Alumbrado Público y Aseo Urbano cuando correspondan.
+Clasificación de Consumidores en las categorías aprobadas
+La clasificación de un consumidor nuevo en una determinada categoría se efectuará en función de la información proporcionada por éste, la cual podrá ser validada por CRE. Para este propósito, la determinación de la potencia máxima y/o energía podrá efectuarse, utilizando factores de demanda o factores de carga representativos de la categoría a la que pertenece, según corresponda. Para clasificar a un consumidor, se deben considerar los siguientes aspectos:
+1.- Clasificación en la Categoría Estadística
+Esta clasificación se realizará de acuerdo a la actividad que se desarrolla en el predio donde se presta el servicio de suministro de electricidad, dando como resultado las siguientes categorías estadísticas:
+· Domiciliaria · General I · General II · Industrial I · Industrial II · Comercial · Granjeros · Alumbrado Público · Especial · Agua Potable
+25
+
+· Prepaga · General Prepaga · Autoproductor · Fuera de Punta · Seguridad Ciudadana
+Si en un mismo suministro existieran consumos claramente identificados que pertenezcan a diferentes actividades, se deberá asignar a cada una la categoría que le corresponde, disponiendo la medición en forma separada. En los casos que no sea posible, por razones que lo justifiquen, el suministro se asignará a la categoría que corresponda la actividad principal, que será determinada en función del nivel de consumo estimado.
+2.- Clasificación según consumo
+Esta clasificación se realizará de acuerdo al consumo declarado en la solicitud del servicio, dando como resultado las siguientes categorías de régimen:
+· Pequeñas Demandas (PD): Para consumos menores o iguales a 10 kW. · Medianas Demandas (MD): Para consumos mayores a 10 kW y menores
+o iguales a 50 kW · Grandes Demandas (GD): Para consumos mayores a 50 kW.
+3.- Suministros por nivel de tensión
+Esta clasificación se realizará de acuerdo al nivel de tensión en el que se encuentre conectado el consumidor:
+· Suministro en baja tensión.- Se considera suministro en baja tensión cuando el consumidor está conectado con su acometida directamente a la red de Baja Tensión de propiedad u operada por CRE. En este caso el transformador de MT/BT es de propiedad u operado por CRE.
+· Suministro en media tensión.- Se considera suministro en media tensión cuando el consumidor está conectado con su acometida directamente a la red de Media Tensión de propiedad de CRE u operada por éste. En este caso el transformador de MT/BT es de propiedad del Consumidor.
+· Suministro en alta tensión.- Se considera suministro en alta tensión cuando el consumidor está conectado con su acometida directamente a la red de Alta Tensión de propiedad u operada por CRE. En este caso la subestación AT/MT y los correspondientes transformadores MT/BT son de propiedad del Consumidor.
+26
+
+· Suministros con transformador de uso compartido.- Para los suministros en media o alta tensión con transformadores no perteneciente a CRE, se permitirá su uso compartido hasta un número de tres consumidores bajo las mismas condiciones de suministro. Las pérdidas atribuibles al transformador serán prorrateadas mensualmente entre los consumidores conectados en proporción a su consumo de energía.
+· Cuando el número de consumidores supere a tres, estos serán clasificados en baja tensión, previo acuerdo con el propietario por el uso del transformador.
+
+Categoría Tarifaría
+Domiciliaria General I General II
+
+Uso de la Energía Eléctrica
+Domicilios y departamentos destinados a viviendas. Escuelas, hospitales, entidades sin fines de lucro, asociaciones civiles.
+Entidades comerciales (bancos, restaurantes, residenciales)
+
+Industrial I
+
+Producción industrial con demandas menores a 50 kW
+
+Industrial II Granjero Alumbrado Público Especial Agua Potable Riego
+Autoproductor
+
+Producción industrial con demandas mayores a 50 kW
+Actividades agroindustriales, pequeñas granjas, establecimientos agrícolas
+Iluminación pública de calles, avenidas, plazas, puentes, caminos
+Hoteles con potencia de facturación mayor a 10 kW
+Servicio exclusivo de distribución colectivo de agua potable Uso de energía para sistemas de riego y consumo fuera de punta
+Generación propia de energía eléctrica con un consumo < 20% de CRE o factor de carga < 0.4 mensual
+
+Nota: El resumen presentado en el cuadro precedente es referencial, para una clasificación específica se deben considerar las definiciones de la CIIU.
+
+27
+
+Cambio de categoría
+El cambio de categoría de un consumidor, se efectuará en forma automática si se observa una modificación del patrón de consumo por más de seis meses consecutivos. La recategorización se realizará de acuerdo a la clasificación detallada en los puntos anteriores a partir del séptimo mes de observado el cambio en el consumo. Para el caso de consumidores de medianas y grandes demandas estos deberán pagar para cada uno de los meses restantes hasta octubre inclusive, salvo acuerdo entre partes, un importe por concepto de potencia, resultante de aplicar los cargos de potencia vigentes a la última potencia facturada de la categoría anterior o a la potencia a ser facturada de la nueva categoría, la que sea mayor. Cualquier consumidor puede solicitar su recategorización en una categoría superior, aun cuando no se haya observado una modificación de su patrón de consumo, siempre y cuando disponga del equipo de medición necesario que permita registrar todos los parámetros requeridos.
+Aplicación de Tarifas y parámetros a facturar
+Los parámetros a facturar, aplicando la estructura tarifaria vigente, a Consumidores clasificados en las distintas categorías, son:
+Pequeñas Demandas
+Los Consumidores clasificados en la categoría Pequeñas Demandas, deberán pagar por suministro de electricidad, la tarifa compuesta por los siguientes cargos:
+1. Un cargo fijo o mínimo, exista o no consumo de energía. 2. Un cargo por energía, en función de la energía activa consumida (kWh).
+Medianas Demandas
+Los Consumidores clasificados en la categoría Medianas Demandas, deberán pagar por suministro de electricidad, la tarifa compuesta por los siguientes cargos:
+1. Un cargo fijo mensual por consumidor, exista o no consumo de energía. 2. Un cargo por la energía activa entregada (kWh), en el nivel de tensión
+correspondiente al suministro, de acuerdo con el consumo registrado.
+28
+
+3. Un cargo por potencia por cada kW de "potencia a facturar" en baja o media tensión, exista o no consumo de energía.
+4. Si corresponde, un cargo por bajo factor de potencia.
+Determinación de potencia a facturar
+La potencia a ser facturada mensualmente, a partir de la factura del mes de noviembre de cada año hasta la factura de octubre del siguiente año (periodo llamado año eléctrico), corresponderá a la mayor de las potencias máximas registradas mensualmente desde el mes de noviembre hasta el mes de facturación inclusive. Para el caso de servicios nuevos, durante el primer año la potencia a facturar corresponderá a la potencia más alta de las potencias máximas mensuales registradas desde el primer mes de habilitación del servicio hasta el mes de facturación inclusive, o la potencia máxima declarada al inicio de la prestación del servicio, la que sea mayor. A partir del décimo tercer mes se aplicará el concepto del anterior párrafo hasta la factura del mes de octubre.
+EL AÑO ELÉCTRICO
+Comienza con la factura de noviembre hasta la factura de octubre
+29
+
+Grandes Demandas
+Los Consumidores clasificados en la categoría Grandes Demandas, deberán pagar por suministro de electricidad, la tarifa compuesta por los siguientes cargos:
+1. Un cargo fijo mensual por consumidor, exista o no consumo de energía en baja, media o alta tensión.
+2. Un cargo por la energía activa entregada en el nivel de tensión correspondiente al suministro, de acuerdo con el consumo registrado en cada uno de los bloques horarios "alto", "medio" y "bajo".
+3. Un cargo de potencia de punta, aplicado a cada kW de "potencia de punta a facturar" en baja, media o alta tensión, exista o no consumo de energía.
+4. Un cargo de exceso de potencia fuera de punta, aplicado a cada kW de "exceso de potencia fuera de punta" en baja, media o alta tensión, exista o no consumo de energía. Este cargo se aplica sólo si la "potencia fuera de punta" es mayor que la "potencia de punta"
+5. Si corresponde, un cargo por bajo factor de potencia.
+Determinación de la potencia de punta a facturar
+La potencia de punta a ser facturada mensualmente a partir de la facturación del mes de noviembre de cada año hasta la facturación de octubre del siguiente año corresponderá a la mayor de las potencias de punta mensuales registradas desde noviembre hasta el mes de facturación inclusive. Para el caso de servicios nuevos, durante el primer año la potencia de punta a facturar corresponderá a la potencia más alta de las potencias de punta mensuales registradas desde el primer mes de habilitación del servicio hasta el mes de facturación inclusive, o la potencia de punta declarada al inicio de la prestación del servicio, la que sea mayor. A partir del décimo tercer mes se aplicará el concepto del anterior párrafo hasta el mes de octubre.
+Determinación del exceso de potencia fuera de punta a facturar
+Determinación de la potencia fuera de punta
+La potencia fuera de punta a ser considerada para la facturación del exceso de potencia fuera de punta a partir de la factura del mes de noviembre de cada año hasta la factura de octubre del siguiente año corresponderá a la mayor de las potencias máximas mensuales registradas desde el mes de noviembre hasta el mes de facturación inclusive.
+30
+
+Para el caso de servicios nuevos, durante el primer año la potencia fuera de punta corresponderá a la mayor de las potencias máximas mensuales registradas desde el primer mes de habilitación del servicio hasta el mes de facturación inclusive, o la potencia máxima declarada al inicio de la prestación del servicio, la que sea mayor. A partir del décimo tercer mes se aplicarán los conceptos del anterior párrafo hasta el mes de octubre.
+Exceso de potencia fuera de punta a facturar
+La cantidad de exceso de potencia fuera de punta se calculará mensualmente como la diferencia entre la potencia fuera de punta y la potencia de punta a facturar.
+CASO 1> DEMANDA FUERA DE PUNTA MAYOR A DEMANDA EN PUNTA
+Se factura así: Importe (Bs.) = (Dem. Punta x precio punta) + (Dem. Exceso x precio fuera de punta). Donde: Dem. Exceso = Dem. Fuera de Punta - Dem. Punta
+31
+
+CASO 2 > DEMANDA EN PUNTA MAYOR A  DEMANDA FUERA DE PUNTA
+Se factura así: Importe (Bs.) = (Dem. Punta x precio punta) + 0 (no hay Exceso de Demanda)
+Periodos de Medición y Facturación
+La medición o lectura de los medidores que determinan el consumo de electricidad se realiza cada treinta (30) días calendario, con un margen de más o menos tres (3) días según lo estipulado en la legislación vigente. CRE, como Distribuidor a su vez, tendrá las facturas o Aviso de facturación del servicio a disposición del Consumidor dentro de los siete (7) días calendarios siguientes a la fecha de medición del consumo de electricidad.
+32
+
+Aviso de cobranza por consumo de energía eléctrica (GD-MD)
+
+4 5 6 7
+8
+
+1 2 3
+13
+
+14 9
+
+10 11
+12
+
+15 16
+17 18
+
+El aviso de cobranza es el documento mediante el cual se hace conocer al consumidor la información relativa a la facturación de su cuenta. También se incluye información correspondiente a la facturación histórica de la cuenta, la deuda y los consumos. Este documento se emite mensualmente y la información incluida se encuentra normada por la legislación vigente y supervisada por la Autoridad de Fiscalización y Control Social de Electricidad (AE).
+A continuación se aclaran los conceptos incluidos en el Aviso de Cobranza por Consumo de Energía Eléctrica correspondiente a las Medianas y Grandes Demandas.
+1. Código fijo El Código fijo o número de cuenta, es el identificador único que tiene cada consumidor en la base de datos de CRE. Este número se utiliza como referencia para cualquier trámite ante la CRE o Centro de Cobranza.
+2. Código de ubicación
+Es un código alfanumérico definido por CRE que identifica a cada consumidor en función a su ubicación geográfica. El código de ubicación generalmente se encuentra en el panel de medición.
+3. Información sobre las fechas relevantes de la facturación
+En éste recuadro del Aviso de Cobranza se incluye la siguiente información:
+Bajo el texto de "Mes de facturación" se detalla el mes al que corresponde el Aviso de Cobranza por Consumo de Energía Eléctrica.
+Bajo el título de "Fechas" se incluye la siguiente información:
+a) Medición Anterior: Corresponde a la fecha en la que se tomaron los datos del medidor considerados para la facturación del mes previo.
+b) Medición Actual: Corresponde a la fecha en la que se tomaron los datos del medidor considerados para la facturación del mes en curso.
+c) Emisión: Corresponde a la fecha de la emisión de la factura.
+d) Próxima medición: Corresponde a la fecha estimada en la que se tomarán los datos del medidor a ser considerados para la facturación del próximo mes.
+e) Próxima emisión: Corresponde a la fecha estimada de la emisión de la próxima factura.
+Bajo el texto "Vencimiento", se incluye la fecha de vencimiento del plazo para el pago de la factura.
+Bajo el texto "Corte", se incluye la fecha probable de corte, en caso que corresponda, por falta de pago en término de dos (2) facturas de servicio.
+34
+
+4. Nombre
+En este campo se incluye el nombre del titular de la cuenta, que puede ser de una persona natural o de una empresa.
+5. Categoría y actividad
+En este recuadro se detalla la categoría en que se encuentra clasificado el consumidor. De acuerdo a la legislación vigente, las categorías se definen en función de la ACTIVIDAD (Domiciliaria, General 2, Industrial 2, etc.), CONSUMO (Pequeñas Demandas, Medianas Demandas y Grandes Demandas) y el NIVEL DE TENSION del suministro (Baja Tensión, Media Tensión, Alta Tensión). Adicionalmente, en este recuadro se incluye una breve descripción de la actividad realizada en el inmueble o lugar donde se presta el servicio de electricidad, dato que corresponde a la información proporcionada por el consumidor o a información actualizada por CRE como consecuencia de una inspección.
+6. Información sobre la Dirección
+En este recuadro se detalla la dirección del inmueble o lugar donde se presta el servicio de electricidad. También se incluye el detalle de unidad vecinal y la manzana del inmueble, cuando corresponde, así como la ciudad. La información referida a la dirección corresponde a la declarada por el consumidor en la solicitud del servicio.
+Cuando el consumidor se encuentra asociado a la cooperativa, también se incluye la información sobre el Distrito y la Sección a la que pertenece.
+7. Información sobre la medición
+En recuadro referido a la medición se puede observar el texto "Tipo de medición", donde se indica si la medición considerada para la facturación corresponde a datos registrados del medidor (Leído) o han sido estimados (Estimado) debido a causas de fuerza mayor que impiden lecturas reales. Cuando la lectura es estimada, el motivo se detalla a continuación del texto "Causa".
+En éste recuadro, en el subtítulo "Días" se incluye información correspondiente al periodo de consumo (en días) que está siendo facturado.
+8. Información del Medidor Instalado
+En el recuadro que contiene la información del medidor instalado se incluyen los datos relevados del medidor que han sido considerados para la facturación del mes en curso, de acuerdo al siguiente detalle:
+a) Al lado del texto "Medidor Instalado" se detalla la marca y el número de serie del medidor instalado.
+b) Medida Actual: Se detallan los registros del medidor, tomados en el mes en curso, correspondientes la energía activa (discriminada por bloques horarios para las Grandes Demandas), la energía reactiva,
+35
+
+y la potencia máxima registrada (discriminada por bloques horarios para las Grandes Demandas).
+c) Medida Anterior: Se detallan los registros del medidor, tomados en el mes anterior, correspondientes la energía activa (discriminada por bloques horarios para las Grandes Demandas), la energía reactiva.
+d) Factor: En esta columna se registra el Factor Multiplicador de la medición (Una explicación detalla se encuentra en el presente "Manual del Consumidor").
+e) Consumo: Para la energía activa y la energía reactiva, en la columna consumo se detalla el resultado de la diferencia, entre el dato de la "Medida actual" y la "Medida anterior" multiplicado por el dato detallado en la columna "Factor". Para la potencia, se incluye el resultado del producto entre la potencia máxima registrada en la columna de "Medida Actual" y el dato registrado en la columna "Factor".
+9. Medidor Retirado
+En este recuadro se muestra el mismo detalle descrito en el punto 8, tomados de un medidor retirado dentro del periodo de facturación del Aviso de Cobranza.
+10. Conceptos facturados
+Energía facturada (kWh): Bajo el título de energía facturada se incluye la información sobre el consumo registrado, las pérdidas en hierro y cobre del transformador facturadas (Ver detalle sobre estos conceptos en el "Manual del Consumidor").
+Potencia facturada (kW): Bajo este título se incluye el detalle de la potencia a ser facturada en punta, y el exceso de potencia facturada fuera de punta.
+11. Datos técnicos
+En este recuadro se detalla la siguiente información:
+Transformador kVA: Capacidad instalada en kVA, del puesto de transformación.
+Factor de potencia: Es un indicador de la relación de consumo entre la energía reactiva (kVar) y la energía activa, en una instalación.
+Factor de carga: Es un indicador numérico que se define como la relación entre la demanda promedio del periodo y la demanda máxima en el mismo periodo.
+12. Histórico de conceptos eléctricos
+En este recuadro se detalla el histórico de los conceptos eléctricos registrados en los últimos 13 meses. Para cada mes se muestra el consumo de energía por mes (kWh), potencia registrada en punta (kW), potencia
+36
+
+registrada fuera de punta (kW), factor de carga (FC) y factor de potencia (FP), si corresponde.
+13. Datos de factura
+En este recuadro se incluye el Número de la factura que se encuentra disponible en el centro de cobranza, el número de autorización de la factura y la fecha de emisión.
+14. Detalle de importe facturado
+En éste recuadro el importe facturado se separa en dos grupos:
+a) El importe por servicio eléctrico, donde se expresa en forma individual el Importe que corresponde por cargo fijo, el importe por energía, el importe por potencia kW y para las Grandes Demandas, cuando corresponde, el importe por exceso de potencia (fuera de punta).
+b) El importe de tasas municipales, que de acuerdo al Municipio al que pertenezca el consumidor pueden ser alumbrado público y aseo urbano.
+15. Información sobre otros cargos
+En éste recuadro la información se separa en dos grupos:
+a) Otros Cargos donde se incluyen cargos referidos a abonos o recuperaciones de importes autorizados por la AE, como ser: cargo por reconexión, penalización por bajo factor de potencia, etc.
+b) Aportes, donde se incluyen los importes referidos a la condición de asociado a la cooperativa: como ser el certificado de aportación y/o la tasa AFCOOP.
+16. Información sobre el importe a cancelar
+En éste recuadro de detalla el "Importe Total a Cancelar", que corresponde a la suma del importe por servicio eléctrico, el importe por tasas municipales y los otros cargos y aportes. También se incluye el importe "Base para crédito fiscal", que corresponde al importe a ser considerado para fines tributarios. Este último importe puede diferir del "Importe Total a Cancelar", debido a que algunos conceptos incluidos en el total de la factura (por ejemplo, las tasas municipales), no incluyen impuestos.
+17. Precintos
+En este recuadro, cuando corresponde, se registran los números de los precintos colocados en el panel de medición, medidor, bornera, transformador(es) de corriente u otro dispositivo de la instalación eléctrica del consumidor.
+18. Histórico de Facturas
+En este recuadro se detalla el histórico de las facturas emitidas en los últimos 13 meses. Para cada mes se muestra el código de la categoría a la que pertenece el consumidor, el total de la factura y la fecha de pago, cuando la factura se encuentra impaga se indica impaga.
+37
+
+Aviso de cobranza por consumo de energía eléctrica (PD)
+
+1 2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+10
+
+8
+
+9
+
+11
+
+1. Código fijo
+El Código fijo o número de cuenta, es el identificador único que tiene cada consumidor en la base de datos de CRE. Este número se utiliza como referencia para cualquier trámite ante la CRE o Centro de Cobranza.
+2. Información sobre las fechas relevantes de la facturación
+En los recuadros de la parte superior del Aviso de Cobranza se incluye la siguiente información:
+a) Bajo el texto de "Mes de facturación" se incluye el mes al que corresponde el Aviso de Cobranza por Consumo de Energía Eléctrica.
+b) Bajo el texto de "Fecha Emisión" se incluye a la fecha de emisión de la factura.
+c) Bajo el texto "Fecha Vencimiento", se incluye la fecha de vencimiento del plazo para el pago de la factura.
+d) Bajo el texto "Próxima medición" se incluye la fecha estimada en la que se tomarán los datos del medidor a ser considerados para la facturación del próximo mes.
+e) Bajo el texto "Próxima emisión" se incluye la fecha estimada de la emisión de la próxima factura.
+3. Información sobre el Nombre y la Dirección
+En este recuadro se incluye el nombre del titular de la cuenta, que puede ser de una persona natural o de una empresa y la dirección del inmueble o lugar donde se presta el servicio de electricidad. También se incluye
+38
+
+el detalle de unidad vecinal y la manzana del inmueble, cuando corresponde, así como la ciudad. La información referida a la dirección corresponde a la declarada por el consumidor en la solicitud del servicio. Cuando el consumidor se encuentra asociado a la cooperativa, también se incluye la información sobre el Distrito y la sección a la que pertenece.
+4. Información sobre el medidor, la medición , la categoría y el código de ubicación
+Bajo el texto "N° de medidor" se detalla el número de serie del medidor instalado.
+Bajo el texto "Tipo de medición", se indica si la medición considerada para la facturación corresponde a datos registrados del medidor (Leído) o han sido estimados (Estimado) debido a causas de fuerza mayor que impiden lecturas reales. Cuando la lectura es estimada, el motivo se detalla a continuación bajo el texto "Causa".
+Bajo el texto "categoría", se detalla la categoría en que se encuentra clasificado el consumidor. De acuerdo a la legislación vigente, las categorías se definen en función de la ACTIVIDAD (Domiciliaria, General 2, Industrial, etc.), CONSUMO (Pequeñas Demandas, Medianas Demandas y Grandes Demandas) y el NIVEL DE TENSION del suministro (Baja Tensión, Media Tensión, Alta Tensión).
+Bajo el texto "Código de Ubicación" se encuentra el código alfanumérico, definido por CRE, que identifica a cada consumidor en función a su ubicación geográfica. El código de ubicación generalmente se encuentra en el panel de medición.
+5. Información sobre el periodo de lectura
+En este recuadro se incluye la información sobre los días que abarcan el periodo de lectura del medidor, de acuerdo al siguiente detalle:
+a) Anterior: Corresponde a la fecha en la que se tomaron los datos del medidor considerados para la facturación del mes previo.
+b) Actual: Corresponde a la fecha en la que se tomaron los datos del medidor considerados para la facturación del mes en curso.
+c) Días Consumo: Corresponde al periodo de consumo calculado como la diferencia, en días, entre la fecha de lectura del mes en curso y la fecha de lectura del mes previo.
+6. Información correspondiente a los registros del medidor
+En este recuadro se incluye la información sobre los registros de lectura en el medidor, de acuerdo al siguiente detalle:
+a) Actual: Se detalla la lectura registrada del medidor, tomada en el mes en curso.
+b) Anterior: Se detalla la lectura registrada del medidor, tomada en el mes anterior.
+39
+
+c) Factor: Se detalla el Factor Multiplicador de la medición (Una explicación detalla se encuentra en el presente "Manual del Consumidor").
+El consumo en un mes determinado es el resultado de la diferencia, entre el dato de la "Medida actual" y la "Medida anterior" multiplicado por el dato detallado en la columna "Factor"
+7. Información correspondiente al consumo
+El consumo en un mes determinado es el resultado de la diferencia, entre el dato de la "Medida actual" y la "Medida anterior" multiplicado por el "Factor".
+8. Información correspondiente al histórico de facturación
+En este recuadro se detalla el histórico de las facturas emitidas en los últimos 13 meses. Para cada mes se muestra el consumo en kWh, el total de la factura y la fecha de pago, cuando la factura se encuentra impaga se indica impaga.
+9. Detalle de los conceptos facturados por CRE
+En éste recuadro se detallan los siguientes conceptos:
+a) El importe por servicio eléctrico, donde se expresa en forma individual el Importe por energía.
+b) Otros Cargos donde se incluyen cargos referidos a abonos o recuperaciones de importes autorizados por la AE, como ser: cargo por reconexión, cargo por conexión, beneficio por tarifa dignidad etc.
+c) Se incluyen los aportes referidos a la condición de asociado a la cooperativa: como ser el certificado de aportación o la tasa AFCOOP.
+10. Detalle de los conceptos facturados para los Municipios, correspondiente a las Tasas Municipales
+Corresponde al importe incluido en las facturas por concepto de tasas municipales, que de acuerdo al Municipio al que pertenezca el consumidor pueden ser alumbrado público y aseo urbano.
+11. Total a cancelar
+En éste recuadro se incluye el total a cancelar de la factura.
+En el recuadro del extremo izquierdo que atraviesa verticalmente el Aviso de Cobranza PD, se incluye información relativa al corte de suministro por deuda. Si el servicio está cortado, deberá cancelar todas las facturas en mora y de acuerdo a lo estipulado en la reglamentación vigente y la reconexión podrá efectuarse en las próximas 24 horas.
+Los servicios de corte, reconexión, tienen un costo que debe asumir el consumidor, por tal motivo CRE R.L. recomienda evitar el corte por deuda y de esta manera evitarse molestias y costos adicionales.
+40
+
+Medición
+
+Modalidades de Medición
+Medición para pequeñas demandas
+Se efectuará la medición de la energía activa (kWh) sin discriminación horaria.
+Medición para medianas demandas
+Se efectuará la medición de la potencia máxima kW (kilovatios) y de la energía activa (kWh) sin discriminación horaria. Adicionalmente, se considera la medición de la energía reactiva demandada, en caso que corresponda.
+Medición para grandes demandas
+Se efectuará la medición de la potencia máxima (kW), potencia de punta (kW) y energía (kWh) para cada uno de los bloques horarios. Adicionalmente, se considera la medición de la energía reactiva demandada, en caso que corresponda.
+
+Los bloques horarios se clasifican de la siguiente manera:
+
+Bloque
+Bajo Medio Alto
+
+de 00:00 h 07:00 h 18:00 h
+
+HORARIO
+
+a
+
+de
+
+07:00 h
+
+18:00 h 23:01 h
+
+23:00 h
+
+a 24:00 h
+
+Horario en punta y fuera de Punta
+Para la facturación de la potencia en las Grandes Demandas, la demanda máxima se registra en dos bloques horarios:
+· El horario fuera de punta (bloques medio y bajo), y · El horario en punta (bloque alto)
+
+41
+
+Grupo
+
+HORARIO
+
+de
+
+a
+
+Punta
+
+18:00 h
+
+23:00 h
+
+Fuera de Punta Las restantes 19 horas del día
+
+En Punta
+
+0
+
+18
+
+23 24 Hrs.
+
+Fuera de Punta
+
+Es importante tomar en consideración los consumos en cada bloque horario por las siguientes razones:
+1. El costo para el consumidor por unidad de la energía activa consumida en el horario fuera de punta (Bs/ kWh) es menor que en el horario en punta.
+2. El costo para el consumidor por unidad de potencia facturada en horario de punta es mayor que el costo en horario fuera de punta.
+El Consumidor que ingrese al régimen de medición y facturación de acuerdo a los horarios de consumo (GD), puede tener ahorros económicos si desplaza parte de sus procesos productivos o de utilización de la carga hacia los horarios fuera de punta.
+Cualquier consumidor puede solicitar su recategorización en una categoría superior, siempre y cuando disponga del equipo de medición necesario que permita registrar todos los parámetros requeridos.
+Es importante aclarar que todo consumidor debe contar con el equipo de medición adecuado que permita registrar los parámetros requeridos para la facturación del consumo de electricidad de acuerdo a la categoría que le corresponda.
+A los consumidores que no cuentan con medidores adecuados que permitan registrar las demandas de potencia en los periodos leídos, se les aplicará para fines de facturación una potencia calculada.
+Para los consumidores GD que no cuentan con medidores de energía por bloque horario, con fines de facturación, en forma provisional hasta que el consumidor disponga del equipo de medición adecuado, el importe por energía será deter-
+42
+
+minado con cualquiera de las siguientes opciones: a) Se determinará el consumo total de energía en bloques horarios y se aplicarán los cargos variables correspondientes para cada bloque. b) Se determinará un cargo variable ponderado y se aplicará al consumo total de energía.
+En cualquiera de los dos casos se aplicarán los factores de participación utilizados en el estudio tarifario.
+¿Por qué existe la medición en hora punta y fuera de punta?
+La respuesta está dada por el beneficio social técnico y económico que tiene para el país reducir la exigencia del sistema eléctrico: si un número importante de usuarios trasladan la mayoría de sus procesos productivos hacia el horario fuera de punta, el resultado es un aplanamiento a largo plazo de la curva de carga del sistema eléctrico nacional, con lo cual el sector eléctrico puede satisfacer el crecimiento de la demanda de manera más eficiente. En la gráfica presentada a continuación se muestra, la forma en que el CNDC realiza el despacho de los generadores, empezando desde los más eficientes cuyo costo de venta de energía es más económico y a medida que va incrementando la demanda en el Sistema Interconectado Nacional (SIN).
+DESPACHO DE GENERADORES EN EL SIN
+43
+
+Factores multiplicadores de la medición
+En instalaciones con características de altos consumos y demandas, a partir de los 25 kVA monofásicos, ó 75 kVA trifásicos, las corrientes nominales superan los 100 A. Normalmente los equipos de medición directa pueden registrar corrientes inferiores a la indicada.
+MEDICIÓN DIRECTA
+Línea Eléctrica 380/220 V Corriente Nominal que
+soporta al medidor < 100 A
+Corriente Nominal de Suministro 60 A
+Para que el medidor pueda registrar corrientes mayores, es necesario instalar transformadores de corriente (TC) para baja tensión; los cuales, tienen la función de reducir la corriente nominal a valores no mayores a los 5 amperes. Los medidores utilizados para registrar éste tipo de corrientes se denominan medidores de medición indirecta. Cuando la medición se realiza desde el lado de media tensión, se requieren de transformadores de corriente (TC) y transformadores de potencial (TP) para media tensión, los cuales tienen la función de reducir las tensiones de niveles de media tensión a baja tensión.
+44
+
+Factor de TC para medición en Baja Tensión
+En instalaciones que cuentan con una potencia instalada inferior a los 500 kVA, la distribuidora permite que la medición sea realizada en baja tensión y a través de transformadores de corriente (TC).
+FACTOR DE TC Y TP PARA MEDICIÓN EN BAJA TENSIÓN
+Línea Eléctrica
+Seccionador
+
+V.P. 10,5 - 14,4/24,9 - 19,9/34,5 kV V.S. 380/220 V
+
+TC
+
+I.P. 100 A - 700 A
+
+I.S. 5 A
+
+Transformador 200 kVA
+Medición Indirecta
+
+Ejemplo:
+Una instalación tiene un transformador trifásico de 75 kVA con tensiones 24900/400-231 Voltios. La corriente nominal del transformador es:
+
+IN =
+
+S3Ø = 75.000 = 108,25 3 x V3Ø 3 x 400
+
+El transformador de corriente seleccionado tendrá una relación de 150/5, lo cual corresponde a un factor de reducción (FTC) = 30. La corriente en el secundario del TC y que ingresa al medidor será de:
+
+I=
+
+108,25 30
+
+= 3,6 (A)
+
+Si consideramos las siguientes lecturas mensuales tomadas del medidor:
+Lectura anterior: 350 kWh Lectura actual: 550 kWh
+
+45
+
+La energía total consumida en el mes sería:
+kWh = (550-350) x (FTC) = 200 x 30 = 6.000 kWh
+Si consideramos una lectura del registro de potencia de 1.234, la potencia real sería:
+Potencia = 1.234 * (FTC) = 1.234 x 30 = 37.02 kW
+Factor de TC y TP para medición en Media Tensión
+En instalaciones que cuentan con una potencia instalada mayor o igual a los 500 kVA, CRE exige que la medición sea realizada en media tensión, a través de transformadores de corriente (TC) y transformadores de potencial (TP).
+FACTOR DE TC Y TP PARA MEDICIÓN EN MEDIA TENSIÓN
+Línea Eléctrica
+Seccionador
+
+TP V.P. 10,5 - 14,4/24,9 - 19,9/34,5 kV
+V.S. 380/220 V
+
+TC
+
+I.P. 10 A - 250 A
+
+I.S. 5 A
+
+Medición Indirecta
+
++
+200 kVA
+
++
+
+= 500 kVA
+
+150 kVA 150 kVA
+
+46
+
+Ejemplo:
+Una instalación cuenta con un transformador de potencia de 2000 kVA, con tensiones 24900/400-231 Voltios. Calcular el factor de multiplicación de TC y TP.
+La corriente nominal del transformador en el lado de media tensión es:
+
+IN =
+
+S3Ø = 2.000 = 46,4 (A) 3 x V3Ø 3 x 24.9
+
+El transformador de corriente seleccionado tendrá una relación de: 50/5, que corresponde a un factor de TC (FTC) = 10
+
+El transformador de potencial requerido para reducir el voltaje de media tensión a baja tensión tendrá una relación de:
+
+El factor (FTP) será:
+
+Relación = 24.900/ 3 400 / 3
+
+FTP =
+
+24.900 400
+
+= 62,25
+
+Si consideramos las siguientes lecturas mensuales tomadas del medidor:
+
+Lectura anterior: 350 kWh
+
+Lectura actual: 550 kWh
+
+La energía total consumida en el mes será:
+kWh = (550-350) x FTC x FTP= (200) x 10 x 62.25= 124.500 kWh
+
+Si consideramos una lectura del registro de potencia de 1.234, la potencia real será:
+Potencia = 1.234 x (FTC) x (FTP) = 1.234 x 10 x 62.25=768.2 kW
+
+47
+
+Determinación de las "Pérdidas en el Transformador"
+Cuando los consumidores se encuentran suministrados en media tensión o alta tensión (10,5 -14.4/24,9 - 19,9/34,5 - 69 kV) estos poseen un transformador. Los transformadores son máquinas eléctricas estáticas que permiten aumentar o disminuir la tensión en un circuito eléctrico de corriente alterna, manteniendo la frecuencia. La potencia que ingresa al equipo, en el caso de un transformador ideal, es igual a la que se obtiene a la salida.
+Las máquinas reales presentan un porcentaje de pérdidas de energía, dependiendo de su diseño, tamaño, etc. Estas pérdidas se encuentran en el núcleo de Hierro y en los embobinados de Cobre.
+Las pérdidas de energía en el Hierro (PeFe) son desprendimientos de calor al circular un campo magnético por el núcleo y están en función de la capacidad (kVA) del transformador. A mayor capacidad mayores serán estas pérdidas, es por eso que es muy importante el correcto dimensionamiento de este equipo y de esta manera evitar mayores pérdidas de energía.
+Las pérdidas de energía en el Cobre (PpCu) son desprendimientos de calor al circular una corriente alterna por los embobinados de cobre y están en función de la cantidad (kWh) de energía activa que circule por el transformador. A mayor energía consumida mayores serán estas pérdidas, por este motivo es muy importante el uso eficiente de energía y de esta manera evitar mayores pérdidas de energía.
+
+I (Amp)
+RED de Media o Alta tensión
+
+RL Carga o equipos
+del consumidor
+
+Pérdidas en el embobinado de Cobre (Cu)
+
+Pérdidas en el núcleo de Hierro (Fe)
+
+Pérdidas en el hierro. Las pérdidas mensuales de energía en el hierro del transformador se calcularán a partir de:
+PeFe (kWh) = P (kW) Fe * 730
+
+P (kW) Fe = Pérdidas de potencia en vacío obtenida del protocolo de ensayo. 730 [Hrs/mes]= (365 Días/Año * 24 Hrs/ Día)/ 12 Meses/Año
+
+48
+
+Pérdidas porcentuales de cobre. Las pérdidas porcentuales de energía en el cobre del transformador se calcularán a partir de:
+PpCu (%) = Pp Cu (kW) * fper/(S * FactPot * Fc)
+Donde: PpCu (kW) = Pérdida máxima de potencia en el cobre del transformador   obtenida del protocolo de ensayo. Fper = 0.15*FC + 0.85*FC2 (factor de pérdidas) S = Capacidad nominal del transformador en kVA FactPot = Factor de potencia promedio de la instalación FC = Factor de Carga de la Instalación.
+Aplicación: Las pérdidas totales de energía en transformación (Efact) que es la enegia facturada se determinará de la siguiente manera:
+Efact (kWh) = PeFe (kWh) + 1 + PpCu (%) * Elect (kWh)
+Donde: Elect (kWh) = Energía leída
+Interpretación de lecturas del medidor
+El marcador (Display) del medidor electrónico de CRE está programado de una forma estándar para desplegar un total de 20 lecturas (ITEM), cada una identificada por un número (ID) ubicado en la parte izquierda del marcador (Display). Las lecturas, visibles en la parte derecha del marcador (display), son:
+· Las primeras 8 lecturas despliegan las energías consumidas (kWh y kVARh) totales y por bloque horario (Alto, Medio y Bajo).
+· Desde la lectura 9 hasta la 11 se despliegan las demandas máximas integradas en 15 minutos, ocurridas para cada uno de los bloque horarios (kW máximos en Bloque Alto, Medio y Bajo).
+Desde la lectura 12 hasta la 17 se despliegan las fechas y horas de ocurrencia para cada una de las demandas máximas registradas por bloque horario. La lectura 18 despliega el factor de potencia del último periodo integrado en promedios de 15 minutos. Las lecturas 19 y 20 despliegan la fecha y hora actual del medidor.
+49
+
+Medidores Instalados en CRE
+En el sistema de CRE existen básicamente 4 marcas diferentes de medidores electrónicos para Grandes y Mediana Demanda:
+· ACTARIS, Modelo: SL-7000 (Medición Indirecta - Directa)
+· ITRON, Modelo: SL-7000 (Medición Indirecta)
+· LANDYS + GYR, Modelo: ZMG405 (Medición Indirecta)
+· LANDYS + GYR, Modelo: ZMD310 (Medición directa)
+La configuración de las lecturas en pantalla (Display) puede variar de un modelo de medidor a otro, por tal razón, incluimos a continuación las configuraciones de cada uno de los medidores correspondientes.
+
+Lecturas medidor electrónico marca ACTARIS / ITRON SL7000
+
+ID
+
+ITEM
+
+ID
+
+ITEM
+
+1
+
+kWh Total
+
+2
+
+kVarh Total
+
+3
+
+kWh Periodo A
+
+4
+
+kWh Periodo B
+
+5
+
+kWh Periodo C
+
+6
+
+kVarh Periodo A
+
+7
+
+kVarh Periodo B
+
+8
+
+kVarh Periodo C
+
+9
+
+kW Max. / Fecha / Hora Periodo A
+
+10 kW Max. / Fecha / Hora Periodo B
+
+11 kW Max. / Fecha / Hora Periodo C
+
+18 Factor de Pot. (instantáneo)
+
+19 Fecha Actual
+
+20 Hora Actual
+
+50
+
+Lecturas medidor electrónico marca LANDIS + GYR ZMG405 / ZMD310
+
+ID
+
+ITEM
+
+ID
+
+ITEM
+
+1
+
+kWh Total
+
+2
+
+kVarh Total
+
+3
+
+kWh Periodo A
+
+4
+
+kWh Periodo B
+
+5
+
+kWh Periodo C
+
+6
+
+kVarh Periodo A
+
+7
+
+kVarh Periodo B
+
+8
+
+kVarh Periodo C
+
+9
+
+kW Max. / Fecha / Hora Periodo A
+
+10 kW Max. / Fecha / Hora Periodo B
+
+11 kW Max. / Fecha / Hora Periodo C
+
+18 Factor de Pot. (instantáneo)
+
+19 Fecha Actual
+
+20 Hora Actual
+
+51
+
+Medidores PD
+En lo que corresponde a Pequeñas Demandas, existen diversas marcas de medidores electromecánicos y electrónicos detallados a continuación:
+· LANDYS + GYR, Modelo: E22A (monofásico) · LANDYS + GYR, Modelo: E320 (monofásico) · ELETRA, Modelo CRONOS 6021L (Monofásico) · ACTARIS, Modelo: ACE-3000 (trifásico) · LANDYS + GYR, Modelo: E34A (trifásico) · ITRON, Modelo ACE3000 (trifásico) · ITRON, Modelo ACE3000 Tipo 522 (Trifásico con botón de Demanda) · LANDIS + GYR, Modelo ZMR110 (Trifásico con botón de Demanda)
+Para una mayor comprensión del consumidor, incluimos las configuraciones de las lecturas en pantalla (Display) de cada uno de los medidores correspondientes.
+Lectura medidores electromecánicos (todas las marcas)
+
+ID
+
+ITEM
+
+001
+
+kWh
+
+52
+
+Lectura medidor electrónico marca LANDYS+GYR Modelo: E22A (monofásico)
+
+ID
+
+ITEM
+
+001
+
+kWh
+
+Lectura medidor electrónico marca LANDYS+GYR Modelo: E320 (monofásico)
+
+ID
+
+ITEM
+
+001
+
+kWh
+
+53
+
+Lectura medidor electrónico marca ITRON Modelo: ACE-3000 (trifásico)
+
+ID
+
+ITEM
+
+001
+
+kWh
+
+002
+
+kW Max.
+
+Lectura medidor electrónico marca LANDYS +GYR Modelo: E34A (trifásico)
+
+ID
+
+ITEM
+
+001
+
+kWh
+
+54
+
+LANDIS + GYR, Modelo ZMR110 (Trifásico con botón de Demanda)
+
+ID
+
+ITEM
+
+001
+
+kWh
+
+002
+
+kW Max.
+
+ITRON, Modelo ACE3000 Tipo 522 (Trifásico con botón de Demanda)
+
+ID
+
+ITEM
+
+001
+
+kWh
+
+002
+
+kW Max.
+
+55
+
+ELETRA, Modelo CRONOS 6021L (Monofásico)
+
+ID
+
+ITEM
+
+001
+
+kWh
+
+56
+
+Sistema Interconectado Nacional
+
+2
+
+Comité nacional de despacho de carga CNDC
+
+4
+
+Autoridad de Fiscalización y Control Social de Electricidad (AE)
+
+4
+
+Sistemas Eléctricos de CRE
+
+5
+
+Sistema Área Integrada
+
+5
+
+Sistemas Aislados de CRE
+
+5
+
+Oficinas de atención al consumidor
+
+6
+
+Potencia Eléctrica
+
+Potencia activa
+
+8
+
+Eficiencia
+
+8
+
+Unidades
+
+9
+
+Potencia instalada
+
+9
+
+Potencia Máxima
+
+10
+
+Criterio para la facturación de la potencia máxima
+
+12
+
+Curva de Carga
+
+12
+
+Factor de Carga
+
+13
+
+Determinación de la demanda promedio
+
+13
+
+Periodo de baja carga
+
+13
+
+Ascenso y descenso
+
+13
+
+Picos y Valles
+
+14
+
+Desplazamiento de los procesos productivos
+
+14
+
+Cálculo del Factor de Carga
+
+14
+
+Gestión de Carga
+
+16
+
+Energía
+
+Energía activa
+
+17
+
+Componentes de la energía activa
+
+17
+
+Unidades de medida
+
+18
+
+57
+
+Energía reactiva
+
+19
+
+Unidades de medida
+
+20
+
+Factor de Potencia
+
+20
+
+Calculo de la penalización por Bajo Factor de Potencia
+
+22
+
+La corrección del factor de potencia
+
+23
+
+La Estructura Tarifaria
+
+24
+
+Tarifa
+
+24
+
+Categoría
+
+24
+
+Determinación de precios y tarifas
+
+24
+
+Tasas municipales de alumbrado público y aseo urbano
+
+24
+
+Distribución de recaudación en la factura del área integrada.
+
+25
+
+Clasificación de Consumidores en las
+
+categorías aprobadas
+
+25
+
+Clasificación en la Categoría Estadística
+
+25
+
+Clasificación según consumo
+
+26
+
+Suministros por nivel de tensión
+
+26
+
+Cambio de categoría
+
+28
+
+Aplicación de Tarifas y
+
+parámetros a facturar
+
+28
+
+Pequeñas Demandas
+
+28
+
+Medianas Demandas
+
+28
+
+Determinación de potencia a facturar
+
+29
+
+Grandes Demandas
+
+30
+
+Determinación de la potencia de punta a facturar
+
+30
+
+Determinación del exceso de potencia fuera de punta a facturar
+
+30
+
+Determinación de la potencia fuera de punta
+
+30
+
+58
+
+Exceso de potencia fuera de punta a facturar
+
+31
+
+Periodos de Medición y Facturación
+
+32
+
+Aviso de cobranza por consumo de energía eléctrica (GD-MD)
+
+33
+
+Aviso de cobranza por consumo de energía eléctrica (PD)
+
+38
+
+Medición
+
+Modalidades de Medición
+
+41
+
+Medición para Pequeñas Demandas
+
+41
+
+Medición para Medianas Demandas
+
+41
+
+Medición para Grandes Demandas
+
+41
+
+Horario en Punta y Fuera de Punta
+
+41
+
+¿Por qué existe la medición en Punta y Fuera de Punta?
+
+43
+
+Factores multiplicadores de la medición
+
+44
+
+Factor de TC para medición en baja tensión
+
+45
+
+Factor de TC y TP para medición en media tensión
+
+46
+
+Determinación de las Pérdidas en el Transformador
+
+48
+
+Interpretación de lecturas del medidor
+
+49
+
+Medidores Instalados en CRE
+
+50
+
+Lecturas medidor electrónico marca ACTARIS / ITRON SL7000
+
+50
+
+Lecturas medidor electrónico marca LANDIS + GYR ZMG405 / ZMD310 51
+
+Medidores PD
+
+52
+
+Lectura medidores electromecánicos (todas las marcas)
+
+52
+
+Lectura medidor electrónico marca LANDYS+GYR
+
+Modelo: E22A (monofásico)
+
+53
+
+Lectura medidor electrónico marca LANDYS+GYR
+
+Modelo: E320 (monofásico)
+
+53
+
+Lectura medidor electrónico marca ITRON
+
+Modelo: ACE-3000 (trifásico)
+
+54
+
+59
+
+Lectura medidor electrónico marca LANDYS+GYR
+
+Modelo: E34A (trifásico)
+
+54
+
+LANDIS + GYR, Modelo ZMR110
+
+(Trifásico con botón de Demanda)
+
+55
+
+ITRON, Modelo ACE3000 Tipo 522
+
+(Trifásico con botón de Demanda)
+
+55
+
+ELETRA, Modelo CRONOS 6021L (Monofásico)
+
+56
+
+60
+
+Cooperativa Rural de Electrificación R.L. Calle Honduras 179 esquina Av. Busch. · Telf 3367777 Consultas y emergencias 176 · Email: cre@cre.com.bo
+Empresa Supervisada y Regulada por la Autoridad de Fiscalización y Control Social de Electricidad (AE)
+
+

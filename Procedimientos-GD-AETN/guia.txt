@@ -1,0 +1,2578 @@
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+Santa Cruz, octubre de 2012
+
+·
+
+Rev. 5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+GP000GC.001 R5
+CRE, Subgerencia de Servicios al Consumidor Santa Cruz, Octubre del 2012
+
+CRE
+
+INDICE
+1. Capítulo I .......................................................................................................................... 5
+1.1 Introducción ........................................................................................................................................................5 1.2 Objetivo ...............................................................................................................................................................5 1.3 Campo de Aplicación.........................................................................................................................................5 1.4 Proyecto Eléctrico ..............................................................................................................................................6 1.5 Proyecto Eléctrico Simplificado.......................................................................................................................6 1.6 Condiciones especiales de Suministro.............................................................................................................7
+1.6.1 Proyectos Multiusuarios.......................................................................................................................................... 7 1.6.2 Conexiones temporales en Media Tensión........................................................................................................... 7 1.6.3 Surtidores de combustibles Liquidos y/o Gaseosos ........................................................................................... 7 1.6.4 Sistema de Riego ...................................................................................................................................................... 7 1.6.5 Auto- Productores ................................................................................................................................................... 8 1.6.6 Ampliaciones de Redes a ser transferidas a CRE ................................................................................................ 8 1.7 Condiciones No Permitidas ..............................................................................................................................9
+2. Capítulo II....................................................................................................................... 10
+2.1 Definiciones.......................................................................................................................................................10
+3. Capítulo III ..................................................................................................................... 13
+3.1 Formulario del Proyecto..................................................................................................................................13 3.1.1 Solicitud de Aprobación del Proyecto Eléctrico................................................................................................13 3.1.2 Aprobación de la Sociedad de Ingenieros en Bolivia (SIB).............................................................................. 13 3.1.3 Aprobación del Gobierno Municipal que corresponda....................................................................................13 3.1.4 Aprobación de la Administración del Parque Industrial .................................................................................. 13 3.1.5 Nombramiento de un Fiscal de Obra ................................................................................................................. 13
+3.2 Contenido del Proyecto ...................................................................................................................................14 3.2.1 Memoria Descriptiva ............................................................................................................................................. 14 3.2.2 Diagrama Unifilar .................................................................................................................................................. 14 3.2.3 Cuadro de Cargas...................................................................................................................................................15 3.2.4 Declaración de Potencias a Facturar ................................................................................................................... 15 3.2.5 Diseños de Cajas y Paneles para Medidores.......................................................................................................16 3.2.6 Especificaciones Técnicas de las protecciones .................................................................................................. 17 3.2.7 Hoja de Estacado (Diseño de la Red) ................................................................................................................. 18 3.2.8 Subestaciones de Transformación ....................................................................................................................... 18
+3.3 Formato del Proyecto ......................................................................................................................................19 3.3.1 Documento del Proyecto Eléctrico.....................................................................................................................19 3.3.2 Validez de la Aprobación de un Proyecto Eléctrico ......................................................................................... 19 3.3.3 Contenido Minimo y Secuencia de Presentación de un Proyecto Eléctrico .................................................. 19 3.3.4 Contenido mínimo del Proyecto Eléctrico Simplificado..................................................................................21 3.3.5 Casos Especiales .................................................................................................................................................... 21 3.3.6 Proyectos de Mercados Públicos ......................................................................................................................... 21
+4. Capítulo IV ­ Tipos de Requerimiento .......................................................................... 23
+4.1 Suministro en Baja Tensión hasta 50kVA ....................................................................................................23 4.2 Suministro en Media Tensión .........................................................................................................................24
+4.2.1 Suministro en Media Tensión con medisión en Baja Tensión......................................................................... 24 4.2.2 Suministro en Media Tensión con medisión en Media Tensión .....................................................................25 4.3 Clase de Tensión ...............................................................................................................................................27
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+3 / 83
+
+CRE
+4.4 Acometidas en Media Tensión .......................................................................................................................27 4.4.1 Acometidas Aéreas ................................................................................................................................................ 27 4.4.2 Acometias Subterráneas ........................................................................................................................................ 28
+4.5 Puesto de Transformación ..............................................................................................................................28 4.5.1 Tipo de Instalación ................................................................................................................................................ 28 4.5.2 Intstalación en Poste ............................................................................................................................................. 29 4.5.3 Instalación de un Transformador convencional a nivel del piso con cerco olímpico (Exclusivo para Instalación Industrial) .......................................................................................................................................................... 29 4.5.4 Instalación de Transformador en Cabina (para Instalación Industrial o para Multiples Usuarios) ............ 30
+4.6 Características de los Transformadores de Potencia...................................................................................31 4.6.1 Transformadores de Potencia Nuevos................................................................................................................ 31 4.6.2 Transfromadores de Potencias Usados...............................................................................................................32
+4.7 Protecciones en los Puestos de Transformación.........................................................................................32 4.7.1 Protección General en Baja Tensión...................................................................................................................32 4.7.2 Protección en Media Tensión .............................................................................................................................. 32 4.7.3 Requisitos que deben cumplir los Reconectadores ........................................................................................... 33 4.7.4 Protección contra descargas Atmosféricas ......................................................................................................... 33
+4.8 Sistema de Aterramiento .................................................................................................................................34 4.9 Sistema Multiusuario ........................................................................................................................................35
+4.9.1 Requisitos................................................................................................................................................................35
+5. Capítulo V - Medición ................................................................................................... 36
+5.1 Medición en Baja Tensión...............................................................................................................................36 5.2 Medición en Media Tensión ...........................................................................................................................37 5.3 Características Constructivas del Panel de Medición en BT con Potencia Mayor a 50kVA ................37
+5.3.1 Panel para Múltiples Consumidores....................................................................................................................37 5.3.2 Panel Tipo Industrial para Medición en Baja Tensión......................................................................................39 5.4 Características Constructivas de Panel tipo Industrial con medición en Media Tensión .....................39
+6. Reseñas y Notas.............................................................................................................. 40
+6.1 Bibliografía.........................................................................................................................................................40
+7. Registro de Calidad, Registro de Cumplimiento ........................................................... 40
+8. Sistema de Modificación/Actualización ........................................................................ 40
+9. Anexo .............................................................................................................................. 41
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+4 / 83
+
+CRE
+1. Capítulo I
+1.1 Introducción Ante un mercado eléctrico cada vez más exigente en lo que respecta a la calidad del suministro eléctrico otorgado por las empresas distribuidoras de energía eléctrica, sumándose a la complejidad y variedad de los equipos y artefactos que poseen los consumidores finales, la Cooperativa Rural de Electrificación ha elaborado el documento "Guía para Elaboración y Aprobación de Proyectos Eléctricos" que consta de la información técnica necesaria para orientar a los consumidores y proyectistas acerca de los requerimientos para obtener la aprobación de un proyecto eléctrico particular. Es responsabilidad de CRE entregar la energía con la calidad establecida en la Ley de Electricidad Nº 1604, en el punto de medición, sea en BT o MT, según corresponda. Dicho punto es, técnica y legalmente, la frontera de responsabilidad de CRE hacia el consumidor, tal como menciona la norma boliviana NB777.
+1.2 Objetivo La "Guía para Elaboración y Aprobación de Proyectos Eléctricos" tiene por objetivo principal estandarizar procedimientos para la elaboración y presentación de proyectos de instalaciones eléctricas particulares. Los objetivos específicos son:
+ Facilitar la labor de ingenieros, técnicos y cuántos participen en la ejecución de las instalaciones eléctricas.  Establecer y exigir el cumplimiento de las normas de seguridad eléctricas, desde la red de CRE hasta el
+punto de medición del consumidor.  Asegurar la calidad, continuidad y confiabilidad del suministro eléctrico.  Facilitar la relación distribuidor-consumidor.
+1.3 Campo de Aplicación Las presentes disposiciones se aplican para el diseño, construcción, puesta en servicio y suministro de energía eléctrica, para instalaciones del tipo industrial, edificaciones comerciales, condominios multifamiliares, edificaciones mixtas (comerciales-multifamiliares, comerciales-industriales, o de oficinas, etc.), hospitales, clínicas, mercados públicos y otros, dentro del área de concesión de CRE (Sistema Integrado y Sistemas Aislados). Para cumplir las disposiciones técnicas establecidas en el presente documento, los propietarios de las instalaciones eléctricas citadas deben presentar:
+ Proyecto Eléctrico Completo, o  Proyecto Eléctrico Simplificado, según corresponda.
+Nota.- CRE tiene este documento en el sitio Web de la Cooperativa, a disposición de los usuarios de esta norma, por lo tanto CRE se reserva el derecho de modificarlo sin previo aviso las veces que considere necesario, simplemente reemplazará en su página www.cre.com.bo la nueva versión que se emita, adicionando al número correspondiente de revisión.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+5 / 83
+
+CRE
+1.4 Proyecto Eléctrico Se exigirá presentar proyecto eléctrico completo a:
+ Toda instalación particular que requiera de un transformador para acceder al servicio de energía eléctrica.  Toda instalación eléctrica con demanda igual o superior a 50 kVA, la misma que debe incluir transformador
+para acceder al servicio de energía eléctrica, de acuerdo a la Norma Boliviana NB777 punto 4.6 Cap. 4.  Toda instalación con actividad especial, tales como refinerías de combustibles, surtidores de combustibles
+líquidos o gaseosos, industrias químicas, petroquímicas, etc., quienes deben cumplir las normas de seguridad eléctricas aplicables a su rubro.  Toda instalación que requiera de un aumento o disminución de la potencia instalada en transformación, y que supere en (+ -) 25% a la anterior.  Toda instalación con requerimiento mayor a 3 medidores, sean estos monofásicos, trifásicos o la combinación de ambos.  Toda instalación con medición directa que pasa a tener medición indirecta por aumento de potencia en su transformador, sea éste Electroagro o particular.  Toda instalación bajo la modalidad Electroagro que pasa a ser particular, posterior al trámite legal con CRE por la propiedad de las instalaciones eléctricas.  Toda instalación que supere la potencia instalada de 500 kVA, con medición en Media Tensión.  Toda instalación que supere la potencia instalada de 700 kVA, con medición y protección en Media Tensión.  Toda instalación que requiera de un traslado externo, sea con cambio de actividad o no.
+1.5 Proyecto Eléctrico Simplificado Se exigirá presentación del documento "Proyecto Eléctrico Simplificado" cuando:
+ Instalaciones existentes con suministro eléctrico en Media Tensión donde exista la necesidad de incrementar o disminuir como máximo en 25 % la potencia instalada del puesto de transformación.
+ Este punto está condicionado a que la nueva potencia instalada en transformador no iguale o supere los 500 kVA, pues esto requiere que la medición se realice en el primario del transformador, o los 700 kVA que exige la instalación de una protección en Media Tensión. Esto conlleva a la presentación de un proyecto eléctrico completo y a la provisión de dichos equipos por parte del solicitante.
+ Proyectos aprobados y no ejecutados con más de un (1) año calendario de aprobación, y se requiere de su reactivación.
+ Proyecto eléctrico aprobado, donde se requiera realizar alguna modificación simple del proyecto.  Traslados internos dentro de sus predios del panel de medición o del puesto de transformación, sin
+modificaciones técnicas.  Requerimiento de servicio por cambio de actividad.  Toda instalación en Media o Baja Tensión que requiera de un aumento o disminución de la cantidad de
+medidores en un máximo de 25% a la cantidad anterior.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+6 / 83
+
+CRE
+ Se realizan en el predio "Obras Menores", como ser: o Traslados internos de equipos y/o circuitos eléctricos (antes de la medición) o Traslado interno de la subestación o Otro tipo de modificaciones simples que involucren al suministro eléctrico o Reemplazo de transformadores de potencia o de medida por otro de misma capacidad o Otros
+1.6 Condiciones especiales de Suministro Existen casos especiales, como ser los consumidores Multiusuarios, Temporales, Surtidores de combustibles, Sistemas de Riego, Auto-productores, Transferencias de Redes, entre otros.
+1.6.1 Proyectos Multiusuarios Los proyectos Multiusuarios son instalaciones atendidas en Baja Tensión desde un puesto de transformación de propiedad de CRE instalado dentro de la propiedad particular, con un número igual o superior a cuatro medidores monofásicos, trifásicos o la combinación de ambos, y cuya demanda total sea superior a 50 kVA. Esta modalidad se aplica sólo a consumidores residenciales, centros comerciales y mercados municipales. El tema Multiusuario se detalla más adelante. También puede considerarse Multiusuario a un predio con múltiples consumidores donde la demanda máxima de todos ellos no supera 50 kVA, para lo cual CRE puede decidir atender al predio suministrando desde la red de distribución externa de Baja Tensión.
+1.6.2 Conexiones temporales en Media Tensión Las conexiones temporales son aquellas que solicitan el suministro eléctrico en Media Tensión por un máximo de 15 días calendario, para realizar una actividad temporal o provisional, para lo cual el solicitante debe presentar un proyecto eléctrico completo y cumplir con las normas técnicas y de seguridad vigentes, anexando al mismo las aprobaciones municipales u otras, que autoricen la actividad a desarrollar y el asentamiento en el lugar donde solicita el suministro.
+1.6.3 Surtidores de combustibles Liquidos y/o Gaseosos El suministro eléctrico a surtidores de combustibles, sean líquidos o gaseosos, requiere el cumplimiento estricto de las normas técnicas de construcción, de seguridad y procedimentales, exigidas tanto por el Estado (a través del Ministerio de Energía e Hidrocarburos y de la ANH, Agencia Nacional de Hidrocarburos), por la Gobernación y por el Municipio, para la autorización del desarrollo de esta actividad. CRE por su parte exige la presentación del proyecto eléctrico completo, que detalle las cotas y distancias de seguridad de todo el sistema eléctrico a las instalaciones del surtidor. Adicionalmente debe incluir las especificaciones técnicas de los materiales eléctricos a ser utilizados, adecuados a la actividad, incluyendo las certificaciones de las entidades antes mencionadas.
+1.6.4 Sistema de Riego Un consumidor que utilice la energía eléctrica exclusivamente en riego, puede optar por solicitar a CRE la categoría tarifaria Riego, siendo que esta tarifa limita el consumo de electricidad de la red de CRE durante el periodo denominado Punta, de 18:00 a 23:00 hs..
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+7 / 83
+
+CRE
+
+Para que un consumidor pueda optar a la categoría tarifaria Riego, sea en Baja o Media Tensión, debe presentar un proyecto eléctrico simplificado e instalar un sistema de corte y conexión automática, que permita retirar su demanda del periodo de Punta. En el proyecto presentado se deben incluir los diagramas de conexión y especificaciones del sistema de corte, los equipos de control horario a instalar, su marca, modelo, procedencia, etc.
+Como referencia, en Anexos se encuentra un modelo de diagrama típico de conexión de un sistema de corte automático.
+Si en los predios del consumidor existiese otra actividad adicional al riego, el propietario deberá solicitar otra conexión con medidor independiente, para que CRE suministre electricidad con la categoría tarifaria que corresponda.
+
+1.6.5 Auto- Productores El suministro eléctrico a consumidores denominados Auto-productores puede ser provisto por CRE si el solicitante cumple las siguientes exigencias técnicas:
+1. Abastecer preponderantemente sus necesidades de electricidad con generación propia, siendo que el 80 % de su requerimiento de energía semestral es autoabastecido y el 20 %, como máximo, lo retira de la red de CRE.
+2. Que el factor de carga promedio mensual del periodo de retiro de la red de CRE sea menor a 0.4. 3. Presentación de un proyecto eléctrico, tal como lo exige la presente Guía. 4. Construcción de sus instalaciones civiles y eléctricas, de acuerdo a las normas técnicas vigentes y a la
+presente Guía. 5. Colocación de sistema de medición de energía y potencia en ambos suministros, el de CRE y el de
+generación, proporcionando mensualmente a CRE a información registrada en el medidor del parque generador, o permitiendo al personal de lectura de CRE acceder a dicho medidor. 6. Instalación de llave de transferencia interna que no permita, bajo ninguna circunstancia, el paralelismo entre los dos sistemas de provisión de energía.
+
+1.6.6 Ampliaciones de Redes a ser transferidas a CRE
+Cuando un futuro usuario requiera construir una ampliación de la red de Media Tensión en vía pública o urbanizaciones, para posteriormente acceder al servicio eléctrico de CRE, siendo para uno solo o para múltiples consumidores, deberá cumplir varios requisitos previos a la ejecución y/o construcción de la red, regido internamente por el Instructivo de Procedimiento IP010GC.28 "Transferencia de Redes Eléctricas Construidas por Particulares", como se detalla a seguir:
+
+ Presentar los formularios correspondientes, de solicitud de aprobación del proyecto, de solicitud de transferencia de nueva red, y otros que amerite el proyecto.
+
+ Presentar un proyecto eléctrico que contemple toda la información técnica de:
+
+o las instalaciones internas al predio particular (tal como especifica la presente Guía),
+
+o la nueva red que se irá a construir en vía pública.
+
+ Adicionalmente, debe presentar los siguientes documentos:
+
+o Planos de ubicación aprobados por el Plan Regulador del Municipio correspondiente
+
+o Títulos de propiedad de los terrenos o poder notariado de autorización
+
+o Licencia Ambiental (Certificado de Dispensación 4 y su correspondiente Formulario de Solicitud de Certificado de Dispensación de EEIA para Proyectos del Sector Electricidad, Categoría 4.)
+
+o Croquis de ubicación
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+8 / 83
+
+CRE
+o Planos del trazado de la nueva red o Hoja(s) de estacado o Planos con coordenadas o Protocolos del fabricante del (los) transformador(es) a ser instalado(s) o Certificado de cada transformador que se encuentra libre de PCB o Listado detallado y especificaciones de los materiales a ser utilizados o Documento firmado por el Municipio correspondiente, respecto a la cantidad, tipo y potencia de
+las luminarias de Alumbrado Público que serán instaladas en la nueva red. Adicionalmente, en este mismo documento, el citado municipio aprueba el pago por el consumo de estas luminarias, o en su defecto, las luminarias internas deben estar suministradas a través de un medidor de consumo de energía eléctrica cubierto como "Áreas Comunes" de la urbanización. o Certificado CFO (Certificado Forestal de Origen), si los postes son de madera o cuchi. o Etc.
+ Permitir la inspección de los materiales a ser utilizados en la nueva red dentro de los almacenes del usuario o de su contratista, pues no se permitirá la inspección de dichos materiales instalados en el lugar de la nueva red.
+ Los transformadores deben ser inspeccionados por CRE, cumpliendo lo exigido en la presente Guía.
+ CRE podrá modificar el trazado o ciertas características del proyecto, en función a las normas, al manual de estructuras o a requerimientos propios de la Cooperativa.
+ Una vez aprobado el proyecto de la nueva red y los materiales y equipos inspeccionados, CRE autorizara la construcción de la misma, de acuerdo a lo aprobado.
+ CRE inspeccionara la nueva red construida y aprobará su energización, solo si se hubiera cumplido todo lo aprobado en el proyecto.
+ Posteriormente se emitirá un contrato entre partes, el mismo que estipula las condiciones de la transferencia.
+1.7 Condiciones No Permitidas a) No se permite, bajo ninguna circunstancia, la conexión de generadores particulares de energía eléctrica en paralelo al sistema de distribución de energía de CRE. Para la conexión de sistemas alternativos de suministro eléctrico que den soporte en casos de emergencias, se requiere la presentación de un proyecto eléctrico a CRE, mostrando el enclavamiento y separación eléctrica de ambos suministros, a fin de garantizar que se cumplan con los requerimientos técnicos y de seguridad. b) No está permitido la extensión de las instalaciones de un consumidor más allá de los límites de su propiedad y/o la interconexión con las instalaciones de otro(s) consumidor(es), para proveer de energía eléctrica en Baja Tensión a éstos o a terceros. c) No está permitido la instalación de dos o más acometidas dentro de un mismo predio para instalaciones con proyectos eléctricos particulares en Baja o en Media Tensión, según la Norma Boliviana NB777. d) No está permitido la instalación de puestos de transformación a distancias menores a 6 mts. de compresores de gas en surtidores de combustibles u otros. Lo mismo para áreas con manejo de sustancias explosivas o altamente inflamables (según Código NEC 1996 Artículos 500 al 516). e) No está permitido que un consumidor, dentro del área de concesión de CRE, realice medición y/o cobro por consumo de energía eléctrica a terceros. En caso de que existan terceros dentro de los predios de un consumidor, cada uno de éstos deben tener el medidor adecuado e independiente, para que se registre su consumo y sea facturado por la Distribuidora.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+9 / 83
+
+CRE
+f) No es permitida bajo ninguna circunstancia la violación de los precintos colocados por CRE en el panel de medición, en la bornera o en el medidor, ni acceder a los compartimientos 1 y 2 de los paneles con múltiples medidores. El incumplimiento de cualquiera de estas condiciones será pasible a las sanciones de ley.
+g) No es permitido realizar ampliaciones de red en vía pública sin la respectiva aprobación del trazado y de las características técnicas de la línea por parte de CRE, para lo cual el interesado debe presentar, previo a la construcción de la línea, un proyecto de la ampliación contemplada y todas las exigencias medioambientales, como ser: certificados forestales de origen (para productos maderables), Certificado de Dispensación 4 y su correspondiente Formulario de Solicitud de Certificado de Dispensación de EEIA para Proyectos del Sector Electricidad, Categoría 4, otros según el caso.
+2. Capítulo II
+2.1 Definiciones a) Consumidor Persona natural, colectiva o jurídica que accede al servicio de energía eléctrica. b) Acometida Se entiende por acometida a la parte de la instalación eléctrica que conecta las redes de distribución de CRE con las instalaciones del usuario, en Media o Baja Tensión c) Media Tensión ­ MT ­ Tensión Primaria de Distribución Nivel de tensión mayor a 1 kV y menor a 69 kV. CRE utiliza los niveles de tensión (fase-fase) para distribución 10.5, 13.8, 24.9 y 34.5 kV, dependiendo del sistema, integrado o aislado. d) Baja Tensión ­ BT ­ Tensión Secundaria de Distribución Nivel de tensión menor o igual a 1000 voltios. CRE utiliza tensiones fase-fase de 380 Voltios y fase-neutro de 220 Voltios. e) Transformador de Distribución MT/BT Maquina eléctrica estática de funcionamiento electromagnético que permite transformar los niveles de tensión desde un valor a otro. f) Disyuntor o Interruptor Eléctrico Dispositivo de protección contra sobrecarga y cortocircuitos que permite el cierre y apertura de los circuitos eléctricos, en Media o en Baja Tensión. g) Fusible Elemento metálico usado para proteger los equipos eléctricos de sobrecargas o de cortocircuitos eléctricos. h) Pararrayos Son elementos de protección contra descargas atmosféricas (rayos) i) Potencia Es la capacidad que tiene un equipo o maquina eléctrica para desarrollar trabajo j) Potencia Instalada Suma aritmética de las potencias nominales de los equipos instalados. k) Potencia o Demanda Máxima Máxima potencia activa registrada por un equipo de medición electrónico, integrada en periodos de 15 minutos expresada en Kilowatts [kW].
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+10 / 83
+
+CRE
+
+l) Potencia Media (Pmed)
+
+kWh consumidos (en el periodo considerado)
+
+Pmed = -----------------------------------------------
+
+[kW]
+
+Tiempo en horas (en el periodo considerado)
+
+m) Potencia activa [kW]
+Representa la capacidad de un circuito para realizar un proceso de transformación de energía eléctrica en trabajo mecánico, lumínico, acústico, térmico u otro.
+
+n) Potencia reactiva [kVAR] Esta potencia no tiene capacidad de producir trabajo, solo produce campos electromagnéticos.
+
+o) Energía activa [kWh/mes] Es la energía eficaz consumida por los equipos para producir trabajo mecánico, lumínico, acústico, térmico u otro.
+
+p) Energía reactiva [kVARh/mes] Es la energía magnetizante que no produce trabajo.
+
+q) Factor de Potencia (Fp)
+Es un indicador del uso eficiente de las instalaciones eléctricas en relación al consumo, entre la energía activa kWh y la energía reactiva kVARh, el mismo que debe ser mayor o igual a 0.9 para evitar cargos por bajo factor de potencia en los usuarios que se encuadran en las categorías INDUSTRIAL II o ESPECIAL.
+Fp = Cos [Arctg (kVArh / kWh)]
+
+r) Factor de Utilización (Fu) Potencia media
+Fu = --------------------Potencia instalada
+
+s) Factor de Demanda (Fd) Potencia Máxima (en el periodo considerado)
+Fd = -----------------------------------------------------------Potencia Instalada
+
+t) Factor de Carga (Fc) Potencia Media
+Fc = --------------------------Potencia Máxima
+u) Frecuencia La frecuencia en el sistema eléctrico de CRE es de 50Hz. La frecuencia sólo en el sistema aislado Germán Busch es de 60 Hz.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+11 / 83
+
+CRE
+v) Transformador de Corriente (TC) Equipo destinado a reducir niveles de corriente eléctrica, en Media o Baja Tensión, a valores adecuados para la medición del consumo de energía eléctrica.
+w) Transformador de Potencial (TP) Equipo destinado a reducir los niveles de potencial eléctrico o de tensión a valores adecuados para la medición del consumo de energía eléctrica.
+x) Medidor de energía eléctrica Dispositivo trifásico o monofásico, destinado a la medición de energía eléctrica de los consumidores.
+y) Medidor Electrónico de energía eléctrica Dispositivo monofásico o trifásico, capaz de registrar las mediciones de energía eléctrica activa [kWh/mes], reactiva [kVArh/mes] y demanda máxima [kW] de los consumidores. Este El medidor trifásico electrónico es imprescindible para consumidores Medianas y Grandes Demandas (MD y GD).
+z) SIGETEC Sistema de Información de Gestión Técnica de las redes eléctricas de CRE.
+aa) Consumidores Pequeñas Demandas Son aquellos consumidores conectados en Baja o Media Tensión cuya potencia máxima es menor a 10 kW.
+bb) Consumidores Medianas Demandas Son aquellos consumidores conectados en Baja o Media Tensión cuya potencia máxima se encuentra entre 10 y 50 kW.
+cc) Consumidores Grandes Demandas Son aquellos consumidores conectados en Baja o Media Tensión cuya potencia máxima sea mayor a 50 kW.
+dd) Horario de Punta Periodo comprendido entre las 18:00 y las 23:00 Hrs.
+ee) Horario Fuera de Punta Periodo comprendido entre las 00:00 a 18:00 Hrs. y entre las 23:00 a 24:00 Hrs.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+12 / 83
+
+CRE
+3. Capítulo III
+3.1 Formulario del Proyecto El proyecto comprende toda la documentación técnica y legal exigida en las presentes disposiciones técnicas, tal como se detalla a seguir, el mismo que debe ser elaborado y firmado por un Ingeniero Eléctrico o Electromecánico, registrado y autorizado por la Sociedad de Ingenieros de Bolivia (SIB) departamental Santa Cruz. Para obras de modificación de proyectos anteriormente aprobados, se establecerá una categoría inferior de documento tipo, denominado "Proyecto Eléctrico Simplificado", el cual requiere menor detalle de información para su aprobación, como se detalla más adelante. 3.1.1 Solicitud de Aprobación del Proyecto Eléctrico Para obras iguales o mayores a 50 KVA e incorporación de nuevas demandas, se debe solicitar la aprobación de un "Proyecto Eléctrico" ingresando el mismo con una carta dirigida a la Gerencia de Atención al Consumidor de CRE y acompañado del Formulario F499 (ver en anexo). En la carta y en el proyecto se debe detallar el nombre, dirección, número telefónico, fax, correo electrónico y página Web si tiene, del ingeniero proyectista y del propietario del inmueble (o su representante legal), a efecto de coordinar cualquier requerimiento de CRE durante el proceso de aprobación. Ambos deben incorporar la firma del propietario e ingeniero proyectista.
+3.1.2 Aprobación de la Sociedad de Ingenieros en Bolivia (SIB) Se debe anexar al proyecto eléctrico, el formulario de certificación de responsabilidad y firma del proyectista ante la SIB, que acredite la competencia profesional (código formulario PP-09-F04).
+3.1.3 Aprobación del Gobierno Municipal que corresponda Se debe presentar el formulario de aprobación del Departamento de Desarrollo Territorial perteneciente al Gobierno Municipal de Santa Cruz de la Sierra para proyectos dentro de este municipio y del área pertinente cuando se trate de proyectos de otros municipios dentro del Departamento de Santa Cruz.
+3.1.4 Aprobación de la Administración del Parque Industrial Si el suministro de energía requerido está ubicado en el Parque Industrial de Santa Cruz de la Sierra, se debe presentar el certificado de conformidad y autorización de la instalación eléctrica, extendido por la Administración del Parque Industrial (PADI).
+3.1.5 Nombramiento de un Fiscal de Obra Todo proyecto eléctrico necesariamente deberá contar con un fiscal de obras, que coordine y fiscalice la ejecución hasta el punto de medición de la energía a ser entregada, siendo de su entera responsabilidad la calidad de los trabajos y materiales utilizados en las instalaciones eléctricas. El fiscal de obras debe ser un profesional Ingeniero Eléctrico o Electromecánico debidamente acreditado por la SIB filial Santa Cruz, quien será la persona responsable de la entrega técnica a CRE de las instalaciones en instancias de la fiscalización y energización, para ello presentará firmado el "Listado de Obras Ejecutadas" anexado a la solicitud de fiscalización, una vez todas las instalaciones eléctricas anteriores al punto de medición hayan sido completamente concluidas.
+La solicitud de inspección técnica de fiscalización debe ser realizada mediante carta firmada por el fiscal de obras y por el propietario del predio, una vez aprobado el proyecto y concluidas las obras eléctricas, adjuntando el Formulario de Conclusión de Obras F862 correspondiente. El fiscal de obras puede ser el mismo profesional que elaboró el proyecto.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+13 / 83
+
+CRE
+NOTA.- Si durante la primera fiscalización realizada por los inspectores de CRE se observan irregularidades técnicas que deben ser subsanadas para poder acceder a la provisión de energía eléctrica, la siguiente fiscalización será realizada como mínimo cinco días hábiles después de solicitada mediante nueva carta, adjuntando nuevamente el Formulario de Conclusión de Obras F862 corregido.
+3.2 Contenido del Proyecto Todo proyecto eléctrico debe cumplir los requisitos descritos a continuación, siguiendo el mismo orden:
+3.2.1 Memoria Descriptiva La memoria descriptiva deberá detallar como mínimo los siguientes aspectos:
+1. Datos generales del proyecto, como ser, nombre del proyecto, nombre, teléfonos y dirección electrónica del propietario, proyectista y fiscal de obras, etc..
+2. El tipo de proyecto a desarrollar, así como la actividad para la cual se requiere el suministro de energía eléctrica.
+3. Cronograma estimado para la ejecución de las obras, etapas de implementación, fecha estimada de requerimiento del servicio eléctrico a CRE, etc..
+4. Valores de la demanda máxima de potencia inicial de operación y su proyección a cinco años, diferenciando en los horarios punta y fuera de punta.
+5. Ubicación geográfica referida al sistema eléctrico de CRE, para lo cual debe hacer mención a algún equipo de la red eléctrica de CRE existente más próximo al lugar del nuevo suministro. Adicionalmente debe presentar las coordenadas geográficas de los postes que comprendan la ampliación en vía pública o dentro de la propiedad privada.
+6. Nivel de tensión de suministro. 7. Presentación del formulario de análisis de disponibilidad de potencia para los casos de potencias instaladas
+mayores a 500 kVA en el Área Integrada o 100 kVA en los Sistemas Aislados (Form. F798).
+3.2.2 Diagrama Unifilar El proyecto debe contener un diagrama unifilar que muestre los detalles desde la acometida hasta el panel de medición, en el cual estará incluido lo siguiente:
+1. Diseño de acometida. 2. Cantidad de conductores, longitud y sección transversal correspondiente a la acometida 3. Tipo y especificaciones de la protección, para Media y/o Baja Tensión 4. Relación de transformación de los transformadores de medida, para Media o Baja Tensión. 5. Detalle de la distribución de circuitos en Media y Baja Tensión. 6. Especificaciones técnicas de los equipos a instalar (de acuerdo a diagrama en Anexos)
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+14 / 83
+
+CRE
+3.2.3 Cuadro de Cargas Debe contener un cuadro de carga general y cuadros de cargas por circuitos y además la siguiente información: Información necesaria (requerida)
+1. Detalle, cantidad y especificaciones de los equipos y maquinas eléctricas a ser instalados 2. Valores aplicados para los diferentes factores de consumo 3. Detalle del cálculo del consumo mensual estimado de Energía (kWh) y Potencia (kW). 4. Potencia total instalada y demandada kVA. 5. Cuadro de equilibrio de cargas en las fases, siendo que la variación debe ser menor o igual a 10 % de acuerdo
+con artículos 110 al 250 del código NEC NFPA 70. 6. Sección en mm2 del alimentador principal y cableado del panel de medición, mencionando la capacidad de
+conducción de cada uno. Información recomendable (sugerida)
+1. Longitud del alimentador y su caída de tensión, menor o igual a 2 %, 2. Capacidad de reserva del circuito 3. Circuitos de reserva para futuras ampliaciones (cantidad de acuerdo a detalle adelante) 4. Previsión de corrección de factor de potencia 5. Previsión de arranques Estrella-Triangulo, arrancadores suaves u otros, para cargas de elevada potencia, de
+acuerdo a las normas especificas para este tema. 6. Longitud del alimentador en BT desde el transformador al panel, la cual debe ser menor o igual a 10mts. 7. Protección contra falta de fase, para equipos trifásicos. La instalación interna del predio, posterior a la medición, debe cumplir la norma boliviana NB 777 y no hace parte proyecto eléctrico a presentar. Estas instalaciones internas no las aprueba CRE, son responsabilidad del proyectista, fiscal de obras y/o contratista ejecutor de la obra.
+3.2.4 Declaración de Potencias a Facturar Antes de iniciarse la prestación del servicio eléctrico mediante el proyecto eléctrico presentado, los nuevos consumidores de las categorías Medianas y Grandes Demandas deben declarar y contratar la "potencia máxima" y/o la "potencia en horario de punta" a demandarse durante el primer año, en cumplimiento al Artículo 1 "Disposiciones Generales" punto 1.6 "Declaración de Potencias" de la Norma de Aplicación Tarifaria, que se anexa a la Resolución SSDE N°162/2001. Estos valores declarados serán considerados como una declaración jurada, que firma el propietario en el contrato de suministro y el proyectista en el formulario de solicitud de aprobación de proyectos particulares (F499), y serán utilizados para la facturación durante el primer año, de acuerdo al procedimiento establecido en los puntos 4.2.1 y 4.3.1 de la norma antes mencionada.
+ La tarifa base para aplicar a un consumidor GD se compone de: a) Cargo Fijo b) Cargo por Energía c) Cargo por Potencia de Punta (de 18:00 a 23:00) d) Cargo por Potencia Fuera de Punta (resto del día)
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+15 / 83
+
+CRE
+ Sobre el cargo por potencia, éste se cobra durante un periodo de 12 meses calendario a partir del inicio de la prestación del servicio eléctrico.
+ Cabe aclarar que si los registros mensuales de potencia superan el valor declarado en el contrato de suministro, se aplicarían los registrados por el medidor para fines de facturación por todo el periodo correspondiente.
+Nota.- Cabe mencionar que si el nuevo consumidor tendrá una demanda de potencia en crecimiento, éste debe declarar las demandas de arranque, pues caso las potencias declaradas no sean superadas por las registradas en el medidor, las declaradas serán las utilizadas en la facturación por todo el periodo correspondiente, hasta que las mismas sean superadas.
+3.2.5 Diseños de Cajas y Paneles para Medidores Las cajas y paneles de medición deben cumplir con las especificaciones técnicas de acuerdo a la norma NB 148001-23. Ver diseños de paneles en los anexos. El diseño del panel debe mostrar lo siguiente:
+ Tipo y cantidad de los medidores que se instalarán (Monofásicos, Trifásicos, Electromecánicos y/o Electrónicos)
+ Diseño de la caja o panel de medición, para medición directa o indirecta, o panel para medición para múltiples consumidores. Debe incluirse las cotas y medidas de todo el panel. Ver en Anexos.
+ En el panel para medición múltiple, cada compartimiento asignado a un medidor debe tener una descripción numérica, la misma que debe coincidir con el correspondiente medidor indicado en el diagrama unifilar.
+ Para un panel múltiple con medidores monofásicos, trifásicos, sean electromecánicos o electrónicos, el visor para lectura de consumo de energía de cualquiera de los medidores, no debe ser mayor a la altura de 1,70 ni menor a 0,50 metros del piso terminado.
+ Para un panel múltiple, por cada columna solo se permite instalar o cuatro medidores monofásicos o tres medidores trifásicos o cuatro medidores en la combinación de ambos, siendo que los trifásicos deben ir siempre en la parte superior.
+ En el panel múltiple se debe considerar en el compartimiento 1, arriba de las barras y de la llave general, un espacio separado e independiente para un medidor de control y los respectivos transformadores de medida.
+ El panel de medición, el cableado y sus protecciones, son propiedad y responsabilidad del usuario.  El espacio para la instalación de los térmicos debe ser mínimo de 30 cm., de tal manera que se pueda
+realizar cómoda y segura la medición de carga mediante instrumento (pinza).  El panel con múltiples medidores debe ser instalado bajo techo como protección contra la lluvia.  La caja o panel de medición no debe ser instalado a más de 10 metros del transformador instalado dentro
+del predio.  Se recomienda que para cada panel de múltiples medidores se debe dejar una cantidad de espacios de reserva
+para la instalación de futuros medidores. Las cantidades mínimas sugeridas se muestran en el cuadro a seguir:
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+16 / 83
+
+CRE
+
+Actividad Cant.Medidores
+Hasta 6 Hasta 10 Hasta 20 Hasta 36 Hasta 50 Mayor a 50
+
+Domiciliaria Oficinas independ. Comercios y Servicios Mercados Públicos Actividades Mixtas
+
+% Reserva % Reserva % Reserva % Reserva % Reserva
+
+20
+
+1
+
+30
+
+2
+
+30
+
+2
+
+50
+
+3 20 -- 30 1 -- 2
+
+20
+
+2
+
+30
+
+3
+
+30
+
+3
+
+50
+
+5 20 -- 30 2 -- 3
+
+15
+
+3
+
+25
+
+4
+
+25
+
+5
+
+40
+
+8 15 -- 25 3 -- 5
+
+12
+
+4
+
+20
+
+7
+
+20
+
+7
+
+30
+
+10 12 -- 20 4 -- 7
+
+10
+
+5
+
+15
+
+8
+
+18
+
+9
+
+25
+
+12 10 -- 18 5 -- 9
+
+12
+
+6
+
+18
+
+9
+
+20
+
+10
+
+30
+
+15 12 -- 20 6 -- 10
+
+Notas.-
+ El ejecutivo a cargo de la aprobación de proyectos eléctricos y el proyectista consensuarán la cantidad de medidores de reserva que se debe dejar en cada panel de múltiples medidores.
+ La aprobación del proyecto por parte de CRE solamente contempla hasta el punto de medición y ello no genera responsabilidad alguna a la Cooperativa sobre las instalaciones internas que sean ejecutadas eléctricamente derivadas a partir del medidor.
+ Toda instalación interna del consumidor de energía debe cumplir con la Norma NB777.
+ Debido a la dinámica de los cambios tecnológicos en instrumentos de medida y con el fin de realizar mejoras técnicas, CRE podrá modificar el diseño y especificaciones de los paneles de medición, cuando crea conveniente hacerlo, lo cual difundirá oportunamente en la página Web de la Cooperativa.
+
+3.2.6 Especificaciones Técnicas de las protecciones
+ En proyectos que toman de la red de Baja Tensión, la corriente nominal del disyuntor principal instalado no debe ser mayor a 70 amperes.
+ La protección principal del panel de medición debe ser a través de un disyuntor termo-magnético no regulable.
+ En proyectos de Baja Tensión, debe indicarse las características técnicas de cada uno de los equipos de protección a instalar, de acuerdo al diagrama unifilar presentado, para el circuito principal como también de los circuitos secundarios.
+ En caso de proyectos de Media Tensión debe indicarse las características técnicas de los pararrayos, seccionadores fusibles, aisladores y otros. Esto es aplicable también a seccionadores cuchillas, interruptores y reconectador cuando que corresponda, indicando el BIL y clase de los mismos.
+ Cuando la instalación requiera de un reconectador se debe contemplar la instalación de un transformador de potencial monofásico para alimentar la caja de control del mismo.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+17 / 83
+
+CRE
+
+3.2.7 Hoja de Estacado (Diseño de la Red) En caso de ser requerida una extensión de la red existente en vías públicas se debe presentar el formulario de solicitud (Form. F500, en Anexos) de ampliación de red o de instalación de poste de servicio, acompañando de la hoja de estacado que comprenda la ampliación a realizarse, en base al Manual de Estructuras de CRE. La hoja de estacado debe incluir imprescindiblemente la siguiente información:
+ Tipo de postes a instalar, mover y/o retirar con ángulo y distancia al vano anterior.  Tipos de estructuras a instalar, mover y/o retirar.  Tipo y cantidad (en metros) de conductores a instalar, mover y/o retirar desagregados en línea primaria,
+secundaria y de neutro.  Croquis grafico geo-referenciado de la hoja de estacado (coordenadas GPS).  Para toda instalación en Media Tensión se debe anexar a la hoja de estacado, un gráfico, croquis o plano
+geo-referenciado, mostrando claramente los postes existentes y los nuevos a instalar, con la línea de MT, la acometida y el puesto de transformación, indicando las referencias que existiesen, como ser, caminos, vía férrea, gasoducto o carretera correspondiente, la línea de MT, la acometida y poste, con el código de placa del puesto de transformación o fusibles de derivación más cercanos, especificando las coordenadas geográficas de estos y del poste de servicio del cual se derivará al nuevo puesto de transformación. En lo posible adjuntar el código de ubicación del vecino más cercano.  Detallar las alturas mínimas de los vanos cuando exista algún cruce de carretera, vía férrea, etc.
+3.2.8 Subestaciones de Transformación El diseño, distribución y ubicación de la subestación de transformación debe ser realizado en base a las condiciones que presenta el inmueble, siempre y cuando se enmarque dentro de las normas técnicas y de seguridad exigidas por CRE. Por razones de seguridad, mantenimiento y/o reemplazo, la ubicación de la subestación transformadora debe ser tal que permita un acceso rápido y expedito en todo momento de un camión grúa u otro sistema de transporte similar, para un rápido cambio del transformador o una ágil prestación de asistencia técnica. Todo proyecto eléctrico con puesto de transformación, debe presentar en escala mínima de 1:100 los diseños constructivos vista en planta, corte longitudinal y corte transversal respectivamente, detallando las disposiciones constructivas de los mismos y mostrando las cotas y distancias de seguridad de puntos energizados a muros, techos, construcciones, cañerías de gas, cañerías de agua y de otras instalaciones del predio. Las dimensiones y distancias mínimas de seguridad de una cabina tipo se muestran en Anexos.
+De igual forma, se debe anexar los siguientes detalles constructivos con sus respectivas cotas:  Detalle de cruces aéreos o subterráneos de avenidas, calles, líneas férreas, etc.  Estructuras tipo, cámaras de paso y acometidas en Media Tensión.  Plano arquitectónico general debe incluir la ubicación de la subestación transformadora.  Distancia mínimas de seguridad de puntos energizados a los muros, cercos olímpicos, techos, balcones, tinglados, límites de terreno con el vecino o a red existente en MT o BT.  Detalles de la ubicación física del transformador y planos de la obra civil para la base y deposito de aceite, cuando éste sea ubicado en el piso con fundación de H° A° (Hormigón Armado).  No deben existir cañerías de agua potable, pluviales, aguas servidas, gas combustible, etc., por encima, aledaños, debajo o próximo al puesto de transformación y/o de su acometida eléctrica.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+18 / 83
+
+CRE
+
+ Detalles de aterramientos de servicio, neutros de transformador y de los paneles, así como también los aterramientos de seguridad que no forman parte de los circuitos energizados.
+ Si la cabina de transformación no se encuentra dentro del edificio y está a la intemperie, ésta debe estar techada con una losa de concreto. Las paredes de la cabina deben ser de muro revestido y la puerta debe ser metálica, de dos hojas de un metro, con celosías de ventilación y apertura hacia fuera. La altura de la puerta debe ser de mínimo 2.50 mts.
+ Debe colocarse como mínimo una ventana para ventilación de la cabina, con celosías, de acuerdo al diseño mostrado en Anexos.
+
+3.3 Formato del Proyecto
+3.3.1 Documento del Proyecto Eléctrico Los documentos del proyecto eléctrico a ser presentado a CRE para su aprobación, deben respetar el siguiente formato:
+ Los documentos deben ser entregados en tamaño de hoja oficio o carta, sólo se aceptarán en otro formato de hoja los planos arquitectónicos y de obras civiles.
+ Se debe presentar a CRE en forma impresa para su aprobación un documento original y una copia del mismo, conteniendo toda la información requerida.
+ Serán observados los proyectos que presenten carpetas, hojas originales o fotocopias con escrituras borrosas, manchas y/o correcciones superpuestas a las impresiones originales o unidas con cinta adhesiva o pegamento, como así también las hojas sueltas sin carpeta.
+
+3.3.2 Validez de la Aprobación de un Proyecto Eléctrico
+Todo proyecto eléctrico aprobado, tendrá la validez de un año calendario para la conclusión del mismo, siendo que éste deberá ser ejecutado cumpliendo las normas técnicas dentro del plazo estipulado, caso contrario el proyecto perderá su validez, debiendo necesariamente el propietario presentar un Proyecto Eléctrico Simplificado para su actualización.
+
+3.3.3 Contenido Minimo y Secuencia de Presentación de un Proyecto Eléctrico Todo proyecto eléctrico debe presentar como mínimo lo siguiente:
+ Carta de solicitud de aprobación del proyecto eléctrico, adjuntando el proyecto en dos ejemplares.
+
+ Formulario de solicitud de aprobación de proyecto eléctrico (Form. F499)
+
+ Formulario de visado de la Sociedad de Ingenieros de Bolivia Filial Santa Cruz (S.I.B. SC).  Si corresponde, formulario de autorización del municipio correspondiente (sección edificaciones y/o
+asentamiento de mercados).
+
+ Si corresponde, formulario de autorización del Parque Industrial (PADI).
+ Si corresponde, formulario de solicitud de modificación de red (Form.F500), para poste intermedio, movimientos, ampliaciones, u otros.
+
+ Si corresponde, formulario de solicitud de evaluación de factibilidad de Proyecto Multiusuario MT (Form. F416)
+
+ Si corresponde, formulario de solicitud de evaluación de disponibilidad de potencia (Form. F798)
+
+ Plano de ubicación emitido por el Plan Regulador del municipio correspondiente o por el Instituto Geográfico Militar, si es en el área rural.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+19 / 83
+
+CRE
+
+ Detalles de la ubicación del predio, como ser coordenadas geográficas y otras referencias de la red de CRE (como ser placa de un transformador, código fijo del consumidor más cercano, etc.).
+ Memoria descriptiva completa, con información general, tipo de actividad, obras a ejecutar, finalidad del requerimiento, tipo del predio construido, datos del proyectista, del propietario, etc.
+ Cuadros de cargas, en detalle y resumen  Diagrama unifilar, con especificaciones técnicas del contenido y de los equipos  Planos y croquis acotado, de la acometida, puesto de transformación, panel de medición, etc.  Especificaciones técnicas del equipamiento en MT a instalar.  Diseño, especificaciones y cotas del panel de medición  Hoja de estacado y croquis de ubicación de las estructuras a ser utilizadas, con especificaciones de los
+materiales a utilizar.  Detalle, especificaciones y cotas del sistema de aterramiento, mallas, etc., mostrando la cámara de acceso
+para medición de la impedancia de tierra.  Cronograma estimado para la ejecución de obras eléctricas y civiles, detallando fecha probable de
+energización del predio.  Detalle y vista en planta de las acometidas de la red de agua y de gas al predio.
+
+Nota.- Si considera necesario, el encargado de la aprobación de los proyectos eléctricos podrá requerir al proyectista ciertos datos y/o documentos adicionales.
+
+Se debe proceder de la misma forma para proyectos en los Sistemas Aislados de CRE.
+
+Secuencia de presentación de un proyecto eléctrico
+
+Todo proyecto eléctrico presentado para su aprobación debe estar ordenado de la siguiente manera:
+
+1. Carta de solicitud de Aprobación
+
+2. Formularios de CRE (Solicitud de Aprobación, Evaluación Multiusuario y otros)
+
+3. Formulario de visado de la SIB
+
+4. Caratula del proyecto
+
+5. Índice del proyecto
+
+6. Memoria descriptiva (datos generales del proyecto)
+
+7. Cuadros de cargas
+
+8. Diagrama unifilar
+
+9. Diseño del panel de medición
+
+10. Estructura del puesto de transformación
+
+11. Sistema de aterramiento MT y BT
+
+12. Croquis de ubicación
+
+13. Hoja de estacado
+
+14. Otras estructuras
+
+15. Documentos legales
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+20 / 83
+
+CRE
+
+3.3.4 Contenido mínimo del Proyecto Eléctrico Simplificado  Carta solicitando aprobación de las modificaciones a realizarse  Formulario de solicitud de aprobación de CRE.  Memoria descriptiva especifica, con el motivo de la solicitud, obras a ejecutar, cronograma, etc..  Ubicación (adicionalmente la referencia de un código fijo consumidor de CRE, del vecino u otro más cercano y/o número de placa de un transformador particular o de CRE).  Planos y croquis acotados de las modificaciones a realizar (del existente y del modificado)  Si corresponde, diagrama unifilar de la instalación eléctrica existente y la nueva a implementar  Si corresponde, hoja de estacado.  Si corresponde, formulario de autorización del municipio correspondiente (sección edificaciones).  Si corresponde, cuadros de cargas, en detalles y resumen, mostrando las modificaciones  Si corresponde, planos y croquis acotados, de las instalaciones sujetas a modificaciones, etc..  Si corresponde, detalles de las nuevas estructuras o del nuevo panel a ser instalados  Si corresponde, presentación de protocolos y/o especificaciones de los equipos a reemplazarse
+
+Nota.- Si considera necesario, el encargado de la aprobación de los proyectos eléctricos podrá requerir al proyectista ciertos datos y/o documentos adicionales.
+La secuencia de presentación del proyecto simplificado debe ser la misma que la de un proyecto completo, con la documentación que corresponda. Cuando la secuencia de presentación menciona un documento que el proyecto simplificado no contemple, simplemente se salta al siguiente.
+
+Se debe proceder de la misma forma para proyectos en los Sistemas Aislados de CRE.
+
+3.3.5 Casos Especiales
+3.3.6 Proyectos de Mercados Públicos Los mercados públicos, municipales y/o particulares, pueden optar por dos formas de suministro en función a la cantidad de medidores y a la potencia instalada:
+ Particular (menos de cuatro medidores y con transformador propio, si supera 50 kVA)
+ Multiusuario (con cuatro o más medidores, ninguno de ellos puede superar los 40 kW, CRE dotaría del transformador y acometida aérea). Si el puesto de transformación es en cabina, el solicitante dota y coloca el cable armado en forma subterránea y las muflas de conexión.
+Para la elaboración y ejecución de proyectos eléctricos de mercados municipales o privados, suministrados como Particulares, con transformador propio y con medición única por puesto de transformación, se deben considerar también las siguientes disposiciones:
+ Un mercado podrá tener uno o más puntos de medición de energía, los cuales corresponderán a uno o más puestos de transformación (dependiendo de la demanda y de la magnitud de la obra).
+ Con la finalidad de prever futuras ampliaciones o redistribución de las cargas internas dentro del mercado, el panel debe ser dimensionado con reserva, de tal manera que prevea un crecimiento futuro. De igual forma,
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+21 / 83
+
+CRE
+se deben considerar futuros cambios de medidores monofásicos a trifásicos. Ver cuadro anterior con cantidades mínimas sugeridas de espacios de reserva.
+ Con el propósito de brindar seguridad y fácil acceso a los equipos de medición y de transformación, se debe mantener un acceso expedito para su mantenimiento en cualquier momento, para el ingreso del personal de lectura como también de camiones grúas, montacargas u otro equipo similar, para realizar reemplazo de materiales o equipos y/o prestar asistencia técnica.
+ El solicitante es responsable de la ejecución de todas las obras civiles y eléctricas que se requieran construir dentro de los predios de acuerdo al proyecto eléctrico aprobado por CRE, para obtener el suministro eléctrico.
+Para la elaboración y ejecución de proyectos eléctricos de mercados municipales y particulares suministrados como Multiusuario, con medición múltiple por puesto de transformación (cuando supera 50 kVA), se deben considerar las siguientes disposiciones adicionales:
+ El solicitante es responsable de la ejecución de todas las obras civiles que se requieran construir dentro de los predios del mercado para albergar el equipamiento eléctrico de CRE en Media Tensión, de acuerdo al proyecto aprobado.
+ La totalidad de las obras eléctricas en Baja Tensión, así como los materiales utilizados en las mismas son de responsabilidad del solicitante. CRE solo aprueba y fiscaliza hasta el panel de medidores.
+ Cuando se requiera, CRE se reserva el derecho, en instancias de la aprobación del proyecto eléctrico, de reubicar físicamente tanto los puntos de medición como el puesto de transformación.
+ Se recomienda elaborar el proyecto considerando un medidor por cada caseta o puesto de venta, concentrándolos en un panel de medición. En caso de puestos de venta agrupados en un sector o que se encuentren en un solo ambiente (sin divisiones naturales o de corredores de circulación publica) se puede proyectar un medidor por módulo, respetando la capacidad nominal del equipo de medición y agrupando los usuarios por áreas y actividad, de acuerdo al requerimiento.
+ Los compartimientos del panel, asignados a operación solamente de CRE, deben disponer de un dispositivo que permita la colocación de un candado, adicional al existente para el precinto de seguridad.
+ El panel de medidores debe estar bajo techo, para protegerlo del deterioro de la humedad.
+ El panel de medición y sus protecciones son propiedad y responsabilidad del usuario.  Cabe aclarar que el mantenimiento predictivo y/o correctivo de la acometida y las instalaciones en el panel
+de medición son de entera responsabilidad del (los) propietario(s).
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+22 / 83
+
+CRE
+4. Capítulo IV ­ Tipos de Requerimiento
+4.1 Suministro en Baja Tensión hasta 50kVA A continuación se describen algunas soluciones para la implementación de instalaciones con un número de medidores igual o mayor a cuatro, cuya demanda total sea inferior a 50 kVA.
+
+Un esquema general típico de una instalación con suministro en Baja Tensión desde la red pública, deberá contar con los siguientes elementos:
+a) Acometida aérea  La acometida que ingresa al panel, debe estar dentro de un tubo galvanizado o PVC.  La acometida debe ser trifásica, con sección del conductor de acuerdo a la demanda máxima coincidente de
+los medidores. No se aceptan dos acometidas diferentes en un mismo predio.  Si las edificaciones a suministrar están separadas en varios bloques y se tiene red de CRE en baja tensión en
+diferentes calles, el suministro con dos acometidas al predio, estará sujeto a aprobación de CRE después de un análisis técnico-comercial.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+23 / 83
+
+CRE
+ Los conductores utilizados en la acometida eléctrica, debe tener una sección de 16 ó 25 mm2, de cobre, de siete hilos, 750 voltios de aislamiento (anti-llama) mínimo unipolar o tripolar cuyo neutro será de color blanco.
+ La acometida debe ser lo más directa posible al panel evitando curvas innecesarias.  En el caso donde la arquitectura del predio no lo permita, el circuito de entrada podrá realizarse a través de
+un tubo de 2" empotrado en la pared en forma de curva suave de 90° y colocando un aislador en la entrada, siendo como máximo 10 metros de distancia hasta el aislador o rack del poste de derivación. Se debe colocar el cable guía para la posterior instalación de la acometida.  Se acepta una acometida subterránea en Baja Tensión con previa autorización de CRE después de un análisis técnico, siempre que cumpla las normas vigentes (NT CRE-019) y exigiendo que los materiales sean los adecuados para la situación.
+b) Protección General en Baja Tensión  La protección general de baja tensión deberá ser realizada a través de un disyuntor termo-magnético tripolar,
+instalado dentro del compartimiento 1 del panel de medición, con una capacidad de ruptura por cortocircuito mínima de 10 kA.  La capacidad nominal del disyuntor termo-magnético principal no debe superar los 70 Amperes. Este disyuntor termo-magnético no debe ser regulable.  Toda instalación trifásica que alimente motores o equipos trifásicos debe tener protección suplementaria por falta de fase, sobretensión y subtensión, según la Norma Boliviana NB777.  Debe contar con aterramientos sólidos del neutro de la instalación eléctrica y el de seguridad del panel.
+4.2 Suministro en Media Tensión 4.2.1 Suministro en Media Tensión con medisión en Baja Tensión Un esquema general típico de una instalación en Media Tensión con medición en el lado de Baja Tensión deberá contar con los siguientes elementos:
+ Acometida en MT,  Equipo de seccionamiento y protección en MT (seccionadores y pararrayos),  Transformador de potencia,  Panel de medición,  Transformadores de corriente (TC's), si corresponde,  Medidor de energía electrónico multifunciones (con registro horario de kWh, kVARh, kW, etc., cuyo
+software sea compatible con similares utilizados por CRE), cuando corresponda, conforme lo establecido en la Norma de Aplicación Tarifaria, para consumidores Mediana y Gran Demanda. Se instalara medición electrónica directa (sin transformador de corriente), cuando la corriente en BT, sea menor o igual a 100 amperes. En el caso que el medidor no sea provisto por CRE, debe entregar el software del mismo con su respectiva autorización de uso. Ver en Anexos  Protección en el lado de BT. Ver tablas 1 y 2 de Anexos. La protección contra sobre corrientes en Baja Tensión debe garantizar la seguridad de los equipos contra sobrecarga y cortocircuito, ésta será dimensionada de manera tal de asegurar una coordinación selectiva con las protecciones en Media Tensión.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+24 / 83
+
+CRE
+
+SUMINISTRO EN M.T. MEDICION EN B.T. RED CRE M.T. (10.5 - 24.9 -34.5)kV 50Hz 3F
+
+Estructura de partida
+Acometida aerea o subterranea
+Pararrayos de linea M.T. BIL 125 kV
+
+Seccionador fusible M.T.
+Conductor de acometida aluminio ACSR desnudo o de cobre aislado M.T.
+
+PANEL DE MEDICION
+Conductor de cobre aislado B.T.
+
+Transformador de Potencia (50<500)kVA Tensión primaria/secundadria Grupo de conexión Impedancia
+
+Bornera de
+Conexión
+
+Medidor Electronico kWh - kVARh - kW Medición Indirecta
+
+Disyuntor termomagnético protección B.T.
+Sistema de tierra < 10 Ohm
+NOTA.- El neutro debe estar aterrado
+
+4.2.2 Suministro en Media Tensión con medisión en Media Tensión
+Un esquema general típico de una instalación con medición en Media Tensión debe contar con los siguientes elementos:
+ Acometida en MT,
+ Equipo de seccionamiento o maniobra y protección en MT (seccionadores, pararrayos para cuando la potencia instalada sea menor a 700 kVA y pararrayos, cuchilla tripolar y reconectador en caso de ser mayor o igual a 700 kVA),
+ Transformador(es) de potencia,
+ Sistema de medición en MT (TP's y TC's),
+ Medidor de energía electrónico multifunciones (con registro horario de kWh, kVARh, kW, etc., cuyo software sea compatible con similares utilizados por CRE), conforme lo establecido en la Norma de Aplicación Tarifaria. En el caso que el medidor no sea provisto por CRE, debe entregar el software del mismo con su respectiva autorización de uso. Ver en Anexos.
+La medición en MT para una demanda igual o mayor a 500 kVA puede ser realizada también a través de una Unidad Compacta de Medición, que incluye internamente los transformadores de medición correspondientes. Ver en Anexos.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+25 / 83
+
+CRE
+Para suministro con demanda igual o mayor a 500 kVA en el Área Integrada o 100 kVA en cualquiera de los Sistemas Aislados, el interesado debe hacer conocer su requerimiento mediante carta dirigida a la Gerencia Comercial o a la Subgerencia de Atención al Consumidor, con una anticipación mínima de 45 días a la presentación de su proyecto eléctrico, adicionando a la misma el formulario F798 con toda la información requerida.
+
+SUMINISTRO M.T. MEDICION M.T. RED 34.5, 24.9, 10.5 KV 50Hz 3F
+
+Linea de CRE M.T. 24.9 KV
+
+CUCHILLA SECCIONADORA ANSI C3732 IEC60265
+PARARRAYOS BIL 125 KV
+
+CONDUCTOR DESNUDO DE AL O CU
+TRANSFORMADOR DE POTENCIAL T.P. PARA ALIMENTAR FUENTE DEL RECONECTADOR
+
+CUCHILLA SECCIONADORA DE BY PASS DE RECONECTADOR
+
+CUCHILLA SECCIONADORA
+RECONECTADOR O INTERRUPTOR TRIFASICO AUTOMATICO PARA POTENCIA DE 700 KVA CUCHILLA SECCIONADORA
+
+PARARRAYOS BIL 125 KV
+
+PANEL DE MEDICION
+
+TRANFORMADOR DE POTENCIAL T.P.
+TRANSFORMADOR DE CORRIENTE T.C.
+
+EQUIPO INDIVIDUAL O COMPACTO PARA MEDICION
+
+CONDUCTOR DE COBRE AISLADO B.T. AWG O mm2
+
+TRANSFORMADOR DE POTENCIA ( 700 KVA) TENSION PRIMARIA/SECUNDARIA GRUPO DE CONEXION IMPEDANCIA BIL
+INTERRUPTOR TERMOMAGNETICO PROTECCION GENERAL B.T.
+BARRA DE DISTRIBUCION B.T.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+26 / 83
+
+CRE
+
+4.3 Clase de Tensión
+Los niveles de tensión de servicio que CRE dispone en sus diferentes sistemas eléctricos de distribución son:
+Tensión Nominal 10 kV.- Corresponde al nivel de sub distribución en Media Tensión en los Sistemas Aislados Cordillera y Velasco, suministrado a una parte de los sistemas eléctricos mencionados, con una frecuencia de 50 Hz.. Es un sistema de cuatro conductores, tensión nominal de 10 kV entre fases.
+Tensión Nominal 10.5 kV.- Corresponde al nivel de sub distribución en Media Tensión en el Sistema Integrado, suministrado al sistema eléctrico dentro del cuarto anillo de la ciudad de Santa Cruz de la Sierra, con una frecuencia de 50 Hz.. Es un sistema de tres conductores, tensión nominal de 10.5 kV entre fases.
+Tensión Nominal 13.8 kV.- Corresponde al nivel de sub distribución en Media Tensión en el Sistema Aislado Germán Busch, suministrado a una parte de su sistema eléctrico; con una frecuencia en 60 Hz. Es un sistema de cuatro conductores, con neutro multi-aterrado.
+Tensión Nominal 24.9 kV.- Corresponde al nivel de sub distribución en Media Tensión en el Sistema Integrado, suministrado al sistema eléctrico fuera del cuarto anillo de la ciudad de Santa Cruz de la Sierra, al Sistema Aislado Valles y a una parte del Sistema Aislado Cordillera (también tiene 10 kV), con una frecuencia de 50 Hz.. Es un sistema de cuatro conductores, con neutro multi­aterrado, tensión nominal de 24.9 kV entre fases.
+Tensión Nominal 34.5 KV.- Corresponde al nivel de sub distribución en Media Tensión, suministrado en los Sistemas Aislados Chiquitos, Germán Busch, las Misiones y Velasco, es un sistema de cuatro conductores, con neutro multi-aterrado, tensión nominal de 34.5 kV entre fases.
+En el sistema German Busch la frecuencia de suministro es de 60 Hz.
+
+4.4 Acometidas en Media Tensión
+Toda acometida en Media Tensión derivada de la red de distribución dentro del segundo anillo de circunvalación de la ciudad de Santa Cruz de la Sierra que cruce una calle o avenida deberá ser en forma subterránea y de acuerdo a las normas técnicas vigentes. Fuera del segundo anillo de esta ciudad el cruce para la acometida podrá ser aérea o subterránea, de acuerdo a los requerimientos del consumidor o a las características de la zona. Ambas formas de acometer deben cumplir la norma NT CRE 004 "Manual de Estructuras".
+La utilización de grampas de línea viva y estribos de conexión en una estructura de salida del ramal (derivación) solamente está permitida cuando se conecta al consumidor con seccionadores fusible y potencias instaladas menores 700 kVA, en el caso de potencias iguales o mayores a 700 kVA debe poseer cuchillas seccionadoras y los conectores deben ser de compresión (tipo Ampac).
+
+4.4.1 Acometidas Aéreas Las acometidas aéreas en MT deben cumplir con la norma NT CRE 004 "Manual de Estructuras" y las siguientes condiciones constructivas:
+ Partir de un poste de la red de distribución de CRE.
+ No cruzar terrenos de terceros, techos de casas, edificios, construcciones, galpones u otros.
+ Mantener las distancias mínimas de seguridad exigidas entre las estructuras energizadas y las edificaciones (paredes, techos, balcones, límites de terrenos, etc.) de acuerdo a las especificaciones técnicas del manual de estructura NT CRE 004.
+ La primera estructura luego del punto de partida de conexión a la red de CRE no debe estar a más de 30 mts. del mismo, siendo necesario que dicha estructura sea de doble tensión, según las especificadas en el manual de estructuras de CRE, VA5-3, VA5-4, VA6, VA8,. VA9, VC8-1, VC8-1, C8/10, y que cuente con su respectiva rienda de anclaje.
+ Para el área rural donde haya cruce de río mayor a 100 mts, debe tener la aprobación de la Subgerencia de Redes de CRE (GIR).
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+27 / 83
+
+CRE
+
+ Si el puesto de transformador está a más de 300 mts. se deben colocar dos juegos de seccionadores, uno de partida y otro en el puesto, por seguridad. De igual forma los pararrayos.
+
+4.4.2 Acometias Subterráneas Las acometidas subterráneas en MT deben cumplir con los siguientes requerimientos constructivos:
+
+ Tener estructura de apoyo para los cables, muflas, terminales y otros en Media Tensión.
+
+ Tener terminales y muflas herméticas a los extremos del cable, entrada y salida.
+
+ Los bajantes del cable armado lo harán por ducto de cañería galvanizada de una sola pieza y de acuerdo al diámetro del conductor (no menor a 4 pulgadas) y de seis metros como mínimo, el mismo que deberá continuar hasta un metro de profundidad por debajo de la superficie, acoplado a una curva suave de PVC (pudiendo ser dos codos de 45°) y de 4"de diámetro, donde existirá una cámara de inspección de acuerdo a norma, que permitirá la instalación correcta del cable subterráneo. El ducto para la bajante deberá ser metálico galvanizado de 4" de mínimo 6 metros y sujeto al poste por abrazaderas también metálicas.
+
+ Los ductos de paso o cruce de vía de tráfico liviano y moderado deberán ser instalados como mínimo a un metro de profundidad, utilizando tubo PVC clase 9 o cañería de tubo galvanizada de 4".
+
+ Los ductos de paso o cruce de avenida, vía de vehículos de alto tonelaje o trafico muy fluido, deberán ser instalados como mínimo a 1,20 metros de profundidad, utilizando tubo PVC clase 9 o cañería de tubo galvanizada de 4" de diámetro, con cinta de señalización, cubierta de hormigón simple o ladrillo, para protección.
+
+ Deben construirse cámaras de inspección en los puntos donde los ductos de la acometida realizan una desviación angular (90°). El radio de curvatura del cable debe ser mayor a veinte veces el diámetro externo del conductor.
+
+ En la base de las cámaras debe ser colocada una camada gruesa de ripio o grava, como sistema de drenaje pluvial, siendo que el fondo de la misma no debe ser concretada, sino directo a tierra.
+
+ Las dimensiones mínimas internas de las cámaras de paso de la acometida en Media Tensión son las siguientes:
+
+Largo
+
+: 1.0 m.
+
+Ancho
+
+: 1.0 m.
+
+Profundidad : 1.2 m.
+
+Ver diseño para acometida subterránea en MT y cámara de paso en lámina de anexos.
+
+Para otras secciones de cables, se debe dimensionar las cámaras conforme a normas de uso universal. Ver cuadro en Anexos.
+
+4.5 Puesto de Transformación 4.5.1 Tipo de Instalación Los transformadores podrán ser instalados:
+ En postes,  A nivel del piso con cerca de malla olímpica, solo para consumidores industriales,  En cabinas,  A nivel del piso en jardín y sin cerca de malla olímpica, solo transformadores tipo pedestal.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+28 / 83
+
+CRE
+4.5.2 Intstalación en Poste  Se pueden instalar en un solo poste, transformadores hasta 150 kVA, en caso de transformadores de mayor potencia se utilizarán estructuras tipo "H" u otra de hormigón armado que técnicamente soporten el peso.  Se recomienda utilizar cualquiera de las siguientes estructuras de acuerdo al "Manual de Estructuras de CRE", para 10.5; 13,8; 14,4; 24,9 y/o 34.5 kV, como ser G3/10, VG3/25; VG/107, G/312; GH/10, VGH/25; VG/312.  Conservar distancias horizontales de por lo menos 2.5 metros de predios u a otras líneas energizadas, según aplique la Norma Boliviana NB777; ANSI; IEC; NEMA; IEEE, etc.  Se podrán utilizar soluciones de estructuras soportantes construidas en metal hierro u hormigón armado, en caso de utilizar postes deberán ser de concreto en el área urbana y/o madera cuchi en el área rural y las crucetas de almendrillo, tajibo, sintética biodegradable ó metálica, de acuerdo al manual de estructuras vigentes en CRE, NT CRE 003 y NT CRE 004.  El circuito bajante del transformador en Baja Tensión, debe hacerse en ducto sintético con protección contra rayos ultravioleta y sujetado al poste por abrazaderas de cinta metálica.
+4.5.3 Instalación de un Transformador convencional a nivel del piso con cerco olímpico (Exclusivo para Instalación Industrial)
+ Se pueden realizar instalaciones de puestos de transformación a nivel del piso y encerrado con malla olímpica, siempre y cuando esté alejado de lugares donde exista circulación de personas y/o vehículos.
+ El transformador deberá estar ubicado sobre una base de concreto debidamente dimensionada para su peso, con acabado final de 15 cm. sobre el nivel del suelo, con una cámara de recepción de aceite en caso de contingencias.
+ Debe tener estructuras para el apoyo y sujeción de cables aislados bajantes al transformador para muflas de acometida subterránea próxima al transformador en el lado de Media Tensión.
+ El espacio para el puesto de transformación debe estar delimitado por medio de una cerca de malla olímpica de alambre galvanizado debidamente aterrada, a una distancia mínima horizontal de 1.7 metros del equipo. Esta cerca debe ser sustentada fuertemente por pilares de concreto o metálicos.
+ Todo ingreso al área del puesto de transformación debe ser de acceso restringido y tener obligatoriamente un letrero de advertencia "PELIGRO ALTA TENSIÓN" según especificaciones detalladas en lámina de Anexos.
+ El transformador, línea o cualquier parte energizada en MT, debe guardar la distancia de seguridad correspondiente a la clase de tensión del equipamiento, siendo una distancia mínima de 1,7 metros al cerco olímpico, con restricción al paso de personas.
+ La puerta de acceso debe ser metálica con estructura metálica autoportante y debe abrir solamente hacia fuera, según detalle mostrado en láminas de Anexos.
+ El área cerrada por la malla, deberá tener una cubierta de 0.15 metros de ripio lavado, ladrillo, loseta ó cubierta de concreto.
+ La altura máxima de la malla olímpica será de 2.5 metros y debe estar conectada sólidamente a tierra.  Debe tener una cámara de inspección para la toma de tierra de la malla de aterramiento del puesto de
+transformación, según diseño en Anexos.  Las bajantes de cables en BT deben estar en un ducto sintético con protección contra rayos ultravioletas de
+diámetro mínimo 4", clase 9 de alta presión, hasta llegar al panel de medición o por un canal cubierto sobre el piso hasta subir por ducto al panel de medición.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+29 / 83
+
+CRE
+
+ La instalación de transformadores en jardín o lugares públicos con acceso a cualquier tipo de personas se hará única y exclusivamente con equipos tipo pedestal o "Pad Mounted", con aislamiento total y compacto, según la norma ANSI C57.12.26.
+
+4.5.4 Instalación de Transformador en Cabina (para Instalación Industrial o para Multiples Usuarios)
+
+ Todos los componentes y equipos energizados en la cabina, deben estar separados como mínimo a 1,2 mts. del acceso directo a ellos por un enmallado olímpico que permita una libre circulación dentro y fuera del recinto. El pasillo de circulación en torno al transformador debe tener un ancho mínimo de 1,2 mts., restringido totalmente al paso de personas cuando se encuentre energizado. Para casos de predios suministrados como Multiusuarios no debe colocarse enmallado dentro de la cabina.
+
+ La cabina para un único transformador, debe cumplir las distancias mínimas exigidas según tabla Nº 7 y diseños mostrados en las láminas de Anexos.
+
+ La cabina para dos transformadores, deberá cumplir con las distancias mínimas de seguridad exigidas según la tabla Nº 8, ver diseños en láminas de Anexos.
+
+ La cabina para tres transformadores deberá cumplir con las distancias mínimas de seguridad exigidas según tabla Nº 9. Ver diseños en láminas de Anexos.
+
+ Las cabinas para dos o más transformadores, deben llevar sistemas de barras con conductores de aluminio reforzado ACSR, aisladores y tesadores de línea, respetando la separación entre fases y la distancia de las barras de media tensión al techo de la cabina, la cual no debe ser menor a 0.5 metros en sistemas de 10.5 kV y 24.9 kV. Las barras deben sujetarse a la estructura de H°A° del muro, para soportar el tesado de la misma, ver láminas de Anexos.
+
+ A partir de dos transformadores en una misma cabina, debe considerarse la instalación de un juego de seccionadores por transformador, para ofrecer mayor confiabilidad y maniobrabilidad a la instalación, ver láminas de Anexos.
+
+ Toda distribución interna o externa, tanto en Baja como en Media Tensión, debe ser a través de ductos. En caso de cambio de dirección de los conductores con curvas menores a 45 grados se debe considerar el radio de curvatura mínimo igual a 20 veces el diámetro externo del cable. Curvas mayores que 45 grados solamente deben ser realizadas dentro de cámaras de paso. A cada dos curvas debe existir una cámara de inspección, ver lámina de Anexos.
+
+ La altura del soporte de muflas debe ser de 1.5 metros y la distancia de la pared a la mufla de 0.5 metros, ver tabla Nº 7 de Anexos.
+
+ Toda cabina deberá contar con un juego de pararrayos instalados sobre el soporte de muflas.
+
+ Los pararrayos, muflas y cuba del transformador, deben estar correctamente aterrados a la malla de tierra, ver láminas de Anexos.
+
+ No deben pasar ductos de agua potable o servidas, gas combustible u otras instalaciones ajenas, dentro de la cabina, ni por el cielo falso ni por debajo de piso o plataforma del transformador, ni paralelo próximo a los ductos de cables de Media Tensión dentro o fuera de la misma.
+
+ Toda cabina deberá contar con una puerta y una ventana metálica con sistema de celosía para la circulación del aire y refrigeración del transformador. El volumen de aire o ventilación de la cabina deberá estar de acuerdo a la capacidad del transformador. La ventana deberá ser construida de acuerdo a especificaciones indicadas en lámina de Anexos.
+
+ Toda cabina para más de un transformador, debe contar con un cerco de malla olímpica de protección con su respectiva puerta metálica de acceso, por funcionalidad en casos de mantenimiento, movimientos de transformadores, contingencias o de emergencias, las mismas deberán estar debidamente aterradas. Ver láminas de Anexos.
+
+ El pasillo de circulación, es decir, la separación de la pared a la malla de protección en cabinas doble, debe ser de 1.3 metros de ancho como mínimo, ver láminas de Anexos.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+30 / 83
+
+CRE
+
+ En cabinas con medición en MT la bajante de acometida desde la línea energizada será mediante muflas y cable armado.
+ Se debe construir un drenaje conectado a una cámara de concreto de dimensiones tales que pueda almacenar un 50% del volumen total del aceite que contiene la cuba del transformador, ver láminas de Anexos.
+ Es obligatorio colocar carteles con la leyenda "PELIGRO ALTA TENSIÓN" en la puerta de ingreso a la cabina, según especificaciones detalladas en la lámina Nº 6 de Anexos.
+ La puerta de acceso debe ser metálica, con estructura autoportante y debe abrir solamente hacia fuera, se deberán considerar las especificaciones constructivas indicadas en lámina de Anexos.
+ Las cabinas deben poseer sistemas de iluminación artificial. Los puntos de luz deben ser instalados en lugares de fácil acceso y sin riesgo para realizar el mantenimiento, principalmente en los muros laterales.
+ La distancia entre el puesto de transformación y el panel de medición no deberá exceder los 10 mts. de longitud.
+ El acceso y el pasillo a la cabina donde se instalarán el o los transformadores debe ser libre de obstáculos, tener suficiente espacio para transitar con el equipo hasta su base.
+ El techo de la cabina debe ser de loza alivianada.
+ Frente al panel de medición debe instalarse iluminación artificial, de tal forma que permita y facilite la lectura de los medidores.
+
+4.6 Características de los Transformadores de Potencia
+Todo transformador nuevo, usado o existente en sitio, presentado en el proyecto para su aprobación, debe necesariamente ser registrado con sus características técnicas de placa de identificación, mostrados en el protocolo de ensayos del fabricante o de un laboratorio certificado. Dicha placa debe tener sus datos nítidos, claros y legibles, mostrando lo siguiente:
+
+4.6.1 Transformadores de Potencia Nuevos  Potencia nominal del transformador  Marca  Tensión nominal primaria  Tensión nominal secundaria  Tipo de aislamiento  Tipo de conexión  Impedancia del cortocircuito  Número de serie  Procedencia  BIL  Frecuencia  Año de fabricación
+No es necesario que el transformador nuevo sea ingresado al Taller de Transformadores para su validación, es suficiente con la presentación del protocolo del fabricante.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+31 / 83
+
+CRE
+
+4.6.2 Transfromadores de Potencias Usados Los transformadores usados de potencias menores a 500 kVA deben necesariamente presentar el protocolo de ensayos técnicos emitido por un laboratorio certificado y/o reconocido por el "IBNORCA" (Instituto Boliviano de Normalización y Calidad) o de su similar del país de origen del equipo, donde se le realizó el mantenimiento preventivo o correctivo. Caso no presente este documento, el transformador debe ser ingresado al Taller de Transformadores de CRE para su validación, adjuntando las características indicadas en el punto anterior (4.6.1). Este requerimiento se hace necesario especialmente para:
+ Transformadores usados sin problemas, para traslado o reubicación interna.  Transformadores rehabilitados con mantenimiento preventivo.  Transformadores restaurados internamente con cambio de partes internas (siniestrados).  Transformadores re-manufacturados totalmente, sea por aumento o disminución de potencia.
+Los transformadores mayores a 500 kVA, con medición en Media Tensión, podrán ser instalados directamente en el sistema, después de haber presentado todas las características técnicas del mismo. No se aceptan transformadores sin placa del fabricante.
+Para consultas sobre transformadores, visitar la página WEB. (www.cre.com.bo ), CRE ­ Especificaciones Técnicas - Transformadores de Línea - NTCRE006/01.
+
+4.7 Protecciones en los Puestos de Transformación Las exigencias de CRE en relación a las protecciones de los puestos de transformación son:
+
+4.7.1 Protección General en Baja Tensión
+Se recomienda proteger el transformador como mínimo con un disyuntor termo­magnético, como elemento también de seccionamiento general en Baja Tensión, éste deberá estar situado dentro del panel de medición y debe ser dimensionado para proteger al transformador en caso de fallas, corto-circuito o sobrecarga, que ocasione riesgo de daño al equipo.
+Toda instalación trifásica que alimente a motores u otros equipos trifásicos, debe tener protección suplementaria contra falta de fase.
+
+4.7.2 Protección en Media Tensión
+Toda instalación con suministro en Media Tensión deberá contar con elementos de protección en Media Tensión contra sobre-corrientes y cortocircuitos de acuerdo al siguiente detalle:
+
+Potencia Menor a 700 kVA Menor a 700 kVA Menor a 400 kVA Igual o Mayor a 700 kVA Igual o Mayor a 700 kVA Igual o Mayor a 400 kVA
+
+Sistema 10.5 kV 24.9 kV 34.5 kV 10.5 kV 24.9 kV 34.5 kV
+
+Protección Seccionador fusible Seccionador fusible Seccionador fusible Interruptor o Reconectador Interruptor o Reconectador Interruptor o Reconectador
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+32 / 83
+
+CRE
+ Los Interruptores o Reconectadores deben llevar relés con curvas regulables.  Para el caso de los Sistemas Aislados, desde los 400kVA se debe instalar Interruptor/Reconectador o hacer el análisis
+particular para su aplicación.
+4.7.3 Requisitos que deben cumplir los Reconectadores  Todo equipo de protección en MT que ingrese al sistema eléctrico de CRE, debe poseer las curvas de protección Normal Inversa, bajo normas IEC, con todos sus diales de tiempo.  La apertura del Reconectador debe ser tripolar (apertura simultánea de las tres fases), que permita ajustes independientes por fase y por residual, además, en ambos casos, debe permitir la habilitación de instantáneos.  La capacidad de interrupción de corto circuito medida en kA, de los reconectadores e interruptores es la siguiente:  Sistema 10.5kV igual o mayor a 8 kA  Sistema 24.9kV igual o mayor a 12 kA  Sistema 34.5kV igual o mayor a 12 kA.  Presentar los datos técnicos del equipo operativo y de control, además de protocolos de ensayos.  Para la alimentación de la batería de la caja de control del reconectador, debe instalarse un transformador de potencial monofásico de acuerdo al nivel de tensión de servicio y de capacidad acorde a las características técnicas de la caja de control a ser alimentada.
+En las instalaciones eléctricas de surtidores de combustibles líquidos y gaseosos debe instalarse un botón de emergencia de fácil acceso, para corte de suministro total al surtidor, en caso de alguna contingencia.
+4.7.4 Protección contra descargas Atmosféricas  Para la protección contra descargas atmosféricas, deben ser utilizados juegos de pararrayos tipo válvula, con descarga automática, para tensiones de línea de 10.5; 13,8; 24.9 y 34,5 kV; con las siguientes características:  BIL mayor o igual a 95 kV en sistema de 10.5 kV y 9 kV tensión de descarga  BIL mayor o igual a 125 kV en sistema de 13,8 kV y 11 kV tensión de descarga  BIL mayor o igual a 125 kV en sistemas de 24.9 kV y 18 o 21 kV de descarga  BIL mayor o igual a 150 kV en sistema de 34,5 kV y 27 kV tensión de descarga  Para puestos de transformación a la intemperie, se deberá instalar los pararrayos en la misma estructura del transformador.  Para puestos de transformación en cabina con entrada subterránea, deben instalarse dos juegos de pararrayos, en las muflas al ingreso y en las de salida (dentro de la cabina), de acuerdo a norma.  Para puestos de transformación menores a 700 kVA, con acometida subterránea mayor a 75 mts., deben instalarse dos juegos de seccionadores fusibles, en la estructura de partida y en el soporte de la mufla de salida, de acuerdo a norma.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+33 / 83
+
+CRE
+4.8 Sistema de Aterramiento
+ Todas las partes metálicas, normalmente no energizadas, como carcasas de equipos, blindaje de los cables subterráneos, panel de medición, cuba del transformador, pararrayos, estructuras metálicas o cualquier otro equipo o accesorio, deben ser conectados al sistema de aterramiento de seguridad a través de conductores de cobre de una sección mínima de 25 mm2.
+ Para las cabinas de transformadores, debe ser construida una malla de aterramiento con electrodos (jabalinas) de cobre de 2,4 mts. x ¾" se diámetro, donde la parte superior de las mismas debe estar enterrada a 30 cms. por abajo del nivel del suelo. Cada electrodo debe tener el conector correspondiente de acuerdo a norma.
+ Se debe construir una cámara para la inspección del electrodo de aterramiento, para realizar las pruebas de resistencia de tierra, conforme al diseño de la lámina Nº 26. Las paredes internas de la cámara deberán ser revocadas y el fondo contener grava, para absorber las aguas de lluvias.
+ La eficiencia de cualquier electrodo de aterramiento depende de las condiciones locales del suelo, se deben instalar uno o más electrodos de acuerdo a las condiciones del suelo y al valor de la resistencia de aterramiento menor o igual a 10 ohms exigido por CRE. La distancia entre los electrodos interconectados en la malla, no debe ser menor a 3 metros.
+ Debe diferenciarse el aterramiento de servicio (neutro del sistema o instalación eléctrica) del aterramiento de seguridad, este último para descargar las fallas eléctricas o retornos de corriente que energicen el panel, pilastra, o partes eléctricas no energizadas. Funcionalmente, ambos sistemas de aterramiento deben tener conexiones separadas, sin embargo, pueden utilizar la misma malla de aterramiento.
+ Los empalmes en la varilla y los bajantes de los sistemas de aterramiento deberán ser mediante conectores de perno o a compresión (tipo C) y/o soldadura exotérmica.
+ Los cables de la bajante de aterramiento de los pararrayos, del neutro y de la interconexión a las varillas de aterramiento, deben ser de cobre, sección mínima de 35 mm2.
+ Los conductores de aterramiento deben ser protegidos, en su descenso a lo largo del poste o de la pared, por un electroducto de PVC rígido y reforzado o metálico de 3 mts. de altura mínima.
+ Los sistemas de puesta a tierra debe ejecutarse bajo normas IBNORCA NB777, IEEE Std 80-86
+ El sistema de puesta a tierra debe ser equipotencial y solo debe existir un punto de unión entre el neutro y la tierra en un sistema derivado separadamente.
+ La resistencia de la malla de aterramiento debe ser menor a 10 Ohms.
+ Cuando no se pueda obtener la resistencia de aterramiento requerida, el interesado podrá adoptar algunas de las siguientes combinaciones: o Ampliación del aterramiento (malla de tierra) fuera de los límites de la subestación, usando varillas alineadas y conectadas entre sí con cable de cobre, con valores de profundidad y espaciamiento ya mencionados. o Realizar tratamiento químico del suelo o reemplazar el material del área de aterramiento. o Utilizar varillas más profundas, en caso de que la resistividad del suelo disminuya con la profundidad.
+Nota.- Para potencias mayores a 700 kVA el proyecto debe incluir el estudio del sistema de aterramiento.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+34 / 83
+
+CRE
+4.9 Sistema Multiusuario
+Se designa así al suministro de energía eléctrica a predios donde se atienden requerimientos de 4 o más consumidores (medidores) y que demanden una potencia superior a 50 kVA, concentrados en áreas pequeñas, como ser: condominios multifamiliares y centros comerciales, mercados entre otros.
+Para el suministro eléctrico a proyectos Multiusuarios CRE realiza la dotación de cierto equipamiento en Media Tensión, de la siguiente manera:
+ Para puestos de transformación instalados en forma aérea (en poste), CRE dota e instala el puesto de transformación completo, la acometida y la estructura de derivación en MT en la red de distribución.
+ Para puestos de transformación instalados en cabina con acometida subterránea en MT, CRE dota e instala el transformador y la estructura de derivación en el poste de partida, sin embargo el cable aislado para la acometida en MT, los terminales del cable (mufla), seccionadores y pararrayos, serán adquiridos e instalados por el propietario del predio.
+ El puesto de transformación debe ser ubicado lo más próximo posible a la línea municipal, de tal forma a facilitar los trabajos de mantenimiento y operación del equipo.
+ CRE solo dispone de módulos de transformación convencionales de hasta 150 kVA para instalar en sistemas Multiusuarios. En caso de que el predio requiera mayor potencia instalada se instalaran módulos adicionales que sumen la potencia requerida, en la misma cabina.
+Las exigencias técnicas son básicamente las mismas exigidas para aquellos consumidores suministrados en Media Tensión y medidos en Baja Tensión.
+4.9.1 Requisitos
+El proyecto eléctrico Multiusuario debe cumplir las mismas exigencias de un proyecto particular y adicionar algunos requisitos que se detallan a continuación:
+ Solicitar adjuntando a la carta el formulario F499R2, "Evaluación del proyecto como sistema Multiusuario", adjuntando el formulario respectivo de aprobación de proyecto PLLI001, (ver formularios en Anexos), con la información solicitada en el mismo.
+ El propietario solicitante de la modalidad Multiusuario debe otorgar a CRE, mediante documento escrito que lo avale como propietario y/o representante legal, servidumbre voluntaria dentro de su terreno para que CRE construya las instalaciones eléctricas en Media Tensión que el proyecto requiera. Esta autorización de servidumbre no tiene término ni caducidad mientras el servicio bajo ésta modalidad de suministro esté vigente, aunque cambie de propietarios o tenedores del predio. Estas concesiones serán incluidas en un Contrato de Tiempo Pactado, utilizado para programar la ejecución de las obras eléctricas por parte de CRE. Adicionalmente, en el mismo documento también se mencionan las obligaciones, responsabilidades y derechos de cada una de las partes.
+ El propietario solicitante del proyecto Multiusuario debe hacer construir todas las obras civiles necesarias y suficientes para albergar las instalaciones eléctricas que realizará CRE, tales como, cabina de transformación, tendido de ductos para cables en MT y BT, cámaras de inspección, plataforma de H°A° para el transformador si este fuese a ser instalado en cabina, soporte metálico para sujetar los cables de MT incluyendo las barras aéreas de derivación en MT si el diseño las contempla, malla de aterramiento, cabina o cerco interno de malla olímpica para separación de áreas (ver lámina 13, 15, 16 de anexos) en la subestación, etc..
+ Estas obras deben ser construidas de acuerdo a normas técnicas vigentes y ser replanteadas y ejecutadas desde sus inicios en coordinación con CRE, para la fiscalización y corrección oportuna de las mismas, caso surjan observaciones, como también para la programación e instalación de todo el equipamiento eléctrico que el proyecto Multiusuario contemple. Caso no haya tal coordinación, CRE no se responsabiliza por atraso en la instalación, fiscalización y energización de los equipos.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+35 / 83
+
+CRE
+ Es responsabilidad del propietario solicitante, el cuidado y seguridad del equipamiento instalado por CRE en sus predios y éste será cobrado en caso de pérdida o daño donde se compruebe negligencia en su uso o en el cuidado del mismo.
+ Es responsabilidad de CRE brindar el suministro eléctrico en condiciones de calidad y confiabilidad. Caso el equipamiento llegue a fallar o dañarse por el uso, fallas de fabricación u otros no atribuibles a un mal uso o negligencia por parte del usuario, CRE lo repondrá en el menor tiempo posibles y sin costo.
+ Permitir el retiro de energía eléctrica para otros consumidores externos al predio y que soliciten el suministro eléctrico alrededor del predio, para ello CRE podrá instalar conductores y demás equipos que considere necesario.
+ CRE tendrá el derecho de acceder a esta instalación en forma irrestricta a objeto de realizar mediciones o mantenimiento de sus equipos, para ello deberá existir un acceso expedito en todo momento, para el ingreso de equipos hidro-elevadores, para cambiar, retirar o instalar el transformador.
+ En caso que un sólo consumidor supere la potencia de 50 kVA, debe prever por cuenta propia la instalación de un transformador dentro del predio, de acuerdo con el inciso 4.6 del capítulo 4 de la NB 777, diferenciando el Multiusuario del Particular.
+ Ver anexos para el diseño de la cabina del puesto de transformación tipo Multiusuario.
+
+5. Capítulo V - Medición
+Todos los transformadores de medida, sean de Corriente o de Potencial, sea en Baja o Media Tensión, sean nuevos o usados, necesariamente deben ingresar al Laboratorio de Medidores o al taller de Transformadores, según corresponda, para que se les realicen los ensayos correspondientes y su validación en el sistema, a fin de proseguir con la energización de las instalaciones del consumidor.
+Todo panel de medición en Baja Tensión debe cumplir las especificaciones descritas en la NB 777 y NB 14800 -1-2-3.
+La medición podrá realizarse tanto en Baja como en Media Tensión, de acuerdo a las siguientes características:
+
+5.1 Medición en Baja Tensión
+Todo proyecto eléctrico con suministro en Media Tensión, podrá contar con medición en Baja Tensión de acuerdo al siguiente detalle:
+
+Tipo de Transformador
+Monofásico Monofásico Trifásica Trifásico
+
+Transformador (kVA)
+0 - 25 26 - 50
+0 - 50 51 - 499
+
+Medición en BT
+Directa Indirecta Directa Indirecta
+
+ Los transformadores de corriente deben cumplir las características técnicas según tablas 1 y 2 de Anexos.
+ El panel de medición debe llevar una bornera de conexión de acuerdo a especificación técnica, ver lámina Nº 27 de anexos y NT CRE 018/03.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+36 / 83
+
+CRE
+ Los transformadores de corriente y la bornera de conexión para suministro trifásico, deben ser conectados de acuerdo al diagrama indicado en la lámina Nº 1 de Anexos.
+
+5.2 Medición en Media Tensión Todo proyecto eléctrico con suministro en Media Tensión y que posea una potencia instalada igual o superior a 500 kVA, debe contar con un único punto de medición en Media Tensión. Se deben cumplir las siguientes normas:
+ La distancia entre los transformadores de medida y el panel de medición no debe superar los 10 metros.
+ Los transformadores de corriente y potencial deberán cumplir las características técnicas según tablas 3, 4 y 5 de anexos, o la norma IEC 60044; 60186 o la IEEE Std. C57.13.
+ La conexión tanto en el lado de Media como en el lado de Baja Tensión de los transformadores de tensión o potencial debe ser estrella-estrella.
+ El panel de medición debe llevar una bornera de conexiones de TC's y TP´s de acuerdo a especificación técnica NT CRE 018/03, la misma que debe permitir la instalación de precintos.
+ El cableado desde los transformadores de corriente y potencial hacia la bornera de conexiones del panel de medición, debe ser de cable de cobre flexible aislado tipo multifilar o cable armado de 4 x 2.5 mm2 para corriente y de 4 x 1.5 mm2 para tensión, de cuatro colores y deben bajar protegidos por cañería galvanizada de 1'' de diámetro. Las uniones y/o empalmes de las cañerías deberán estar roscadas, con sus respectivas cajas de paso, con orificio para colocar precinto.
+ Las partes metálicas no energizadas de los transformadores de medida deben estar sólidamente aterradas.
+ Las conexiones de cables en Media y Baja Tensión a los TC's y TP's debe ser mediante terminales. Ver lámina Nº 2 de anexos.
+
+5.3 Características Constructivas del Panel de Medición en BT con Potencia Mayor a 50kVA
+5.3.1 Panel para Múltiples Consumidores El panel de medidores debe cumplir con todas las especificaciones exigidas en la Norma Boliviana NB148001-2-3, de chapa metálica de 1/16" de espesor, pintura anticorrosiva o de poli-carbonato con protección UV, burlete de goma en todas las puertas del panel, etc., con nivel de hermeticidad o estanqueidad IP54.
+
+Compartimiento Uno Este compartimiento debe cumplir con las siguientes características:
+ Debe contar con un ducto adecuado para el ingreso del alimentador principal en Baja Tensión que viene desde el transformador.
+ Contar con espacio para alojar: equipo de medición de control, bornera de conexión (NT CRE 018/03), TC´s, llave de protección principal y barras de cobre.
+ Contar con una plancha soporte para sujetar los equipos a instalar.
+ Contar con un juego de transformadores de corriente, para la medición de control, dimensionados según la capacidad del transformador, los cuales deben ser conectados de acuerdo al diagrama indicado en la lámina Nº 1 de Anexos.
+ Contar con un disyuntor termo-magnético principal de protección dimensionado de acuerdo a la capacidad del transformador.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+37 / 83
+
+CRE
+
+ Contar con barras de cobre de distribución y neutro, dimensionadas de acuerdo a la capacidad del transformador.
+ La tapa, contratapa y sus apoyos de sujeción deben contar con orificios para la instalación de precintos por parte de la CRE.
+ Las conexiones del conductor a las barras deben realizarse mediante terminales y pernos bimetálicos clase 10, con arandelas planas y de presión, en no más de 2 conexiones por perno.
+
+Compartimiento Dos En este compartimiento se debe alojar la totalidad de los medidores de energía de los consumidores. Todos los circuitos eléctricos deben cumplir con las siguientes especificaciones:
+ Los circuitos serán de cable de cobre únicamente, calibre 10mm2 (pueden ser mayores) con siete hilos y deben tener terminales punta hueca (tipo bayoneta, para conexiones en bornera de medidor), y tipo horquilla o de ojo (para conexiones en superficies planas en las barras).
+ Todos los circuitos que parten de las barras del panel y se dirigen a las borneras de los medidores, así como los de salida de los medidores hacia los disyuntores termomagnéticos individuales, deben estar dentro de canaletas de material aislante y tener terminales en los extremos de conexión y la identificación de cada circuito.
+ El diseño del panel debe respetar las separaciones mínimas exigidas de acuerdo a las especificaciones indicadas en Anexos.
+ Se instalarán puertas en los paneles por cada 3 columnas de medidores como máximo, con cerradura para candado e instalación de precintos por parte de CRE.
+ El diámetro de las ventanillas para lectura de medidores, debe ser de 12 cm., como mínimo.
+ Este compartimiento debe contar con puntos de fijación para cada medidor.
+ Se usará para la fijación de los medidores, tornillos de material inoxidable.
+ Todo panel debe estar correctamente aterrado al igual que las puertas del mismo, de forma independiente de la barra de neutro
+ El neutro de toda la instalación eléctrica debe estar correctamente aterrado con cable aislado.
+ Debido a que los medidores cada vez son de menor tamaño, se requiere que los conductores de ingreso y salida a los medidores tengan una longitud mínima de 20 cm. desde el cable-canal hasta la punta del conductor.
+ El color de los conductores utilizados para la medición debe cumplir la Norma Boliviana NB777, diferenciando el color de las fases (negro, azul y rojo) del neutro, el cual debe ser siempre de color blanco.
+
+Compartimiento Tres
+
+ En este compartimiento se alojan todos los disyuntores térmicos, los que deben ser norma DIN, de buena calidad y no deben exceder los 50 Amperes de carga de apertura.
+
+ Este compartimiento debe cumplir con las siguientes dimensiones:
+
+o Ancho mínimo de 25 cm., para disyuntores monofásicos
+
+o Ancho mínimo de 30 cm., para disyuntores trifásicos
+
+ En cada disyuntor y conductor de alimentación, debe tener etiquetas o ferrules de identificación y/o estar codificado de manera de poder verificar a qué medidor corresponde y/o consumidor a ser atendido.
+
+ En la parte interna de la tapa de éste compartimiento, debe colocar el listado de medidores plastificado o en acrílico identificando al consumidor correspondiente, su actividad, como ser, servicio general, local comercial, oficina, departamento y otros.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+38 / 83
+
+CRE
+ CRE no se hace responsable por instalaciones ejecutadas erróneamente, donde no se respete el orden de distribución de medidores aprobado en el proyecto.
+5.3.2 Panel Tipo Industrial para Medición en Baja Tensión El panel de medición debe cumplir con todas las especificaciones exigidas en la Norma Boliviana NB148001-2-3, de chapa metálica de 1/16" de espesor, pintura anticorrosiva o de poli-carbonato con protección UV, burlete de goma en todas las puertas del panel, etc., con nivel de hermeticidad o estanqueidad IP54.
+Compartimiento Uno Por este compartimiento debe ingresar el alimentador principal de Baja Tensión, que viene directamente desde el transformador y debe cumplir con las siguientes características:
+ Contar con una plancha soporte para sujetar los equipos a instalar.  Contar con una bornera de conexión de acuerdo a especificación técnica NT CRE 018/03  Contar con un juego de transformadores de corriente, según la capacidad del transformador, para la respectiva
+medición, los cuales deber ser conectados de acuerdo al diagrama indicado en Anexos.  Contar con un juego de barras de cobre para distribución trifásica aisladas del panel, instalada de acuerdo a la
+norma NB 777 y NB 148001-2-3.  La tapa y contratapa deben permitir la instalación de precintos por parte de CRE.  Los vidrios de las ventanillas de inspección deben estar sujetados con gomas o burletes que garanticen la
+hermeticidad del panel (IP54).  Contar con una barra de cobre para el neutro la cual debe estar debidamente aterrada y aislada del panel, la
+misma que debe tener dos orificios y sus respectivos pernos y arandelas plana y de presión para el cableado de los medidores.  Las conexiones de los conductores a los transformadores de corriente y del interruptor principal, deben realizarse mediante terminales y pernos bimetálicos, de material inoxidable.  Se permitirá la instalación de hasta dos conductores por fase, únicamente en los circuitos de potencia, los que deben ser dimensionados de acuerdo a la corriente nominal del transformador y del interruptor principal en BT. Estos conductores se instalan por debajo de la bandeja o contratapa de sujeción inferior, que es soporte para los medidores de energía.
+Compartimiento Dos En este compartimiento debe alojar el (o los) disyuntor(es) principal(es), el mismo deberá ser instalado sobre una bandeja de sujeción.
+5.4 Características Constructivas de Panel tipo Industrial con medición en Media Tensión El panel de medición debe cumplir con todas las especificaciones exigidas en la Norma Boliviana NB148001-2-3, de chapa metálica de 1/16" de espesor, pintura anticorrosiva o de poli-carbonato con protección UV, burlete de goma en todas las puertas del panel, etc., con nivel de hermeticidad o estanqueidad IP54. Este panel posee un único compartimiento al que accede el cableado desde los transformadores de corriente y potencial hacia la bornera de conexión, ubicada dentro de éste mismo compartimiento.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+39 / 83
+
+CRE
+Deberá cumplir con las siguientes características:  Debe contar con un ducto adecuado para el ingreso de los circuitos de señal de tensión y corriente en BT que
+viene desde los transformadores de medida.  Los conductores de señal son de 2,5 mm2 para corriente y 1,5 mm2 para tensión.  Contar con una plancha soporte de fondo y un punto de fijación en ésta (tornillo de material inoxidable) para el
+medidor trifásico de energía y bornera de conexiones, según NT CRE 018/03.  La tapa deberá permitir la instalación de precintos por parte de CRE.  Contar con una barra de cobre para el neutro la cual debe estar debidamente aterrada y aislada del panel, la
+misma que debe tener dos orificios y sus respectivos pernos y arandelas plana y de presión para el cableado de los medidores, ambos de material inoxidable.
+Nota.- Debido a cambios tecnológicos en los instrumentos de medida, y por mejora continua, CRE puede modificar el diseño y la especificación de los paneles de medición cuando considere conveniente hacerlo.
+6. Reseñas y Notas
+6.1 Bibliografía  Norma Boliviana NB 777  Código Eléctrico Nacional NEC 1996  Subestaciones de alta y extra alta tensión HMV Ingenieros Mejía Villegas S.A.  Manual de estructuras aéreas en MT 10,5; 14,4/24,9 KV. NT CRE NT CRE 003  Manual de estructuras aéreas en MT. 19.9/34,5 KV. NT CRE 004  Manual de estructuras subterráneas en MT. NT CRE 019  Manual de redes aéreas de distribución de energía eléctrica compacta MT 10.5 KV y 14.4/24.9 KV y pre
+ensambladas en BT, 220/380 V. NT CRE 034.  Normas para cajas de medición y accesorios NT CRE 002/01
+7. Registro de Calidad, Registro de Cumplimiento
+ Instructivo de procedimientos proyectos eléctricos particulares IP010GC.006 R4  Instructivo de procedimientos proyectos multiusuario IP000GC.033 R1
+8. Sistema de Modificación/Actualización
+Es competencia de la Subgerencia de Servicios al Consumidor (GCS) la modificación y/o actualización del presente documento.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+40 / 83
+
+CRE
+9. Anexos
+ Distancias mínimas de Seguridad.  Trasformadores de Medición.  F.499 Aprobación de Proyectos Eléctricos.  F.500 Ampliaciones de Líneas y Postes de Servicios.  F.498 Solicitud de desconexión.  F.416 solicitud de Evaluación de Factibilidad de Proyectos Multiusuario.  F.234 Hoja de Estacado.  F.798 Solicitud de Suministro para Potencia Mayor a 500 kVA.  F.862 Formulario de Conclusión de Obras.  Detalles de Paneles de Medición para Múltiples Usuarios.  Detalle de Panel de Medición tipo Industrial.  Detalles de Cámaras de Paso y de Inspección.  Transformadores de Corriente de barra Pasante.  Bornera de Conexión para medición indirecta.  Diagramas de Conexión.  Poste de Servicios para acometida Subterránea.  Puesto de Medición para Madia Tensión.  Detalle de Subestación Transformadoras.  Detalle de Estructuras para suministros con protección y medición en media tensión.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+41 / 83
+
+CRE
+
+Anexos
+
+ANEXOS
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+42 / 83
+
+CRE
+
+Anexos
+
+Distancias Mínimas de Seguridad
+
+Ítem Designación
+
+1
+
+Paredes y muros
+
+Distancias mínimas de seguridad (mts) para cruces de líneas
+
+Acometida Domiciliaria Baja Tensión. Líneas de Media Tensión
+
+0-380 V
+
+380 V-10 kV
+
+14.4 ­ 24.9 ­ 34.5 kV
+
+Horizontal Vertical Horizontal Vertical Horizontal Vertical
+
+0.91
+
+1.52
+
+2.43
+
+2
+
+Ventanas
+
+0.91
+
+1.52
+
+2.43
+
+3
+
+Balcones y áreas
+
+0.91
+
+1.52
+
+2.43
+
+accesibles a pedestres
+
+4
+
+Sobre o debajo de tejados
+
+0.91
+
+3
+
+3
+
+no accesibles a pedestres
+
+5
+
+Sobre o debajo de tejados
+
+2.43
+
+4.57
+
+4.57
+
+accesibles a pedestres
+
+6
+
+Conductor cerca de
+
+edificios en posición más
+
+desfavorable
+
+3
+
+3.5
+
+3
+
+3.5
+
+7
+
+Letreros, antenas de radio
+
+0.91
+
+0.91
+
+1.52
+
+2.43
+
+2.43
+
+2.43
+
+y televisión, tanques de
+
+agua
+
+8
+
+Zonas no pobladas,
+
+5.5
+
+7
+
+7
+
+terrenos de fábrica,
+
+huertas, jardines (desde la
+
+superficie del suelo)
+
+9
+
+Caminos principales
+
+pavimentados
+
+7
+
+7
+
+10 Ferrocarriles (desde la rasante de vía)
+
+9
+
+9
+
+11 Ríos navegables
+
+6
+
+6
+
+12 Gasoductos, oleoductos
+
+0.7-1.5 (*)
+
+3.5
+
+en superficie
+
+7
+
+7
+
+12
+
+(*) Depende de la presión de transporte del gas
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+43 / 83
+
+CRE
+
+Anexos
+
+Distancias Mínimas de Seguridad Sentido Vertical (mts) ­ Puntos Fijos
+
+220(V) 380(V) 10(kV) 14.4(kV) 19.9 (KV) 24.9(kV) 34.5 (KV) 69(kV) 230(KV)
+
+220 (V) 0.60 0.60 1.22 1.22
+
+1.22
+
+1.22
+
+1.7
+
+2.13 3.66
+
+380 (V) 0.61 0.61 1.22 1.22
+
+1.22
+
+1.22
+
+1.7
+
+2.13 3.66
+
+10.5 (kV) 1.22 1.22 1.22 1.22
+
+1.22
+
+1.22
+
+1.7
+
+2.13 3.66
+
+14.4 (kV) 1.22 1.22 1.22 1.22
+
+1.22
+
+1.22
+
+1.7
+
+19.9 (KV) 1.22 1.22 1.22 1.22
+
+1.22
+
+1.22
+
+1.7
+
+2.13 3.66 3.66 3.66
+
+24.9 (kV) 1.22 1.22 1.22 1.22
+
+1.22
+
+1.22
+
+1.7
+
+2.13 3.66
+
+69 (kV) 2.13 2.13 2.13 2.13
+
+2.13
+
+2.13
+
+2.13
+
+2.13 3.66
+
+230 (kV) 3.66 3.66 3.66 3.66
+
+3.66
+
+3.66
+
+3.66
+
+3.66 3.66
+
+Se debe procurar realizar el cruce, próximo a una de las estructuras más elevadas. La línea de mayor tensión debe cruzar por encima de la de menor tensión.
+
+220(V) 380(V) 10.5(kV) 14.4(kV) 19.9(KV) 24.9(kV) 34.5(KV) 69(kV)
+
+220 (V) 0.80 0.80 1.50
+
+2.20
+
+2.20
+
+2.20 3.50
+
+3.50
+
+380 (V) 0.80 0.80 1.50
+
+2.20
+
+2.20
+
+2.20 3.50
+
+3.50
+
+10 (kV) 1.50 1.50 2.00
+
+2.20
+
+2.20
+
+2.20 3.50
+
+3.50
+
+14.4 (kV) 2.00 2.00 2.00
+
+2.20
+
+2.20
+
+2.2
+
+3.50
+
+3.50
+
+24.9 (kV) 2.20 2.20 2.20
+
+2.20
+
+2.20
+
+2.20 3.50
+
+3.50
+
+34.5(KV) 3.50 3.50 3.50
+
+3.50
+
+3.50
+
+3.50 3.50
+
+3.50
+
+69 (kV) 3.50 3.50 3.50
+
+3.50
+
+3.50
+
+3.50 3.50
+
+3.50
+
+Los cruces deben ser ejecutados formando el ángulo recto, lo más perpendicular posible entre los ejes longitudinales de las respectivas líneas.
+Este ángulo debe tener un valor mínimo de 60 grados, no menos a éste valor.
+Las estructuras que intervienen en el cruce. Deben situarse fuera del área reservada al derecho de vía.
+La distancia mínima de seguridad es medida entre los conductores más próximos de las respectivas líneas.
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+44 / 83
+
+CRE
+
+Anexos
+
+Tabla para el Uso de los Transformadores de Medición
+
+Las Tablas para el uso de transformadores de medidas se encuentran bajo la norma ANSI-
+
+C57.13
+
+Burden TC's = 10 VA
+
+Tabla 1: Relación TC's con Medición en Baja Tensión Trifásica 380 V
+
+Transformador Corriente Relación Clase de Factor Térmico Termomagnético
+
+KVA
+
+AMP.
+
+TC's
+
+precisión
+
+75 100 112.5 150 200 225 250 300 315 350 400 450
+
+113.95
+
+100/5
+
+0.6
+
+1.2
+
+151.93
+
+150/5
+
+0.6
+
+1.2
+
+170.93
+
+150/5
+
+0.6
+
+1.2
+
+227.90
+
+200/5-250/5 0.6
+
+1.2
+
+303.87
+
+250/5-300/5 0.6
+
+1.2
+
+341.85
+
+300/5
+
+0.6
+
+1.2
+
+379.84
+
+400/5
+
+0.6
+
+1.2
+
+455.80
+
+400/5-500/5 0.6
+
+1.2
+
+478.59
+
+500/5
+
+0.6
+
+1.2
+
+531.77
+
+500/5
+
+0.6
+
+1.2
+
+607.74
+
+600/5
+
+0.6
+
+1.2
+
+683.70
+
+700/5
+
+0.6
+
+1.2
+
+125 150 175 225-250 300-350 300-350 400 400-450 450 500 600 700
+
+Tabla 2: Relación TC's con Medición en Baja Tensión Trifásica 220 V
+
+ANSI-C57.13 Transformador KVA
+
+Burden TCs = 10 VA
+
+Corriente Relación
+
+Clase de
+
+AMP.
+
+TC's
+
+precisión
+
+Factor Térmico
+
+Termomagnetico
+
+37.5
+
+170.45
+
+150/5 ­ 200/5 0.6
+
+1.2
+
+175
+
+30
+
+136.4
+
+100/5 ­ 150/5 0.6
+
+1.2
+
+125-150
+
+50
+
+227.7
+
+200/5 ­ 250/5 0.6
+
+1.2
+
+225-250
+
+Tabla 3: Relación TC's con Medición en Media Tensión Trifásica 24.9 kV
+
+ANSI­B­0.1
+Transformador KVA 500 550 600 700 800 900 1000 1200 1500 1800
+
+Burden mínimo TCs = 5 VA
+
+Corriente
+
+Relación
+
+AMP.
+
+TC's
+
+11.61
+
+10/5
+
+12.75
+
+10/5
+
+13.91
+
+15/5
+
+16.23
+
+15/5
+
+18.55
+
+20/5
+
+20.87
+
+20/5
+
+23.19
+
+20/5 ­ 25/5
+
+27.82
+
+20/5 ­ 30/5
+
+34.78
+
+30/5 ­ 35/5
+
+41.74
+
+40/5
+
+Clase de precisión 0.3
+0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3 0.3
+
+Factor Térmico
+1.2 1.2 1.2 1.2 1.2 1.2 1.2 1.2 1.2 1.2
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+45 / 83
+
+CRE
+
+Anexos
+
+Dimensiones Mínimas para Subestaciones Transformadoras
+Toda instalación de equipos eléctricos requiere un mínimo de espacio para su funcionamiento, instilación, mantenimiento y circulación de personal autorizado, para ello CRE presenta el siguiente cuadro de dimensiones mínimas del recinto.
+
+Dimensiones Mínimas de Subestaciones Transformadoras de un solo Módulo (10.5 y 24.9kV)
+
+Potencia del
+
+(X)
+
+Transformador
+
+KVA
+
+(m)
+
+45
+
+3.00
+
+75
+
+3.00
+
+112.5
+
+3.00
+
+150
+
+3.00
+
+200, 225
+
+3.00
+
+300, 315, 325
+
+4.50
+
+500
+
+5.00
+
+750
+
+5.00
+
+1000
+
+5.00
+
+(Y)
+(m)
+3.50 3.50 3.50 3.50 3.70 4.50 4.50 4.50 5.00
+
+(H)
+(m)
+2.70 2.70 2.70 2.70 2.70 3.00 3.00 3.50 3.50
+
+(h1)
+(m)
+H trafo + 0.60 H trafo + 0.60 H trafo + 0.60 H trafo + 0.60 H trafo + 0.60 H trafo + 0.60 H trafo + 0.60 H trafo + 0.60
+
+Nota: Ver diseños de cabinas en láminas de Anexos.
+
+Dimensiones Mínimas para Subestaciones Transformadoras de Dos Módulos (10.5 y 24.9 kV)
+
+(X)
+
+(Y)
+
+(h)
+
+(h1)
+
+(h2)
+
+(m) Amax trafo 1-2 + 4.0
+
+(m) Ltrafo 1 + L trafo 2 + 2.5
+
+(m)
+
+(m)
+
+(m)
+
+hmax trafo 1-2 + 1.85 hmax trafo 1-2 + 0.75 2*
+
+Nota.- * Ver diseño de puerta de ingreso en lámina de Anexos Ver diseños de cabinas en láminas de Anexos
+
+Dimensiones Mínimas para Subestaciones Transformadoras de Tres Módulos (10.5 y 24.9 kV)
+
+(X)
+
+(Y)
+
+(h)
+
+(h1)
+
+(h2)
+
+(m) Amax trafo 1-3 + 4.0
+
+(m)
+
+(m)
+
+(m)
+
+(m)
+
+Ltrafo 1 + L trafo 2 + L trafo 3 + 3.0 hmax trafo 1-3 + 1.85 hmax trafo 1-3 + 0.75 2*
+
+Nota.- * Ver diseño de puerta de ingreso en lámina de Anexos Ver diseños de cabinas en láminas de Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+46 / 83
+
+CRE
+
+Anexos
+
+NOMBRE DEL PROYECTO: ACTIVIDAD: DIRECCIÓN: PROPIETARIO: INGENIERO PROYECTISTA:
+
+COOPERATIVA RURAL DE ELECTRIFICACION SUBGERENCIA SERVICIOS AL CONSUMIDOR - GERENCIA COMERCIAL
+FORMULARIO DE SOLICITUD DE APROBACION DE PROYECTOS ELECTRICOS PARTICULARES
+EN CRE DATOS GENERALES DEL PROYECTO
+DATOS TECNICOS DEL PROYECTO
+
+TIPO DE PROYECTO:
+
+A) NUEVO: B) MODIFICATORIO: C) AUMENTO DE POTENCIA
+
+Traf Ref: Cod.Fijo: E) DISMINUCION DE POTENCIA
+
+D) TRASLADO INTERNO
+DATOS DE LA MEDICION
+
+Nro. MEDIDORES MONOFASICOS: Nro. MEDIDORES TRIFASICOS:
+
+REL. T.C.: REL. T.P.:
+
+DECLARACION DE CARGAS
+
+PROYECTOS EN BAJA TENSION: POTENCIA TOTAL REQUERIDA (KW):
+PROYECTOS EN MEDIA TENSION: A) POTENCIA TOTAL REQUERIDA (KW) B) POTENCIA DEL TRANSFORMADOR (KVA):
+
+DECLARACION DE POTENCIAS A CONTRATAR
+A) POTENCIA MAXIMA (KW): B) POTENCIA EN PUNTA (KW):
+
+OBS:
+
+MD = MEDIANAS DEMANDAS, POTENCIA ENTRE 10 - 50 KW GD = GRANDES DEMANDAS, POTENCIA MAYOR A 50 KW
+
+(MD Y GD) (SOLO GD)
+
+PROPIETARIO C.I.: Cel:
+
+INGENIERO PROYECTISTA
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+F499R3
+47 / 83
+
+CRE
+
+COOPERATIVA RURAL DE ELECTRIFICACION SUBGERENCIA SERVICIOS AL CONSUMIDOR - GERENCIA COMERCIAL
+FORMULARIO DE SOLICITUD DE AMPLIACION DE LINEA / POSTE DE SERVICIO
+PARA PROYECTOS PARTICULARES
+
+PROPIET ARIO: INGENIERO RESPONSABLE: TELEFONO (INGENIERO): Nro. DE PROYECTO APROBADO NOMBRE DE PROYECTO: DIRECCIÓN:
+UV:
+
+DATOS GENERALES Mz:
+
+TIPO DE SOLICITUD
+
+a) POSTE DE SERVICIO:
+
+b) AMPLIACION DE LINEA:
+
+LA AMPLIACION ES MENOR A 100 M SI
+
+NO
+
+INFORMACION ANEXA ENVIADA HOJA DE ESTACADO PROPUESTA: DISEÑO GRAFICO DE LA AMPLIACION: PLANO DE UBICACIÓN: OT ROS: FIRMAS:
+
+Anexos
+
+GP000GC.001 R5
+
+PROPIET ARIO
+
+INGENIERO A RESPONSABLE
+F500R1
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+48 / 83
+
+CRE
+CONSUMIDOR: CODIGO FIJO : DIRECCIÓN: T ELEFONO:
+
+COOPERATIVA RURAL DE ELECTRIFICACION SUBGERENCIA SERVICIOS AL CONSUMIDOR - GERENCIA COMERCIAL
+FORMULARIO DE SOLICITUD DE DESCONEXION DE FUSIBLES EN MEDIA TENSION
+PARA PROYECTOS PARTICULARES
+DATOS GENERALES DEL SOLIICITANTE
+
+FECHA DE LA DESCONEXION: FECHA DE LA RECONEXION: CODIGO DE PLACA DEL TRAF INGENIERO RESPONSABLE: T ELEFONO:
+
+DATOS REQUERIDOS PARA EL CORTE DE ENERGIA: HORA DE LA DESCONEXION: HORA DE LA RECONEXION:
+MOTIVO DE LA DESCONEXION:
+
+A) AUMENTO DE POTENCIA * B) DISMINUCION DE POTENCIA *
+* NRO. DE PROYECTO APROBADO EN CRE: * NOMBRE DEL PROYECTO APROBADO EN CRE: C) MANTENIMIENTO EN EL TRANSFORMADOR: D) MOVIMIENTO DEL TAP DEL TRANSFORMADOR:
+E) MANTENIMIENTO O CAMBIO DEL PANEL: F) CAMBIO DE LLAVE TERMOMAGNETICA: G) CAMBIO DE POSTE O ESTRUCTURA DE MT.: H) CAMBIO DE SECCIONADORES Y/O PARARRAYOS: I) MANTENIMIENTO DE SUBESTACION :
+
+P/VOLTAJE
+
+ALTO
+
+BAJO
+
+TAP QUEDA EN POSICION TAP QUEDA EN POSICION
+
+J) OTRO:
+
+Anexos
+
+SOLICIT ANT E C.I.: Cel:
+
+INGENIERO A RESPONSABLE
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+F498R1
+49 / 83
+
+CRE
+0
+NOMBRE DEL PROYECTO : UBICACIÓN : PROPIETARIO : INGENIERO PROYECTISTA : FECHA DE SOLICITUD :
+
+COOPERATIVA RURAL DE ELECTRIFICACIÓN GERENCIA COMERCIAL
+FORMULARIO DE SOLICITUD EVALUACIÓN FACTIBILIDAD DE PROYECTO MULTIUSUARIO
+DATOS DEL SOLICITANTE
+
+Anexos
+
+CONSUMO MENSUAL PROMEDIO
+
+CANTIDAD DE MEDIDORES TRIFÁSICOS : CANTIDAD DE MEDIDORES MONOFÁSICOS : TOTAL MEDIDORES : CANTIDAD USUARIOS DOMICILIARIOS CANTIDAD USUARIOS COMERCIALES CANTIDAD DE TRANSFORMADORES CAPACIDAD DEL TRANSFORMADOR (kVA) : FACTOR DE CARGA TIPO ( %) : FACTOR DE DEMANDA TIPO (%) : DEMANDA MÁXIMA SEGÚN PROYECTO (Kw) : DISTANCIA DE LA ACOMETIDA MT AEREA(Mts) : DISTANCIA DE LA ACOMETIDA MT SUBT(Mts) :
+
+Nota:
+
+1)
+
+Se deberá adjuntar cuadro de cargas y procedimineto
+
+de calculo del consumo promedio mensual
+
+2)
+
+Se deberá adjuntar diseño de la cabina de transformación y hoja de estacado
+
+KWH/MES
+
+SOLICITADO POR EL INGENIERO:
+
+FIRMA
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+F416R2
+50 / 83
+
+CRE
+
+GP000GC.001 R5
+
+. COOPERATIVA RURAL DE ELECTRIFICACION
+C.R.E. HOJA DE ESTACADO
+
+Provincia: ......................................................................
+
+Distrito:........................................................................ Población: .......................................................................................................
+
+Mapa de Referencia: .........................................................
+
+Sistema:........................................................................ Circuito No.: .....................................................................................................
+
+PROYECTO No.
+
+Carretera (Nombre/No): .............................................................................................
+
+.............................................. (Nombre): ........................................................................................................
+
+HOJA No. 1 DE.
+
+Ver hoja. ............................... I Poste Vano Tam. Angulo
+
+Ver regulador. ..................... RB No Primario Conduc. de
+
+RM
+
+Anterior M.T. Línea
+
+Poste Unidad
+P
+
+Circuito No
+
+Riendas
+
+Ancla Tierra
+
+Transformador
+
+Secundaria
+
+No
+
+Unid. No
+
+Unidad
+
+No Unid. Unid. No Unid. No KVA
+
+V ano
+
+Tam.
+
+V,C,Z
+
+(V)E Dist.
+
+F Vó M
+
+V,G,Z
+
+B.Prim. Secund. Cond.
+
+Unidad No J
+
+Acometida
+
+Vano Tam.
+
+Unidad
+
+Cond. No K
+
+Miscelaneo
+
+No
+
+Unid.
+
+(V)M
+
+Observaciones No Descripción
+
+R ES UMEN
+
+ITEM
+
+CANTIDAD Estaq. Final
+
+INSTALACION
+
+VER CROQUIS ADJUNTO
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+MOVIMIENTO
+
+NOTA.-
+Ver hoja..........................................
+ELABORADO
+ESTACADO
+Nombre............................... Fecha inicio..................... Fecha final.....................
+
+Nombre......................... Fecha inicio............... Fecha final...............
+
+RETIRO
+
+INSTALACION
+Línea Primaria Línea Secundaria Neutro Duplex Cuadruplex Cuadruplex
+REVISADO
+ESTACADO
+
+No Dist.
+
+CONDUCTOR
+
+Mts. de entre DuplexCuad. Desnudo
+
+Cond. Postes No No No Tipo
+
+MOVIMINTO
+
+Línea Primaria
+
+Línea Secundaria
+
+Neutro
+
+Bajo Línea Primaria
+
+Cuadruplex
+
+Duplex
+
+APROBADO
+ESTACADO
+
+Nombre.............. Fecha inicio...... Fecha final.........
+
+No Dist.
+
+CONDUCTOR
+
+Mts. de entre Duplex Cuad.
+
+Desnudo
+
+Cond. Postes No No No
+
+Tipo
+
+VALIDADO
+CONSTRUCCION
+Nombre.................. Fecha inicio............ Fecha final...............
+
+Anexos
+
+51 / 83
+
+CRE
+
+Anexos
+
+SOLICITUD DE SUMINISTRO DE ENERGÍA ELÉCTRICA Para potencias: >= 500 kVA en el Área Integrada y >= 100 kVA en Sistemas Aislados
+Nombre Proyecto:
+
+Dirección:
+
+Propietario: Ref. de ubicación: Placa transf. más próximo:
+
+Cód. Fijo más próximo:
+
+x: Coordenadas.- y:
+
+Proyectista:
+
+Ejecutor:
+
+Cronograma de obras.-
+
+Fecha estimada inicio:
+
+Fecha estimada final:
+
+Actividad a desarrollar:
+
+Transformador a instalar kVA:
+
+La actividad tiene estacionalidad ? Si / No :
+
+Motivo:
+
+Cual seria la época del año con Demanda más elevada ?
+
+Trabaja 3 turnos diarios (24 hs.) [Si/No]:
+
+Demanda estimada en el Bloque.-
+
+Bajo (00:00 a 07:00) kW:
+
+Medio (07:00 a 18:00) kW:
+
+Alto (18:00 a 23:00) kW:
+
+Proyecciones de consumo y demanda de electricidad (desde inicio hasta 5 años).-
+
+Año 1
+
+Año 2
+
+Demanda en Horario Punta (kW):
+
+Año 3
+
+Año 4
+
+Año 5
+
+Demanda en H. Fuera Punta (kW):
+
+Consumo de Energía Act. (kWh):
+
+Factor de Carga (Dprom./Dmax.):
+
+Detalle de equipos, artefactos, maquinaria, etc., a instalarse (los de mayor consumo eléctrico)
+
+Detalle del equipo
+
+Potencia (HP o kW)
+
+Cantidad
+
+HP / kW
+
+Monof./Trifásico
+
+Horas uso diario
+
+HP / kW
+
+HP / kW
+
+HP / kW
+
+HP / kW
+
+HP / kW
+
+HP / kW
+
+HP / kW
+
+HP / kW
+
+HP / kW
+
+Grafique una curva típica diaria estimando la demanda de energía eléctrica hora a hora:
+
+Durante año 1
+
+Durante año 3
+
+Durante año 5 y en adelante
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+F798 R1
+52 / 83
+
+CRE
+
+Anexos
+
+FORMULARIO DE CONCLUSION OBRAS
+OBRAS CONSTRUIDAS CONFORME UN PROYECTO ELECTRICO APROBADO
+
+DETALLES O ESPECIFICACIONES INSPECCIONADAS DUCTO DE ENTRADA
+1 ALTURA BASTON DE ENTRADA CON CRUCE DE CALLE (MINIMO 3 METROS) 2 ALTURA DE BASTON SIN CRUCE DE CALLE (MINIMO 2 METROS) 3 DIAMETRO DE BASTON DE ENTRADA DE DIAMETRO 2" 4 CABEZAL PARA BASTON DE 2" 5 POSEE AISLADOR RODILLO 6 BASTON DE ENTRADA MAXIMO UN CODO 7 CODO CON CURVA SUAVE 8 CABLE-GUIA EN BASTON 9 CUENTA CON EL DUCTO ADECUADO PARA LA BAJANTE DEL TRANSFORMADOR
+PANEL DE MEDICION 10 SISTEMA DE PRECINTADO EN CUBICULOS UNO Y DOS DEL PANEL 11 ALTURA DEL VISOR INFERIOR MINIMO 0.50 METROS DEL PISO TERMINADO 12 ALTURA DEL VISOR SUPERIOR MAXIMO 1.7 METROS DEL PISO TERMINADO 13 CHAPA DEL PANEL DE 1.6 MM 14 PANEL CON PINTURA AL HORNO O ANTIOXIDO MAS CAPA FINAL DE PINTURA 15 TUBOS Y HUECOS DEL PANEL SELLADOS CON ESPUMA DE POLIURETANO 16 VIDRIOS VISORES DEL PANEL SELLADOS CON SILICONA 17 BURLETE DE GOMA EN LA PUERTA DEL PANEL 18 CUENTA CON BORNERA DE CONEXIÓN, PARA MEDICION Y CONTRASTE 19 ELEMENTOS O ARTEFACTOS AJENOS A LA INSTALACION DE MEDIDORES EN EL PANEL 20 EXISTEN OTROS DUCTOS EN EL PANEL QUE NO SEAN DE LA ACOMETIDA 21 TORNILLOS PARA SUJETAR LOS MEDIDORES 22 LOS ESPACIOS DESTINADO A LOS MEDIDORES CUMPLEN CON LAS DIMENSIONES APROBADAS 23 PANEL DE MEDICION SOBRE LINEA DE BARDA O ACCESIBLE AL LECTOR DE MEDIDORES 24 INTERRUPTOR TERMOMAGNETICO PRINCIPAL MENOR O IGUAL A 70 A, NO REGULABLE 25 PERNOS DE CONEXIÓN ENTRE EL BREAKER Y LAS BARRAS DE 8 MM DE DIAMETRO 26 PERNO DE CONEXIÓN DE ENTRADA A LA BARRA DE NEUTRO DE 8 MM DE DIAMETRO 27 EN LAS BARRAS MAXIMO UN TERMINAL POR ORIFICIO 28 BREAKER CUENTA CON TERMINALES DE CONEXIÓN TIPO OJAL 29 ARANDELAS PLANAS Y DE PRESION DE ACUERDO A DIAMETRO U ORIFICIO DEL TERMINAL 30 CANTIDAD DE MEDIDORES TRIFASICOS Y MONOFASICOS DE ACUERDO A PROYECTO 31 TERMICOS DE SALIDA DE MEDIDORES NO MAYOR A 50 AMP. 32 PRESENTA SISTEMA DE PRECINTADO EN LA PUERTA DEL PANEL 33 PRESENTA SISTEMA PARA PRECINTAR CONTRATAPA DEL COPARTIMIENTO DE LAS BARRAS 34 PRESENTA SISTEMA PARA PRECINTAR EL COMPARTIMIENTO DE LOS MEDIDORES
+
+SI NO
+
+P ag. 1
+NO APLICA
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+53 / 83
+
+CRE
+
+Anexos
+
+DETALLES O ESPECIFICACIONES INSPECCIONADAS CABLEADO
+35 SECCION DE LA ACOMETIDA DE ACUERDO AL PROYECTO 36 LA ACOMETIDA NO CRUZA POR TERRENOS DE TERCEROS 37 CUENTA CON PUENTES O CUELLOS EN MT DE COBRE 38 CONDUCTOR DE TERMICO PRINCIPAL A BARRAS CON IGUAL SECCION DE LA ACOMETIDA 39 CABLEADO DE LOS CIRCUITOS SIN EMPALMES 40 DIMENSIONES DE LAS BARRAS DE ACUERDO A PROYECTO 41 PRENSADO DE TERMINALES CON PRENSA TERMINAL (NO GOLPEADOS) 42 CABLES DE CIRCUITOS DE MEDIDORES NO MENOR A 10MM2 Y 7 HILOS 43 CABLE BLANCO O AMARILLO PARA EL NEUTRO 44 CABLE AZUL, ROJO O NEGRO PARA FASES 45 CABLECANALES DENTRO DEL PANEL SUJETADOS CON TORNILLOS 46 CABLES DE ENTRADA A BORNERA DE MEDIDORES AISLADOS CON CINTA AISLANTE 47 CABLES DE CONEXIÓN A LOS MEDIDORES HASTA LA MITAD DEL VIDRIO VISOR 48 CONDUCTORES DE SEÑAL DE CORRIENTE Y TENSION TIENEN SECCION Y COLOR ADECUADOS
+SISTEMA DE ATERRAMIENTO 49 TODAS LAS PARTES METALICAS ATERRADAS (PANEL, TRANSFORMADOR, PUERTA CABINA, ETC.) 50 NEUTRO DE INGRESO ATERRADO Y UNIDO AL NEUTRO DE LA CARGA EN LA MALLA DE TIERRA 51 LA MALLA DE TIERRA UNE TODOS LOS ATERRAMIENTOS EXISTENTES EN EL PREDIO 52 EL VALOR DE LA RESITENCIA DE ATERRAMIENTO ES IGUAL O MENOR A 10 Ohm
+DI S TANCI AS 53 DISTANCIA DEL TRANSFORMADOR AL PANEL MENOR O IGUAL A 10 METROS 54 DISTANCIA ENTRE LA RED DE DISTRIBUCION Y EL PANEL MENOR O IGUAL A 25 METROS 55 DISTANCIA DE ACOMETIDA ELECTRICA A RED DE GAS CUMPLE LA DISTANCIA DE SEGURIDAD 56 DISTANCIA DE ACOMETIDA ELECTRICA A RED DE AGUA CUMPLE LA DISTANCIA DE SEGURIDAD
+CABI NA 57 LA CAMARA DE SALIDA DEL CONDUCTOR BT ESTA CON TAPA 58 DUCTOS DE ENTRADA Y SALIDA DE CABINA SELLADOS CON ESPUMA EXPANDIBLE 59 DISTANCIA DEL TRANSFORMADOR A CUALQUIER OBJETO FIJO MAYOR O IGUAL A 1,2 MTS. 60 CUENTA CON LETRERO DE SEÑALIZACION DE "PELIGRO ALTA TENSION" 61 CUENTA CON EL ACCESO EXPEDITO PARA MANTENIMIENTO DEL TRANSFORMADOR 62 CUENTA CON LA ILUMINACION ADECUADA 63 ALTURA DE LA CABINA MAYOR O IGUAL A 2,7 MTS.
+
+SI NO
+
+EQUIPOS 64 DATOS DE PLACA DE EQUIPOS DE MEDICION / POTENCIA CORRESP. A DECLARADOS EN PROYECTO 65 EL RECONECTADOR CUENTA CON TP DE ALIMENTACION 66 LOS TC DE BAJA TENSION ESTAN DE ACUERDO A NORMA Y GUIA DE PROYECTOS
+
+P ag. 2
+NO APLICA
+F.862 R1
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+54 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+55 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+56 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+57 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+58 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+59 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+60 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+61 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+62 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+63 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+64 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+65 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+66 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+67 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+68 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+69 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+70 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+71 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+72 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+73 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+74 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+75 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+76 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+77 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+78 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+79 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+80 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+81 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+82 / 83
+
+CRE
+
+Anexos
+
+GP000GC.001 R5
+
+Guía para la Elaboración y Aprobación de Proyectos Eléctricos
+
+83 / 83
+
+Calle Honduras esquina Av. Busch Teléfono: 336 7777 Consultas y emergencias 166 Email: cre@cre.com.bo
+Cooperativa Rural de Electrificación
+
+

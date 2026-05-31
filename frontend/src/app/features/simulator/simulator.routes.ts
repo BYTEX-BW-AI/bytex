@@ -6,6 +6,10 @@ import { SimulatorEffects } from './data-access/store/simulator.effects';
 
 export const simulatorRoutes: Routes = [
   {
+    path: 'demo',
+    loadComponent: () => import('./pages/demo.page').then(m => m.DemoPage),
+  },
+  {
     path: '',
     providers: [
       provideState('simulator', simulatorReducer),

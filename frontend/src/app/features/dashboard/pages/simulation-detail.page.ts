@@ -1,15 +1,15 @@
 import { Component, inject, ChangeDetectionStrategy } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { DashboardFacade } from '../data-access/services/dashboard-facade';
-import { ButtonComponent } from '../../../shared/components/ui/button/button.component';
-import { CardComponent } from '../../../shared/components/ui/card/card.component';
-import { SpinnerComponent } from '../../../shared/components/ui/spinner/spinner.component';import { DecimalPipe } from '@angular/common';import { CurrencyUsdPipe, NumberFormatPipe } from '../../../shared/pipes';
+import { SpinnerComponent } from '../../../shared/components/ui/spinner/spinner.component';
+import { DecimalPipe } from '@angular/common';
+import { CurrencyUsdPipe } from '../../../shared/pipes';
 import { APP_ROUTES } from '../../../core/constants/app-routes';
 
 @Component({
   selector: 'bytex-simulation-detail-page',
   standalone: true,
-  imports: [ButtonComponent, CardComponent, SpinnerComponent, CurrencyUsdPipe, NumberFormatPipe, DecimalPipe],
+  imports: [SpinnerComponent, CurrencyUsdPipe, DecimalPipe],
   template: `
     @if (facade.selectedSimulation(); as sim) {
       <div class="min-h-screen px-4 py-8">

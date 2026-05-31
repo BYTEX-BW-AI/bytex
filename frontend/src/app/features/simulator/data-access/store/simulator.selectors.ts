@@ -102,3 +102,23 @@ export const selectSolarDataLoading = createSelector(
   selectSimulatorState,
   (state) => state.solarDataLoading
 );
+
+export const selectSimulationId = createSelector(
+  selectSimulatorState,
+  (state) => state.simulationId
+);
+
+export const selectConversationHistory = createSelector(
+  selectSimulatorState,
+  (state) => state.conversationHistory
+);
+
+export const selectIsChattingLoading = createSelector(
+  selectSimulatorState,
+  (state) => state.isChattingLoading
+);
+
+export const selectChatError = createSelector(
+  selectSimulatorState,
+  (state) => state.chatError
+);

@@ -1,0 +1,486 @@
+Generación Distribuida
+DECRETO SUPREMO N° 4477
+Procedimientos de retribución, registro, inscripción de empresas instaladoras y recolección de información de Generadores Distribuidos
+
+Generación Distribuida - DECRETO SUPREMO N° 4477: Procedimientos de retribución, registro, inscripción de empresas instaladoras y recolección de información de Generadores Distribuidos Ministerio de Hidrocarburos y Energías (MHE) Viceministerio de Electricidad y Energías Alternativas (VMEEA) Autoridad de Fiscalización de Electricidad y Tecnología Nuclear (AETN)
+Edicion, diseno y diagramacion: Programa de Energias Renovables (PEERR)
+Esta publicacion es apoyada por la Cooperacion Alemana al Desarrollo, a traves de la Deutsche Gesellschaft fur Internationale Zusammenarbeit (GIZ) GmbH y su Programa de Energias Renovables (PEERR). Se autoriza la reproduccion total o parcial del presente documento, sin fines comerciales, citando adecuadamente la fuente.
+La Paz - Bolivia, septiembre 2021
+
+Presentación
+La presente Guía sobre Procedimientos de retribución, registro, inscripción de empresas instaladoras y recolección de información de Generadores Distribuidos, contiene información sobre la normativa y aplicación de los reglamentos que acompañan al Decreto Supremo Nº4477, promulgado el 24 de marzo de 2021, que tiene el objeto de a) Establecer condiciones generales para normar la actividad de Generación Distribuida en los sistemas de distribución de energía eléctrica, y b) Determinar la retribución por la energía eléctrica inyectada a la Red de Distribución por la actividad de Generación Distribuida.
+Con el objetivo de involucrar a los usuarios de electricidad en el cambio de la matriz energética, la Autoridad de Fiscalización de Electricidad y Tecnología Nuclear (AETN), en el marco de sus competencias, aprobó cuatro procedimientos para promover la incorporación de usuarios y empresas a la Generación Distribuida de pequeña a mediana escala, a través de un sistema de generación con fuentes renovables que tiene la capacidad de inyectar sus excedentes de generación a la Red Eléctrica de Distribución.
+Este documento pretende contribuir a que los usuarios tomen participación activa en la producción de energía eléctrica alternativa, compatible con los objetivos del desarrollo sostenible, amigable al medio ambiente y de protección a la Madre Tierra.
+Autoridad de Fiscalización de Electricidad y Tecnología Nuclear
+
+Índice
+
+¿Qué es la Generación Distribuida?
+
+9
+
+Objetivos
+
+10
+
+Definiciones
+
+11
+
+Clasificación de potencia instalada para Generación Distribuida
+
+12
+
+Condiciones generales
+
+13
+
+Procedimientos regulatorios
+
+15
+
+Procedimiento para la Determinación de la Retribución por la energía inyectada a la
+
+Red de Distribución en la Actividad de Generación Distribuida
+
+15
+
+Mecanismo de Retribución
+
+16
+
+Disposiciones adicionales
+
+17
+
+Procedimiento Técnico Comercial para el Registro e Incorporación de los Generadores
+
+Distribuidos a la Red de Distribución en Bolivia
+
+18
+
+Pasos para el registro e incorporación de los Generadores Distribuidos
+
+19
+
+Tipos de conexión
+
+20
+
+Inspección a instalaciones eléctricas
+
+21
+
+Disposiciones adicionales
+
+22
+
+Procedimiento para la Inscripción de Empresas dedicadas a la
+
+Elaboración de Proyectos e Instalación de Generación Distribuida, en el Registro de
+
+Empresas Instaladoras del Ente Regulador
+
+23
+
+Evaluación, aprobación y rechazo de la solicitud
+
+24
+
+Procedimiento de Recolección y Remisión de Información al Ente Regulador de
+
+los Generadores Distribuidos
+
+25
+
+Beneficios de la Generación Distribuida
+
+26
+
+Generación Distribuida - Decreto Supremo N° 4477
+
+Panel solar
+
+¿Qué es la Generación Distribuida?
+Red eléctrica de distribución
+
+Inversor CC/CA
+
+Corriente continua CC
+
+Corriente alterna CA
+
+Medidor de energía bidireccional
+
+Sistema de Generación
+
+Inversor
+
+Elementos de Protección e Interrupción
+
+Sistema de Medición
+
+De acuerdo al D.S. 4477, es la generación de energía eléctrica de pequeña a mediana escala, a través de un sistema de generación con fuentes renovables instalado cerca del lugar de consumo. Tiene la capacidad de inyectar sus excedentes de generación a la Red de Distribución.
+Características técnicas mínimas de la Generación Distribuida
+
+Certificados por
+
+7
+
+IBNORCA o normas
+
+IEC o IEEE
+
+Objetivos
+
+Paneles fotovoltaicos
+
+Medidor de energía
+Equipos complemeGnteanreiroasción Distribuida - DSiesctremtoaSsuoplraermfooNto°v4o4lt7a7ico
+
+Establecer las condiciones generales para normar la actividad de Generación Distribuida en los sistemas de distribución de energía eléctrica.
+
+Determinar la retribución por la energía eléctrica inyectada a la Red de Distribución por la actividad de Generación Distribuida.
+8
+
+Generación Distribuida - Decreto Supremo N° 4477
+Definiciones
+
+Ente Regulador:
+Es la Autoridad de Fiscalización de Electricidad y Tecnología Nuclear.
+
+Red de Distribución:
+Es la red de energía eléctrica del Distribuidor.
+
+Distribuidor:
+Es la Empresa Eléctrica, titular de una Concesión de servicio público que ejerce la actividad de Distribución.
+
+Energía inyectada:
+Es la energía eléctrica entregada a la Red de Distribución en el punto de suministro del Usuario.
+
+Operador Eléctrico:
+Son las Empresa Eléctricas y los operadores rurales regulados, que ejercen las actividades de Distribución
+
+Retribución:
+
+Es el reconocimiento en favor del Generador
+
+Distribuido por la energía inyectada a la Red de
+
+Distribución.
+
+9
+
+Clasificación de la potencia instalada para Generación Distribuida
+
+Generación Distribuida - Decreto Supremo N° 4477
+
+Nanogeneración
+Potencia instalada menor o igual a 10 kW.
+
+Microgeneración
+
+Minigeneración
+
+Potencia instalada mayor a 10 kW y menor o Potencia instalada mayor a 50 kW y menor o
+
+igual a 50 kW.
+
+igual a 350 kW.
+
+10
+
+Generación Distribuida - Decreto Supremo N° 4477
+Condiciones generales
+El Distribuidor autorizará la conexión de la Generación Distribuida a su Red eléctrica de Distribución
+
+1. Paneles solares 2. Inversor 3. Caja del interruptor 4. Medidor 5. Red de distribución 6. Cargas de consumo
+
+Toda instalación para Generación Distribuida, debe ser realizada por empresas instaladoras especializadas, debidamente registradas y habilitadas.
+
+Cuando un Generador Distribuido quiera inyectar su excedente de energía eléctrica, el Distribuidor u Operadores Eléctricos estarán a cargo de la conexión y adecuación, así como de la colocación del equipo de medición y otros accesorios necesarios (no incluye costo de materiales).
+
+11
+Generador
+
+Módulos FV
+
+CC a CA Carga
+
+Procedimientos regulatorios
+
+Generación Distribuida - Decreto Supremo N° 4477
+
+1 2 3 4
+
+Retribución por la energía inyectada a la red de distribución. Registro e incorporación de los generadores distribuidos a la red de distribución. Inscripción, registro y habilitación de las empresas instaladoras de generación distribuida. Recolección de información de los generadores distribuidos.
+
+12
+
+Generación Distribuida - Decreto Supremo N° 4477
+1. Procedimiento para la retribución por la energía inyectada a la Red de Distribución
+
+ARTÍCULO 5 del D.S. N° 4477
+El Ente Regulador del sector eléctrico establecerá mediante Resolución Administrativa, el mecanismo de Retribución por la
+energía inyectada a la Red de Distribución
+
+La Autoridad de Fiscalización de Electricidad y Tecnología Nuclear
+
+Considerando
+El desarrollo del mercado eléctrico Las categorías de consumo La energía consumida por el Generador Distribuido La energía inyectada a la Red de Distribución
+
+Aplica
+
+Un costo mínimo equivalente al costo mínimo de la energía producida en el SIN
+En función al consumo y la energía horaria inyectada a la Red de Distribución.
+
+Un costo máximo equivalente al
+
+costo final de distribución.
+
+13
+
+Mecanismo de Retribución
+Categoría Domiciliaria (Hasta 500 kWh) El importe por energía se obtiene de la diferencia entre la cantidad de energía consumida mensual y la cantidad de energía inyectada, a la cual se aplican los cargos de la estructura tarifaria de la categoría correspondiente.
+Otras categorías El importe por energía se obtiene de la diferencia entre la energía consumida valorizada de la Red del Distribuidor y la energía inyectada valorizada.
+-- A la energía consumida de la Red de Distribución se aplica los cargos de la estructura tarifaria de la categoría correspondiente.
+-- A la energía inyectada se aplica un precio igual al precio del Nodo de energía ponderado vigente en el SIN.
+14 Cuando la energía inyectada sea mayor a la energía consumida, se registrará la diferencia como ENERGÍA NO COMPENSADA EN EL MES, y esta podrá ser acumulada por el Distribuidor para ser utilizada en la facturación de los meses subsiguientes.
+
+Generación Distribuida - Decreto Supremo N° 4477
+
+Generación Distribuida - Decreto Supremo N° 4477
+Precio de la Energía Inyectada en los Sistemas Aislados
+Para las categorías domiciliarias con consumos superiores a los 500 kWh y resto de categorías en los sistemas aislados verticalmente integrados, el precio de la energía inyectada en sistemas aislados será determinado por la aplicación de un factor k al precio de la energía inyectada.
+
+Módulos FV
+
+Generador
+
+Aerogenerador
+
+Regulación y CC a CA
+conversión
+
+Carga
+
+Banco de baterías
+
+El precio de generación de energía en sistemas aislados
+
+verticalmente integrados, será determinado de acuerdo al combustible utilizado en la generación yGaesneeargaadsoor íl (diésel) o gas
+
+natural.
+
+Módulos FV
+
+k (Sistema InterconecRteagduolaNciaócnioynaCl)C a CA Carga
+k (Sistemas Aislados cGoennveerrascióiónn Gas Oil) Aerogken(Seirsatdeomr as Aislados Generación Gas Natural)
+
+1,000
+3,206 1,613
+
+15 Banco de baterías
+
+2. Procedimiento de registro e incorporación de los generadores distribuidos a la Red de Distribución
+
+Generación Distribuida - Decreto Supremo N° 4477
+ARTÍCULO 6 del D.S. N° 4477 El Ente Regulador del sector eléctrico, mediante Resolución Administrativa reglamentará el procedimiento, requisitos y plazos para el registro e incorporación de los Generadores Distribuidos a la Red de Distribución.
+
+El distribuidor u operadores eléctricos, podrán realizar conexiones y adecuaciones de la Generación Distribuida, de acuerdo a la reglamentación aprobada por la AETN.
+
+El equipo de medición y las instalaciones eléctricas para la Generación Distribuida, deben ser certificados por el distribuidor u operadores eléctricos.
+
+El Distribuidor deberá adecuar sus sistemas normativos, operativos y comerciales para la incorporación de los Generadores Distribuidos de acuerdo a la reglamentación de la AETN.
+
+16
+
+Generación Distribuida - Decreto Supremo N° 4477
+Pasos para el registro e incorporación
+
+DISTRIBUIDOR (Operador eléctrico)
+INFORMACIÓN PRELIMINAR Comunica: requisitos, máxima capacidad, lista de empresa habilitadas...
+1
+
+Recibe solicitud y emite formulario de recepción. (Analiza viabilidad en un plazo de 15 a 40 días)
+3
+
+Autorización de acceso
+5
+
+Se acuerda plazo para la ejecución del proyecto
+7
+
+Informe de autorización de
+conexión SI
+Realiza inspección en siete días. Incluye pruebas técnicas de protección y operación
+9
+NO
+
+2
+SOLICITA ACCESO, adjunta formularios, proyecto o diseño final, documentos...
+CONSUMIDOR (Solicitante)
+
+4
+Emite presupuesto y memoria de cálculo de obras necesarias, en caso de Adecuación de la red (con cargo al solicitante)
+
+6
+Coordina con la empresa habilitada el inicio de la ejecución del proyecto de GD
+
+8
+
+Solicita inspección a la conclusión del proyecto de GD
+
+Corrige instalación y comunica al Distribuidor
+
+17
+
+Tipos de conexión
+Sistema de medición
+El sistema de medición debe cumplir con las mismas especificaciones exigidas para los consumidores regulados antes de su ingreso como GD, añadiendo la funcionalidad de medición bidireccional de energía eléctrica activa. 18
+
+Generación Distribuida - Decreto Supremo N° 4477
+
+Potencia máxima instalada de Generación Distribuida
+
+Nivel de Tensión
+
+Hasta 10 kW
+
+Baja Tensión (BT), trifásico, bifásico o monofásico.
+
+Mayor a 10 kW y Menor o igual a Baja Tensión (BT) o Media Tensión (MT),
+
+50 kW
+
+trifásico o monofásico
+
+Mayor que 50 y Menor a 350 kW Media Tensión (MT), trifásico
+
+El GD debe proveer el sistema de medición. Opcionalmente, el Distribuidor u Operador Eléctrico, como parte de sus inversiones, podrá proveer el medidor para nanogeneración.
+El Distribuidor solo puede exigir la adecuación del tablero de medición, si se evidencia inviabilidad técnica o incumplimiento de las normas y estándares técnicos vigentes.
+
+Generación Distribuida - Decreto Supremo N° 4477
+Inspección a instalaciones eléctricas
+
+1 2 3 4
+
+La distribuidora debe realizar una inspección a las instalaciones de los GD, en un plazo de hasta 7 (siete) días hábiles.
+La inspección se realizará en presencia del GD, el responsable técnico de la Empresa Instaladora y el personal del Distribuidor. En ausencia de uno de ellos, la inspección será reprogramada.
+En caso de inconformidades en las instalaciones del GD que impidan su conexión a la red, la distribuidora debe informar dentro de los siguientes 7 (siete) días hábiles, las observaciones registradas en el momento de la inspección.
+Corregidas las observaciones, el GD debe formalizar una nueva solicitud de inspección al Distribuidor.
+
+5
+
+El Distribuidor comunicará, con un informe al consumidor regulado solicitante, la aprobación de la
+
+instalación de Generación Distribuida, y se programará su conexión.
+
+19
+
+Disposiciones adicionales
+La solicitud de acceso de nuevos Generadores Distribuidos, que no cuenten con un suministro de consumo de energía eléctrica, se iniciará doce (12) meses después de la conclusión del trámite por la habilitación de un suministro.
+La energía total no compensada en el mes en curso podrá acumularse solo por doce (12) meses consecutivos. No se podrá realizar la transferencia de energía acumulada no compensada a otros suministros.
+
+Generación Distribuida - Decreto Supremo N° 4477
+Todo consumidor regulado que tenga instalaciones de Generación Distribuida conectadas a la red del Distribuidor u Operador Eléctrico o a sus instalaciones internas, tenga o no excedentes de energía, tiene la obligación de registrarse ante el Distribuidor, entregar la información requerida y cumplir lo establecido en el presente procedimiento.
+
+El acceso de Generadores Distribuidos grupales, colectivos o múltiples, no está permitido. Todo Generador Distribuido debe estar asociado solo a un (1) suministro de consumo de energía. 20
+
+Generación Distribuida - Decreto Supremo N° 4477
+3. Procedimiento para la inscripción de empresas instaladoras de GD en el registro del ente regulador
+
+Par. II, Art. 6 del D.S. N° 4477
+Establecer los requisitos básicos para la Inscripción de empresas especializadas dedicadas a la elaboración de proyectos e instalación de infraestructura de Generación Distribuida ante el Ente Regulador y su Registro y Habilitación ante el Distribuidor u Operador Eléctrico.
+
+Requisitos legales
+-- Carta y formulario de solicitud -- Constitución de la empresa -- Certificado FUNDEMPRESA -- Representación legal -- Inscripción en Impuestos Nacionales -- Inexistencia de incompatibilidades -- Pago de derecho a la inscripción -- Documentos adicionales
+
+Requisitos técnicos
+Nanogeneración -- Técnico electricista
+Microgeneración y minigeneración -- Ingeniero
+En ambos casos con certificación en energías alternativas
+
+21
+
+Evaluación, aprobación o rechazo de la solicitud
+
+FORMULARIO DE SOLICITUD
+
+EVALUACIÓN
+Es la revisión de la documentación que podrá generar observaciones y deberá ser subsanada por la empresa instaladora en un plazo de diez (10) días hábiles administrativos
+
+Generación Distribuida - Decreto Supremo N° 4477
+
+APROBACIÓN
+Si la solicitud es aprobada, se otorgará un Certificado de Inscripción con validez de dos (2) años.
+
+CERTIFICADO DE INSCRIPCIÓN
+
+RECHAZO
+Cuando no se cumpla con los requisitos establecidos y/o cuando la documentación no sea auténtica.
+
+Infracción
+-- Incumplir el contrato de servicios suscrito con el Generador Distribuido.
+-- Incumplir el procedimiento. 22
+-- Cuando se establezca falta de independencia o conflicto de intereses.
+
+Sanción
+-- Con una infracción, suspensión del derecho a la inscripción por el lapso de un (1) año
+-- En caso de reiteración de una infracción, la suspensión será por dos (2) años
+-- La cancelación definitiva de la inscripción, cuando se registren infracciones por más de dos (2) oportunidades.
+
+Generación Distribuida - Decreto Supremo N° 4477
+4. Procedimiento para la recolección y remisión de información de los GD al ente regulador.
+La información referida a la Generación Distribuida debe ser proporcionada por la Empresa Distribuidora u Operador Eléctrico al Ente Regulador.
+
+Par. V, Art. 6 del D.S. N° 4477
+La recolección de información de los Generadores Distribuidos, será responsabilidad del Distribuidor, misma que deberá ser enviada al Ente Regulador del sector eléctrico ante el Distribuidor u Operador Eléctrico.
+
+Informe técnico y comercial de Generadores Distribuidos
+Informe Antecedentes: Descripción: Observaciones: Conclusiones: Anexos:.
+
+Base de datos:
+GD01 Identificación e información técnica GD02 Facturación e informe comercial
+
+Tabla GD01 Identificación e Información
+Técnica
+
+Tabla GD02 Facturación e Información
+Comercial
+
+Forma de presentación:
+
+Plazos de presentación:
+
+En oficina central AETN
+
+Mensual
+
+Vía plataforma informática
+
+Hasta 20 días del mes siguiente del
+
+23
+
+periodo mensual de facturación.
+
+Beneficios de la Generación Distribuida
+
+Beneficios al usuario
+
+Beneficios al estado
+
+Generación Distribuida - Decreto Supremo N° 4477
+Beneficios al ambiente
+
+Reducción del importe por consumo de electricidad
+24
+
+Ahorro en subvenciones
+
+Baja generación de CO2 y menor uso del agua
+
+Programa de Energías Renovables - PEERR II
+
+

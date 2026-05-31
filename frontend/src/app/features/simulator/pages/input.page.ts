@@ -149,6 +149,11 @@ export class InputPage {
   }
 
   onContinue(): void {
+    const simId = this.facade.simulationId();
+    if (!simId) {
+      // Si no hay simulationId, algo salió mal en la extracción
+      return;
+    }
     this.facade.calculate();
     this.router.navigate([APP_ROUTES.SIMULATOR.PROCESSING]);
   }

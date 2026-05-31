@@ -77,7 +77,6 @@ export const simulatorReducer = createReducer(
     ...state,
     extractingBill: true,
     extractionError: null,
-    // Datos anteriores ya no sirven para la nueva factura
     result: null,
     sizing: null,
     financial: null,
@@ -87,7 +86,8 @@ export const simulatorReducer = createReducer(
   })),
   on(SimulatorActions.extractBillSuccess, (state, { data }): SimulatorState => ({
     ...state,
-    billData: data,
+    billData: (data as any).ocr,
+    simulationId: (data as any).simulationId,
     extractingBill: false,
     extractionError: null,
   })),
@@ -182,6 +182,30 @@ export const simulatorReducer = createReducer(
     ...state,
     saving: false,
     saveError: error,
+  })),
+
+  // Chat
+  on(SimulatorActions.chatAsk, (state, { question }): SimulatorState => ({
+    ...state,
+    isChattingLoading: true,
+    chatError: null,
+    conversationHistory: [
+      ...state.conversationHistory,
+      { role: 'user', content: question }
+    ]
+  })),
+  on(SimulatorActions.chatAskSuccess, (state, { answer }): SimulatorState => ({
+    ...state,
+    isChattingLoading: false,
+    conversationHistory: [
+      ...state.conversationHistory,
+      { role: 'assistant', content: answer }
+    ]
+  })),
+  on(SimulatorActions.chatAskFailure, (state, { error }): SimulatorState => ({
+    ...state,
+    isChattingLoading: false,
+    chatError: error
   })),
 
   // Reset

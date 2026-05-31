@@ -1,13 +1,12 @@
 import { Component, inject, ChangeDetectionStrategy } from '@angular/core';
 import { Router } from '@angular/router';
 import { SimulatorFacade } from '../data-access/services/simulator-facade';
-import { ButtonComponent } from '../../../shared/components/ui/button/button.component';
 import { APP_ROUTES } from '../../../core/constants/app-routes';
 
 @Component({
   selector: 'bytex-select-type',
   standalone: true,
-  imports: [ButtonComponent],
+  imports: [],
   template: `
     <div class="min-h-[80vh] flex items-center justify-center px-4">
       <div class="max-w-3xl w-full">

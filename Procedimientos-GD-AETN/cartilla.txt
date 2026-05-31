@@ -1,0 +1,130 @@
+MINISTERIO DE HIDROCARBUROS Y ENERGÍAS
+Guía Técnica Informativa
+De Generación Distribuida en Bolivia
+
+Guía Técnica Informativa de Generación Distribuida en Bolivia Autora: Autoridad de Fiscalización de Electricidad y Tecnología Nuclear (AETN) Edición, diseño y diagramación: Comunicación Programa de Energías Renovables (PEERR)
+Esta publicación es apoyada por la Cooperación Alemana al Desarrollo, a través de la Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ) GmbH y su Programa de Energías Renovables (PEERR). Se autoriza la reproducción total o parcial del presente documento, sin fines comerciales, citando adecuadamente la fuente.
+La Paz, Bolivia, Junio, 2024
+
+Índice
+
+El Acuerdo de París: compromiso global para un futuro sostenible
+
+4
+
+Matriz energética de Bolivia al 2014
+
+5
+
+Bolivia y su apuesta por las Energías Renovables
+
+5
+
+Generación Distribuida en Bolivia
+
+6
+
+Compromisos de Bolivia con la Generación Distribuida en el marco
+
+de la NDC
+
+10
+
+Reducción de CO2 en Bolvia
+
+11
+
+1 El Acuerdo de París: compromiso global para un futuro sostenible
+El Acuerdo de París tiene como objetivo principal luchar contra el cambio climático y limitar el aumento de la temperatura global a niveles por debajo de 2 grados Celsius con respecto a los niveles preindustriales. El Acuerdo de París fue adoptado el 12 de diciembre de 2015, en París, Francia, durante la 21ª Conferencia de las Partes de la Convención Marco de las Naciones Unidas sobre el Cambio Climático (CMNUCC). Para lograr este objetivo, los países acordaron trabajar
+
+juntos para reducir las emisiones de gases de efecto invernadero y mejorar la capacidad de ser resilientes ante el cambio climático.
+Los 196 países que forman parte de la CMNUCC presentaron su propia Contribución Determinada a Nivel Nacional (NDC), que es un plan que describe cómo cada país abordará sus emisiones y cómo contribuirá a la lucha global contra el cambio climático. El Acuerdo de París tienen como objetivo reducir los gases de efecto invernadero (GEI) y la promoción de estrategias de adaptación al cambio climático, con un enfoque en la equidad y el desarrollo sostenible, generando nuevas oportunidades laborales en sectores ecológicos, impulsando así la economía verde, con el apoyo de la cooperación internacional.
+
+4
+
+2 Matriz energética de Bolivia al 2014
+El auge en la producción de gas natural en Bolivia, desde el año 2005 hasta alcanzar su punto máximo en 2014, creó un entorno propicio para el desarrollo de proyectos de generación eléctrica, centrados en la construcción de centrales termoeléctricas. En dicho contexto, la matriz eléctrica de Bolivia, en ese entonces, era predominante, conformada por termoeléctricas y complementada por hidroeléctricas, estas dos fuentes actuaban como pilares fundamentales para la generación de electricidad.
+3 Bolivia y su apuesta por las Energías Renovables
+
+el año 2022 se integró una participación del 9.84% de generación mediante fuentes de energías renovables no convencionales, en todo el Sistema Interconectado Nacional, y un 37.55% de generación por energías renovables no convencionales en Sistemas Aislados (Anuario Estadístico 2022, AETN).
+La inversión en proyectos de energía renovable, como parques eólicos y plantas solares, tiene como objetivo reducir la dependencia de los combustibles fósiles. De igual manera, esta medida se complementa con la incorporación de la Generación Distribuida, que además de perseguir el mismo propósito, cuenta con otras bondades, entre ellas se encuentra la capacidad de generar energía eléctrica en el lugar de consumo, aportando a la confiabilidad y continuidad del servicio.
+
+Desde el año 2014, Bolivia ha puesto en marcha en diversas regiones, una serie de notables iniciativas que incluyen parques eólicos y plantas solares. Entre estos proyectos se encuentran el Parque Eólico Qollpana fases I y II en el departamento de Cochabamba, los Parque Eólicos de Warnes, San Julian y El Dorado en el departamento de Santa Cruz, la Planta Solar Yunchará en el departamento de Tarija, la Planta Solar Uyuni en el departamento de Potosí, y la Planta Solar Oruro en sus fases I y II, también se cuenta con central de biogás Guabirá Energía, entre otros. Es así que hasta
+
+5
+
+4 Generación Distribuida en Bolivia
+Bolivia cuenta con uno de los mayores niveles de radiación solar del planeta con un promedio de 6.3 kWh/m2/día en la región occidental del país (Atlas Eólico y Solar de Bolivia 2021, MHE), y se espera aprovechar este potencial mediante la Generación Distribuida. Al promulgarse el Decreto Supremo N° 4477 se alcanzó un hito importante, ya que este decreto regula la Generación Distribuida, convirtiéndose, así, en una política clave para consolidar la diversificación de la matriz energética del país. Gracias al decreto, la población podrá generar energía a partir de fuentes renovables para su autoconsumo e inyectar el restante a la red eléctrica aportando a la sostenibilidad energética del país.
+
+generales para la conexión de estas instalaciones a la Red de Distribución y para la retribución de la energía eléctrica inyectada.
+Asimismo, para su aplicación, el presente decreto instruye a los siguientes actores del sector eléctrico a:
+1. El Distribuidor / Operador Eléctrico: Es aquel que autoriza la conexión de instalaciones de Generación Distribuida a la Red de Distribución.
+2. Empresas Instaladoras Especializadas: Son aquellas empresas registradas y habilitadas por el Ente Regulador para el diseño e instalación de sistemas de Generación Distribuida
+3. El Ente Regulador: Es aquel que regula la actividad de Generación Distribuida y establece los mecanismos de retribución por la energía inyectada a la Red de Distribución.
+
+Decreto Supremo N° 4477
+El Decreto Supremo N° 4477, del 24 de marzo de 2021 establece las bases para fomentar la Generación Distribuida de energía eléctrica y reducir las emisiones de gases de efecto invernadero. Este decreto regula la generación de energía a pequeña y mediana escala a partir de fuentes renovables, conectadas a la Red de Distribución, con el propósito de contribuir a la sostenibilidad ambiental y la diversificación de la matriz energética.
+En el marco del decreto se definen categorías específicas para la Generación Distribuida: la nanogeneración, que abarca potencias instaladas de hasta 10 kW; la microgeneración, con potencias entre 10 kW y 50 kW; y la minigeneración, con potencias que van desde 50 kW hasta 350 kW. Además, se establecen condiciones
+
+6
+
+En este sentido, el gobierno a través del Decreto Supremo N° 4477 instruyó a la AETN la elaboración de los procedimientos necesarios que permitan regular la Generación Distribuida en Bolivia, con el objetivo principal de proporcionar orientación y facilitar la ejecución de proyectos de Generación Distribuida. Como parte de este esfuerzo, se han desarrollado procedimientos técnicos actualizados para la operación, regulación y retribución de estos sistemas.
+A continuación, se detalla la segunda versión de estos procedimientos:
+4.1 Procedimiento AETN N°485/2022 "Procedimiento Técnico Comercial para el Registro e Incorporación de los Generadores Distribuidos a la Red de Distribución en Bolivia"
+Establece los requisitos y plazos para el registro e incorporación de los nuevos Generadores Distribuidos
+
+a la Red de Distribución; asimismo los consumidores Regulados que cuenten con un Sistema de Generación Distribuida anterior a la Resolución AETN N° 344/2021 del 2 de julio de 2021, tienen la responsabilidad de regularizar la instalación de su Generación Distribuida ante el Distribuidor u Operador eléctrico respectivo.
+4.2 Procedimiento AETN N°486/2022 "Procedimiento para la Inscripción de Empresas dedicadas a la Elaboración de Proyectos e Instalación de Generación Distribuida, en el Registro de Empresas Instaladoras del Ente Regulador"
+Establece los requisitos y plazos para la inscripción de empresas dedicadas a la elaboración de proyectos e instalación de Generación Distribuida en el registro del Ente Regulador y así obtener el "Certificado de Inscripción".
+
+7
+
+4.3 Procedimiento AETN N°487/2022 "Procedimiento para la Recolección y Remisión de Información al Ente Regulador de los Generadores Distribuidos"
+Establece los requisitos y plazos para la recolección y remisión de información por parte de los Distribuidores u Operadores de energía eléctrica al Ente Regulador
+
+del sector eléctrico sobre los Generadores Distribuidos. Este procedimiento establece que los Distribuidores deben enviar información sobre la capacidad instalada, la energía generada, la energía inyectada a la red, la energía consumida de la red, entre otros datos, en un formato y plazo establecido por el Ente Regulador. Además, se establecen sanciones en caso de incumplimiento de los plazos y requisitos establecidos.
+
+4.4 Procedimiento AETN N°488/2022 "Procedimiento para la Determinación de la Retribución por la Energía Inyectada a la Red de Distribución en la Actividad de Generación Distribuida"
+Establece las reglas y los mecanismos para la retribución de la energía eléctrica inyectada a la red de Distribución en la actividad de Generación Distribuida, y es de aplicación obligatoria para todos los usuarios regulados y Distribuidores Eléctricos u Operadores Eléctricos en todo el territorio del Estado Plurinacional de Bolivia. Los mecanismos de retribución se realizan de dos formas:
+8
+
+1 La primera, aplicada a usuarios de categorías
+Domiciliarias Pequeña Demanda con consumos hasta 750 kWh, se realiza cuando la energía del sistema de Generación Distribuida inyectada a la Red de Distribución tiene el mismo valor que la energía de la Distribuidora de Electricidad u Operador Eléctrico.
+2 La segunda, aplicada al resto de usuarios,
+se realiza cuando la energía del sistema de Generación Distribuida inyectada a la Red de Distribución tiene un valor equivalente al precio de nodo de energía ponderado vigente en el Sistema Interconectado Nacional (SIN).
+
+Es importante mencionar que los mecanismos de retribución no se realizan de forma económica, sino que, la compensación por la energía inyectada se realiza en términos de energía. Es decir, cuando la energía inyectada sea mayor a la consumida en un mes de facturación, esta energía sería considerada como un saldo a favor para ser usado al siguiente mes de facturación, pero con el valor aplicable dentro del primer o segundo mecanismo de retribución mencionado anteriormente. Asimismo, el periodo máximo que puede acumularse la energía inyectada como saldo a favor es de doce (12) meses.
+
+4.5 Procedimiento AETN N°415 /2021 "Aprobación de Aranceles para el Trámite de Inscripción de Empresas dedicadas a la Elaboración de Proyectos e Instalación de Generación Distribuida, en el Registro de Empresas Instaladoras del Ente Regulador"
+Establece los aranceles para el trámite de inscripción de empresas dedicadas a la elaboración de proyectos e instalación de Generación Distribuida en el registro de empresas instaladoras del Ente Regulador. Los aranceles son importantes porque son una fuente de financiamiento para el Ente Regulador que permiten cubrir los costos asociados a la regulación y supervisión de las actividades de Generación Distribuida en los sistemas de distribución de energía eléctrica. Sin embargo, es importante destacar que el pago de los aranceles no es reembolsable en caso de que las empresas no cumplan con todos los requisitos.
+
+9
+
+5 Compromisos de Bolivia con la Generación Distribuida en el marco de la NDC
+Bolivia ha establecido metas energéticas ambiciosas, como parte de sus Contribuciones Determinadas a Nivel Nacional (NDC), en el marco del Acuerdo de París. Las metas en el sector de energía están centradas en dos pilares fundamentales, la transición hacia una matriz de generación eléctrica basada en energías renovables y la promoción de la eficiencia energética. Además, Bolivia se compromete a fomentar la investigación y el desarrollo de tecnologías limpias y eficientes en el sector energético. Estas medidas no solo contribuirán a fortalecer la seguridad energética del país, sino que también impulsarán el desarrollo sostenible en Bolivia.
+La Generación Distribuida adquiere un papel fundamental en varias de las metas planteadas por Bolivia, incluyendo las siguientes:
+
+esencial para la Generación Distribuida y la transición hacia una matriz energética más sostenible.
+Sistemas híbridos en media y baja tensión
+Meta 7: Al 2030 se ha logrado que 8 Sistemas Aislados sean híbridos, incluyendo a su matriz de generación fuentes renovables.
+Esta meta busca desarrollar capacidades de generación limpia en sistemas aislados, mediante la inclusión de centrales de generación renovable de mediana y baja potencia. Los sistemas híbridos a menudo involucran fuentes de energía renovable y sistemas de almacenamiento, lo que se alinea con la Generación Distribuida y la gestión de la energía a nivel local.
+
+Sistemas de Generación Distribuida
+
+Meta 2: Al 2030 se prevé que los usuarios lleguen a producir un aproximado de 76.9 GWh como energía eléctrica demandada a nivel nacional (37MW de potencia instalada).
+
+Esta meta se centra específicamente en permitir a los usuarios producir energía eléctrica a nivel local, interactuando con las redes eléctricas de distribución. Promueve la autogeneración e inyección de energía eléctrica a las redes locales utilizando fuentes de energía renovable de baja potencia como la solar y la eólica. Es
+
+10
+
+6 Reducción de CO2 en Bolvia
+A través de la transición hacia fuentes de energías renovables, se estima que la adopción de proyectos de Generación Distribuida en Bolivia conducirá a una reducción de aproximadamente 25,026 toneladas de CO2 equivalente al año 2030.
+
+Esta iniciativa, no solo beneficia al medio ambiente al reducir las emisiones de gases de efecto invernadero, sino que también contribuye a la preservación de la biodiversidad y fortalece la seguridad energética de Bolivia.
+Además de mejorar la calidad del aire y reducir el impacto en la capa de ozono, estas medidas fomentan la innovación y ofrecen una serie de ventajas tanto ambientales como sociales.
+
+11
+
+MINISTERIO DE HIDROCARBUROS Y ENERGÍAS
+
+

@@ -1,12 +1,11 @@
 import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { ButtonComponent } from '../../../shared/components/ui/button/button.component';
 import { APP_ROUTES } from '../../../core/constants/app-routes';
 
 @Component({
   selector: 'bytex-sales-page',
   standalone: true,
-  imports: [RouterLink, ButtonComponent],
+  imports: [RouterLink],
   template: `
     <!-- Hero -->
     <section class="relative overflow-hidden">

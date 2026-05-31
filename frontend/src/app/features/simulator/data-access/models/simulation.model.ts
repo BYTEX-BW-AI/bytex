@@ -1,6 +1,13 @@
 export type SimulationType = 'existing' | 'new';
 export type SimulationStatus = 'pending' | 'processing' | 'completed' | 'failed';
 
+export interface GeminiAnalysis {
+  riskAssessment: 'ALTO' | 'MEDIO' | 'BAJO';
+  recommendation: string;
+  rationale: string;
+  initialInsights: string[];
+}
+
 export interface ExtractedBillData {
   consumoKwh: number;
   potenciaMaximaKw: number;

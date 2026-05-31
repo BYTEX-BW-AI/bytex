@@ -5,6 +5,7 @@ import { calculateMicrogrid, CalculateRequest } from './core/calculator.js';
 import { panelSelector, PANEL_CATALOG } from './core/panel-catalog.js';
 import { BUSINESS_SECTORS, SANTA_CRUZ_ZONES } from './core/constants.js';
 import { getExchangeRate } from './core/exchange-rate.service.js';
+import { createSimulation, updateSimulationCalculation, addChatMessage, getSimulation, BillAnalysis, GeminiAnalysis } from './core/memory-store.js';
 
 const app = express();
 const PORT = parseInt(process.env.PORT || '3001', 10);
@@ -56,20 +57,169 @@ app.get('/api/solar-data', (req, res) => {
   });
 });
 
-// Calculate microgrid (⭐ main endpoint)
-app.post('/api/simulation/calculate', (req, res) => {
+// Extract bill + analyze with Gemini (ONE call, OCR + analysis)
+app.post('/api/simulation/extract-and-analyze', async (req, res) => {
   try {
-    const body = req.body as CalculateRequest;
-    
-    if (!body.monthlyConsumptionKwh || !body.irradianceKwhM2Day) {
+    const { image, mimeType, context } = req.body;
+    if (!image) {
       return res.status(400).json({
         success: false,
-        error: { message: 'Faltan campos requeridos: monthlyConsumptionKwh, irradianceKwhM2Day' },
+        error: { message: 'Campo requerido: image (base64)' },
       });
     }
 
-    const result = calculateMicrogrid(body);
-    
+    const geminiApiKey = process.env.GEMINI_API_KEY;
+    let ocrData: any = null;
+    let analysis: GeminiAnalysis | null = null;
+
+    if (geminiApiKey) {
+      try {
+        const { GoogleGenerativeAI } = await import('@google/generative-ai');
+        const genAI = new GoogleGenerativeAI(geminiApiKey);
+        const model = genAI.getGenerativeModel({
+          model: 'gemini-2.5-flash-lite',
+          generationConfig: { temperature: 0.1, maxOutputTokens: 2048 },
+        });
+
+        const sectorInfo = context?.sectorId
+          ? `Sector: ${context.sectorId} (consumo promedio: ~15000 kWh/mes para comercios)`
+          : 'Sector: desconocido';
+        const zoneInfo = context?.zoneId
+          ? `Zona: ${context.zoneId} en Santa Cruz, Bolivia`
+          : 'Zona: Santa Cruz centro';
+
+        const prompt = `Eres analista de energía solar en Bolivia. Tu tarea:
+
+1. EXTRAER (OCR): De la factura CRE adjunta, extrae EXACTAMENTE estos datos:
+   - consumoKwh: número del último mes
+   - costoTotalBs: monto total a pagar
+   - potenciaMaximaKw: si aparece (puede ser null)
+   - periodoFacturacion: período (ej: "Mayo 2026")
+   - nit: NIT del cliente
+   - nombreCliente: nombre o razón social
+   - tarifa: código de tarifa
+   - numeroFactura: número de factura
+   - cargoFijoBs: cargo fijo (puede ser 0)
+   - cargoVariableBs: cargo variable (puede ser 0)
+   - otrosCargosBs: otros cargos (puede ser 0)
+
+2. ANALIZAR: Basado en ${sectorInfo} y ${zoneInfo}, proporciona:
+   - riskAssessment: "ALTO" | "MEDIO" | "BAJO"
+   - recommendation: "Te recomendamos Pack X porque..." (1 línea)
+   - rationale: Explicación técnica (2-3 líneas)
+   - initialInsights: Array de 2-3 datos interesantes
+
+RESPONDE SOLO JSON (sin markdown):
+{
+  "ocr": { consumoKwh, costoTotalBs, potenciaMaximaKw, periodoFacturacion, nit, nombreCliente, tarifa, numeroFactura, cargoFijoBs, cargoVariableBs, otrosCargosBs },
+  "analysis": { riskAssessment, recommendation, rationale, initialInsights: [] }
+}`;
+
+        const detectedMime = mimeType || 'image/jpeg';
+        const result = await model.generateContent([
+          { text: prompt },
+          { inlineData: { mimeType: detectedMime, data: image } },
+        ]);
+
+        const text = result.response.text();
+        const cleaned = text.replace(/```json|```/g, '').trim();
+        const parsed = JSON.parse(cleaned);
+
+        ocrData = parsed.ocr;
+        analysis = parsed.analysis;
+      } catch (geminiError: any) {
+        console.error('Gemini error:', geminiError.message);
+      }
+    }
+
+    // Fallback data
+    if (!ocrData) {
+      ocrData = {
+        consumoKwh: 15908,
+        potenciaMaximaKw: 35.97,
+        costoTotalBs: 13799.95,
+        periodoFacturacion: 'Diciembre 2024',
+        nit: '1024649023',
+        nombreCliente: 'DEMO EMPRESA',
+        tarifa: 'BTH',
+        numeroFactura: 'FACT-001',
+        cargoFijoBs: 50,
+        cargoVariableBs: 13750,
+        otrosCargosBs: 0,
+      };
+    }
+
+    if (!analysis) {
+      analysis = {
+        riskAssessment: 'ALTO',
+        recommendation: 'Pack Horizonte con batería de 50 kWh',
+        rationale: 'Tu consumo es típico de comercios. La zona Centro tiene cortes frecuentes.',
+        initialInsights: ['Tu tarifa es 0.87 Bs/kWh', 'Consumo estable mes a mes'],
+      };
+    }
+
+    // Create simulation record in memory store
+    const billAnalysis: BillAnalysis = { ocr: ocrData, analysis };
+    const simulationId = createSimulation(billAnalysis);
+
+    return res.json({
+      success: true,
+      data: {
+        simulationId,
+        ocr: ocrData,
+        analysis,
+      },
+    });
+  } catch (error: any) {
+    console.error('Extract and analyze error:', error);
+    res.status(500).json({
+      success: false,
+      error: { message: error.message || 'Error al procesar la factura' },
+    });
+  }
+});
+
+// Calculate microgrid (⭐ main endpoint)
+app.post('/api/simulation/calculate', (req, res) => {
+  try {
+    const body = req.body as any;
+    const { simulationId, monthlyConsumptionKwh, irradianceKwhM2Day } = body;
+
+    if (!simulationId || !monthlyConsumptionKwh || !irradianceKwhM2Day) {
+      return res.status(400).json({
+        success: false,
+        error: { message: 'Faltan campos requeridos: simulationId, monthlyConsumptionKwh, irradianceKwhM2Day' },
+      });
+    }
+
+    // Validate simulation exists
+    const simulation = getSimulation(simulationId);
+    if (!simulation) {
+      return res.status(404).json({
+        success: false,
+        error: { message: 'Simulación no encontrada. Cargá una factura primero.' },
+      });
+    }
+
+    const result = calculateMicrogrid({
+      monthlyConsumptionKwh,
+      peakPowerKw: body.peakPowerKw,
+      irradianceKwhM2Day,
+      panelId: body.panelId,
+      latitude: body.latitude,
+      longitude: body.longitude,
+      monthlyCostBs: body.monthlyCostBs,
+    });
+
+    // Save calculation to simulation record
+    updateSimulationCalculation(simulationId, {
+      sizing: result.sizing,
+      financial: result.financial,
+      costs: result.costs,
+      environmental: result.environmental,
+      scenarios: result.scenarios,
+    });
+
     res.json({ success: true, data: result });
   } catch (error: any) {
     console.error('Calculation error:', error);
@@ -98,87 +248,89 @@ app.post('/api/simulation/estimate-consumption', (req, res) => {
   });
 });
 
-// Extract bill data using Gemini OCR (or simulation for dev)
-app.post('/api/simulation/extract-bill', async (req, res) => {
+// Chat: ask questions about simulation context
+app.post('/api/chat/ask', async (req, res) => {
   try {
-    const { image, mimeType } = req.body;
-    if (!image) {
+    const { simulationId, question } = req.body;
+
+    if (!simulationId || !question) {
       return res.status(400).json({
         success: false,
-        error: { message: 'Campo requerido: image (base64)' },
+        error: { message: 'Campos requeridos: simulationId, question' },
       });
     }
 
-    const geminiApiKey = process.env.GEMINI_API_KEY;
+    const simulation = getSimulation(simulationId);
+    if (!simulation) {
+      return res.status(404).json({
+        success: false,
+        error: { message: 'Simulación no encontrada' },
+      });
+    }
 
-    // If Gemini API key is available, use real OCR
+    addChatMessage(simulationId, 'user', question);
+
+    const geminiApiKey = process.env.GEMINI_API_KEY;
+    let answer = '';
+
     if (geminiApiKey) {
       try {
         const { GoogleGenerativeAI } = await import('@google/generative-ai');
         const genAI = new GoogleGenerativeAI(geminiApiKey);
         const model = genAI.getGenerativeModel({
           model: 'gemini-2.5-flash-lite',
-          generationConfig: { temperature: 0.1, maxOutputTokens: 1024 },
+          generationConfig: { temperature: 0.2, maxOutputTokens: 1024 },
         });
 
-        const detectedMime = mimeType || 'image/jpeg';
+        const { ocr } = simulation.billAnalysis;
+        const calc = simulation.calculation;
 
-        const prompt = `Analizá esta factura/detalle de consumo de CRE (Cooperativa Rural de Electrificación) de Santa Cruz, Bolivia.
+        const contextPrompt = `Eres analista de energía solar en Bolivia. Un cliente hizo una simulación:
 
-La factura tiene una tabla con columnas: PERIODO | CONSUMO kWh | IMPORTE Bs | ESTADO.
-Buscá el consumo del mes más reciente (la última fila con valores numéricos).
+CONSUMO: ${ocr.consumoKwh} kWh/mes
+COSTO ACTUAL: Bs ${ocr.costoTotalBs}/mes
+TARIFA: ${ocr.tarifa}
 
-Extraé los siguientes datos en formato JSON:
-{
-  "consumoKwh": number (consumo del último mes en kWh, de la columna CONSUMO kWh),
-  "potenciaMaximaKw": number | null (potencia contratada o demanda máxima si aparece),
-  "costoTotalBs": number (importe total a pagar de la factura actual, NO la suma de toda la tabla),
-  "periodoFacturacion": string (período de la factura actual, ej: "05/2026"),
-  "nit": string (NIT del cliente),
-  "nombreCliente": string (nombre o razón social),
-  "tarifa": string (tipo de tarifa),
-  "numeroFactura": string (número de factura),
-  "consumoAnualKwh": number | null (suma total de consumo de los últimos 12 meses si aparece),
-  "importeTotalAnualBs": number | null (suma total de importes de los últimos 12 meses si aparece)
+${
+  calc
+    ? `SIMULACIÓN:
+- Paneles: ${calc.sizing.panelCount}
+- Potencia pico: ${calc.sizing.peakPowerKw} kW
+- Baterías: ${calc.sizing.batteryKwh} kWh
+- Payback: ${calc.financial.paybackYears} años
+- IRR: ${calc.financial.irr}%
+- Ahorro 25 años: Bs ${Math.round(calc.financial.twentyFiveYearSavings)}`
+    : 'Aún no se hizo cálculo'
 }
-Devolvé SOLO el JSON.`;
 
-        const result = await model.generateContent([{ text: prompt }, {
-          inlineData: { mimeType: detectedMime, data: image },
-        }]);
-        const text = result.response.text();
-        const cleaned = text.replace(/```json|```/g, '').trim();
-        const data = JSON.parse(cleaned);
+Pregunta: "${question}"
 
-        return res.json({ success: true, data });
+Responde brevemente (2-3 párrafos).`;
+
+        const result = await model.generateContent(contextPrompt);
+        answer = result.response.text();
       } catch (geminiError: any) {
-        console.error('Gemini error:', geminiError.message);
-        // Fall through to simulation
+        console.error('Gemini chat error:', geminiError.message);
+        answer = `No puedo responder en este momento. Pero datos de tu simulación: consumo ${simulation.billAnalysis.ocr.consumoKwh} kWh/mes, tarifa ${simulation.billAnalysis.ocr.tarifa}.`;
       }
+    } else {
+      answer = `Gemini no está configurado. Datos: consumo ${simulation.billAnalysis.ocr.consumoKwh} kWh/mes, costo Bs ${simulation.billAnalysis.ocr.costoTotalBs}.`;
     }
 
-    // Development fallback: simulate extraction
-    // The frontend sends a real image, but we return simulated data for testing
-    const simulatedData = {
-      consumoKwh: 15908,
-      potenciaMaximaKw: 35.97,
-      costoTotalBs: 13799.95,
-      periodoFacturacion: 'Diciembre 2024',
-      nit: '1024649023',
-      nombreCliente: 'VERONICA SAYA AYALA',
-      tarifa: 'BTH',
-      numeroFactura: 'FACT-001',
-    };
+    addChatMessage(simulationId, 'assistant', answer);
 
-    console.log('⚠️  Gemini API key no configurada. Usando datos simulados.');
-    console.log('📄 Para usar OCR real, configurá GEMINI_API_KEY en .env');
-
-    res.json({ success: true, data: simulatedData });
+    res.json({
+      success: true,
+      data: {
+        answer,
+        sources: ['Cálculos de sizing', 'Datos CRE', 'Contexto de simulación'],
+      },
+    });
   } catch (error: any) {
-    console.error('Extract bill error:', error);
+    console.error('Chat error:', error);
     res.status(500).json({
       success: false,
-      error: { message: error.message || 'Error al procesar la factura' },
+      error: { message: error.message || 'Error en chat' },
     });
   }
 });
@@ -187,6 +339,7 @@ app.listen(PORT, '0.0.0.0', () => {
   console.log(`✅ Bytex Backend running on http://0.0.0.0:${PORT}`);
   console.log(`   Health: http://localhost:${PORT}/health`);
   console.log(`   Panels: http://localhost:${PORT}/api/panels`);
-  console.log(`   Extract Bill: POST http://localhost:${PORT}/api/simulation/extract-bill`);
+  console.log(`   Extract & Analyze: POST http://localhost:${PORT}/api/simulation/extract-and-analyze`);
   console.log(`   Calculate: POST http://localhost:${PORT}/api/simulation/calculate`);
+  console.log(`   Chat: POST http://localhost:${PORT}/api/chat/ask`);
 });

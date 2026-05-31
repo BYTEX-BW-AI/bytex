@@ -30,6 +30,10 @@ export class SimulatorFacade {
   isSaved: Signal<boolean> = toSignal(this.store.pipe(select(selectors.selectIsSaved)), { initialValue: false });
   calculationError: Signal<string | null> = toSignal(this.store.pipe(select(selectors.selectCalculationError)), { initialValue: null });
   solarDataLoading: Signal<boolean> = toSignal(this.store.pipe(select(selectors.selectSolarDataLoading)), { initialValue: false });
+  simulationId: Signal<string | null> = toSignal(this.store.pipe(select(selectors.selectSimulationId)), { initialValue: null });
+  conversationHistory: Signal<Array<{ role: string; content: string }>> = toSignal(this.store.pipe(select(selectors.selectConversationHistory)), { initialValue: [] });
+  isChattingLoading: Signal<boolean> = toSignal(this.store.pipe(select(selectors.selectIsChattingLoading)), { initialValue: false });
+  chatError: Signal<string | null> = toSignal(this.store.pipe(select(selectors.selectChatError)), { initialValue: null });
 
   // Dispatch methods
   setSimulationType(type: SimulationType): void {
@@ -90,5 +94,14 @@ export class SimulatorFacade {
 
   reset(): void {
     this.store.dispatch(SimulatorActions.resetSimulation());
+  }
+
+  chatAsk(question: string): void {
+    const simId = this.simulationId();
+    if (!simId) {
+      console.warn('No simulation ID available for chat');
+      return;
+    }
+    this.store.dispatch(SimulatorActions.chatAsk({ simulationId: simId, question }));
   }
 }

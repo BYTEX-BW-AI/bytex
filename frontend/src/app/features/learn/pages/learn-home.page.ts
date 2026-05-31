@@ -1,11 +1,10 @@
 import { Component, ChangeDetectionStrategy } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { CardComponent } from '../../../shared/components/ui/card/card.component';
 
 @Component({
   selector: 'bytex-learn-home',
   standalone: true,
-  imports: [RouterLink, CardComponent],
+  imports: [RouterLink],
   template: `
     <div class="min-h-screen px-4 py-8">
       <div class="max-w-4xl mx-auto">

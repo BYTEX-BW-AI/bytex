@@ -12,6 +12,7 @@ export interface SimulatorState {
   extractingBill: boolean;
   billData: ExtractedBillData | null;
   extractionError: string | null;
+  simulationId: string | null;
 
   // Sector selection (new business)
   selectedSector: string | null;
@@ -41,6 +42,11 @@ export interface SimulatorState {
   saving: boolean;
   saved: boolean;
   saveError: string | null;
+
+  // Chat
+  conversationHistory: Array<{ role: 'user' | 'assistant'; content: string }>;
+  isChattingLoading: boolean;
+  chatError: string | null;
 }
 
 export const PANEL_PRESETS: PanelOption[] = [
@@ -150,6 +156,7 @@ export const initialSimulatorState: SimulatorState = {
   extractingBill: false,
   billData: null,
   extractionError: null,
+  simulationId: null,
   selectedSector: null,
   selectedZone: null,
   estimatedConsumption: null,
@@ -169,4 +176,7 @@ export const initialSimulatorState: SimulatorState = {
   saving: false,
   saved: false,
   saveError: null,
+  conversationHistory: [],
+  isChattingLoading: false,
+  chatError: null,
 };

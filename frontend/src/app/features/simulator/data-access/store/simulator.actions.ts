@@ -50,6 +50,11 @@ export const SimulatorActions = createActionGroup({
     'Save Simulation Success': props<{ id: string }>(),
     'Save Simulation Failure': props<{ error: string }>(),
 
+    // Chat
+    'Chat Ask': props<{ simulationId: string; question: string }>(),
+    'Chat Ask Success': props<{ answer: string }>(),
+    'Chat Ask Failure': props<{ error: string }>(),
+
     // Reset
     'Reset Simulation': emptyProps(),
   },

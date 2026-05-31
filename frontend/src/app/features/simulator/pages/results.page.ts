@@ -4,15 +4,16 @@ import { SimulatorFacade } from '../data-access/services/simulator-facade';
 import { ButtonComponent } from '../../../shared/components/ui/button/button.component';
 import { CardComponent } from '../../../shared/components/ui/card/card.component';
 import { DecimalPipe } from '@angular/common';
-import { CurrencyUsdPipe, NumberFormatPipe } from '../../../shared/pipes';
+import { CurrencyUsdPipe } from '../../../shared/pipes';
 import { AuthFacade } from '../../auth/data-access/services/auth-facade';
 import { ProjectionChartComponent } from '../components/projection-chart/projection-chart.component';
+import { ChatWidgetComponent } from '../components/chat-widget/chat-widget.component';
 
 @Component({
   selector: 'bytex-results-page',
   standalone: true,
-  imports: [ButtonComponent, CardComponent, CurrencyUsdPipe, NumberFormatPipe, DecimalPipe, ProjectionChartComponent],
-  providers: [CurrencyUsdPipe, NumberFormatPipe],
+  imports: [ButtonComponent, CardComponent, CurrencyUsdPipe, DecimalPipe, ProjectionChartComponent, ChatWidgetComponent],
+  providers: [CurrencyUsdPipe],
   template: `
     <div class="min-h-screen px-4 py-8">
       <div class="max-w-7xl mx-auto">
@@ -258,7 +259,7 @@ import { ProjectionChartComponent } from '../components/projection-chart/project
       }
 
       <!-- Actions -->
-        <div class="flex justify-center gap-4 flex-wrap">
+        <div class="flex justify-center gap-4 flex-wrap mb-8">
           @if (!facade.isSaved()) {
             <bytex-button
               variant="primary"
@@ -281,8 +282,11 @@ import { ProjectionChartComponent } from '../components/projection-chart/project
           </bytex-button>
         </div>
 
+        <!-- Chat Widget -->
+        <bytex-chat-widget class="mb-8" />
+
         @if (!authFacade.isAuthenticated()) {
-          <p class="mt-4 text-center text-sm text-surface-500">
+          <p class="text-center text-sm text-surface-500">
             Iniciá sesión para guardar tus simulaciones
             <a routerLink="/login" class="text-primary-500 hover:underline ml-1">Ingresar</a>
           </p>

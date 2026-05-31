@@ -2,15 +2,16 @@ import { Component, inject, ChangeDetectionStrategy } from '@angular/core';
 import { Router } from '@angular/router';
 import { DatePipe } from '@angular/common';
 import { DashboardFacade } from '../data-access/services/dashboard-facade';
-import { ButtonComponent } from '../../../shared/components/ui/button/button.component';
 import { EmptyStateComponent } from '../../../shared/components/ui/empty-state/empty-state.component';
-import { SpinnerComponent } from '../../../shared/components/ui/spinner/spinner.component';import { DecimalPipe } from '@angular/common';import { CurrencyUsdPipe, NumberFormatPipe } from '../../../shared/pipes';
+import { SpinnerComponent } from '../../../shared/components/ui/spinner/spinner.component';
+import { DecimalPipe } from '@angular/common';
+import { CurrencyUsdPipe } from '../../../shared/pipes';
 import { APP_ROUTES } from '../../../core/constants/app-routes';
 
 @Component({
   selector: 'bytex-simulation-list-page',
   standalone: true,
-  imports: [ButtonComponent, EmptyStateComponent, SpinnerComponent, CurrencyUsdPipe, NumberFormatPipe, DatePipe, DecimalPipe],
+  imports: [EmptyStateComponent, SpinnerComponent, CurrencyUsdPipe, DatePipe, DecimalPipe],
   template: `
     <div class="min-h-screen px-4 py-8">
       <div class="max-w-4xl mx-auto">

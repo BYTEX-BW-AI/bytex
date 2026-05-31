@@ -19,6 +19,13 @@ import { APP_ROUTES } from '../../../core/constants/app-routes';
           Gas se acaba en 2031. Tarifa eléctrica subirá a precio internacional.
           Los que instalen ahora pagarán 50–60% menos. ¿Vos estás listo?
         </p>
+        <div class="flex justify-center gap-4 flex-wrap">
+          <a [routerLink]="'/simulador/demo'"
+             class="inline-flex items-center px-8 py-4 bg-secondary-500 hover:bg-secondary-600 text-white font-bold rounded-xl transition-all hover:shadow-2xl hover:shadow-secondary-500/30">
+            🎬 Ver demo en vivo
+            <span class="ml-2">→</span>
+          </a>
+        </div>
       </div>
     </section>
 

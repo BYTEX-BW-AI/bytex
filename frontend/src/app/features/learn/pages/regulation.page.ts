@@ -1,10 +1,9 @@
 import { Component, ChangeDetectionStrategy } from '@angular/core';
-import { CardComponent } from '../../../shared/components/ui/card/card.component';
 
 @Component({
   selector: 'bytex-regulation-page',
   standalone: true,
-  imports: [CardComponent],
+  imports: [],
   template: `
     <div class="min-h-screen px-4 py-8">
       <div class="max-w-4xl mx-auto">

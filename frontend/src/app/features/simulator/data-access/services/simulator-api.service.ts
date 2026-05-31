@@ -5,6 +5,7 @@ import { ApiService } from '../../../../core/services/api.service';
 import { ExtractedBillData, PanelOption, SimulationResult } from '../models/simulation.model';
 
 interface CalculateRequest {
+  simulationId: string;
   monthlyConsumptionKwh: number;
   peakPowerKw?: number;
   irradianceKwhM2Day: number;
@@ -18,9 +19,8 @@ interface CalculateRequest {
 export class SimulatorApiService {
   private api = inject(ApiService);
 
-  /** Extract bill data using Gemini OCR */
-  extractBill(imageBase64: string): Observable<ExtractedBillData> {
-    // Handle data URL format: "data:image/jpeg;base64,/9j..."
+  /** Extract bill data and analyze with Gemini */
+  extractBill(imageBase64: string): Observable<any> {
     let rawBase64 = imageBase64;
     let mimeType = 'image/jpeg';
 
@@ -32,9 +32,15 @@ export class SimulatorApiService {
       }
     }
 
-    return this.api.post<ExtractedBillData>('/api/simulation/extract-bill', {
+    return this.api.post<any>('/api/simulation/extract-and-analyze', {
       image: rawBase64,
       mimeType,
+      context: {
+        sectorId: null,
+        zoneId: null,
+        latitude: null,
+        longitude: null,
+      }
     }).pipe(map(res => res.data!));
   }
 
@@ -71,5 +77,13 @@ export class SimulatorApiService {
     hasMore: boolean;
   }> {
     return this.api.getPaginated<SimulationResult>('/api/simulation/list', cursor);
+  }
+
+  /** Ask question about simulation */
+  chatAsk(simulationId: string, question: string): Observable<{ answer: string; sources: string[] }> {
+    return this.api.post<{ answer: string; sources: string[] }>(
+      '/api/chat/ask',
+      { simulationId, question }
+    ).pipe(map(res => res.data!));
   }
 }

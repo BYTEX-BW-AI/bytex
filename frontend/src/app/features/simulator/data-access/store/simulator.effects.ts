@@ -52,6 +52,7 @@ export class SimulatorEffects {
       withLatestFrom(this.store.select(selectSimulatorState)),
       switchMap(([_, state]) =>
         this.api.calculateMicrogrid({
+          simulationId: state.simulationId || '',
           monthlyConsumptionKwh: state.billData?.consumoKwh || state.estimatedConsumption || 10000,
           peakPowerKw: state.billData?.potenciaMaximaKw || undefined,
           monthlyCostBs: state.billData?.costoTotalBs || undefined,
@@ -104,6 +105,21 @@ export class SimulatorEffects {
     this.actions$.pipe(
       ofType(SimulatorActions.calculateSuccess),
       map(() => SimulatorActions.nextStep())
+    )
+  );
+
+  // Chat ask
+  chatAsk$ = createEffect(() =>
+    this.actions$.pipe(
+      ofType(SimulatorActions.chatAsk),
+      switchMap(({ simulationId, question }) =>
+        this.api.chatAsk(simulationId, question).pipe(
+          map(({ answer }) => SimulatorActions.chatAskSuccess({ answer })),
+          catchError(error => of(SimulatorActions.chatAskFailure({
+            error: 'Error en chat. Intentá de nuevo.'
+          })))
+        )
+      )
     )
   );
 }
