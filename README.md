@@ -1,4 +1,4 @@
-# 🌞 Soberanía Energética — Marketplace de IA para independencia energética en Bolivia
+# 🌞 ByteX EnergyHub — Marketplace de IA para la independencia energética empresarial
 
 > **Bolivia agotó el gas que genera el 66% de su electricidad. En 2031 tendrá que importar gas a precio internacional. Las empresas que construyan infraestructura propia hoy pagarán 50–60% menos que las que esperen.**
 
