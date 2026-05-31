@@ -81,10 +81,34 @@ El plan Spark (gratuito) de Firestore incluye 50.000 lecturas y 20.000 escritura
 
 /simulations/{simulationId}
   - userId
-  - type: "existing" | "new"          // empresa existente o nuevo emprendedor
-  - input: { ... }                    // datos de la factura o del rubro seleccionado
-  - result: { ... }                   // sizing, ROI, comparativa CRE vs microred
+  - type: "existing" | "new"
+  - input: {
+      nivelIndependencia: "factura" | "semi" | "total"
+      equipamientoExistente: { paneles: kWp, baterias: kWh, inversor: kW }
+      presupuesto: { min: USD, max: USD }
+      consumoKwh: number
+      picoKw: number
+      zona: string
+      irradiacion: number              // de NASA POWER
+    }
+  - result: {
+      componentesRecomendados: { paneles: N, baterias: N, inversor: kW }
+      capexEstimado: { min: USD, max: USD }
+      payback: años
+      ahorrroAnual: USD
+      co2Evitado: tonAnual
+      proveedoresMatch: [providerId]   // IDs de proveedores que pueden entregar
+    }
   - createdAt
+
+/providers/{providerId}
+  - nombre, zona[], nivelCobertura[]
+  - marcasCertificadas: string[]
+  - precioReferenciaKwp: USD
+  - tiempoInstalacion: dias
+  - reviewScore: float
+  - planSuscripcion: "basico" | "profesional" | "premium"
+  - activo: boolean
 ```
 
 ---
@@ -108,7 +132,7 @@ Firebase Functions requiere el plan Blaze (pay-as-you-go) para hacer llamadas HT
 
 ```
 extractBillData(imageBase64)
-  → llama a Gemini Vision para extraer kWh, kW pico y costo de la factura
+  → llama a Gemini Vision para extraer kWh, pico kW, costo y zona de la factura
 
 estimateConsumption(rubro, zona)
   → devuelve consumo estimado del rubro usando tabla de referencia INE Bolivia
@@ -116,8 +140,17 @@ estimateConsumption(rubro, zona)
 getSolarData(lat, lng)
   → llama a NASA POWER API para obtener irradiación media diaria de la ubicación
 
-calculateMicrogrid(consumoKwh, picoKw, irradiacion)
-  → lógica de sizing: paneles, baterías, generador de respaldo, CapEx, ROI
+calculateMicrogrid(consumoKwh, picoKw, irradiacion, nivelIndependencia, equipamientoExistente, presupuesto)
+  → motor de sizing personalizado:
+     - nivelIndependencia: "factura" | "semi" | "total"
+     - equipamientoExistente: { paneles: kWp, baterias: kWh, inversor: kW }
+     - presupuesto: { min: USD, max: USD }
+  → retorna: componentes exactos recomendados, CapEx estimado, ROI, payback, CO₂ evitado
+
+matchProviders(configuracion, zona, presupuesto)
+  → consulta Firestore de proveedores certificados
+  → retorna: proveedores que pueden entregar la configuración exacta en la zona del cliente
+     ordenados por precio, tiempo de instalación y score de reputación
 ```
 
 ---
@@ -213,24 +246,30 @@ El plan Spark (gratuito) incluye 10 GB de almacenamiento y 360 MB/día de transf
 ### Flujo A — Empresa existente
 
 ```
-1. Usuario sube foto/PDF de su factura CRE
-2. Angular envía imagen en base64 a Firebase Function extractBillData()
-3. Function llama a Gemini Vision → extrae kWh total, kW pico, costo mensual
-4. Function llama a NASA POWER con coordenadas de Santa Cruz → obtiene irradiación
-5. Function ejecuta calculateMicrogrid() → sizing + CapEx + ROI
-6. Angular muestra comparativa: CRE vs Microred Solar
-7. Resultado se guarda en Firestore asociado al usuario
+1. Usuario responde 4 inputs: nivel de independencia, equipamiento existente, presupuesto, factura
+2. Angular envía factura en base64 → extractBillData() → Gemini extrae kWh, pico kW, zona
+3. getSolarData(lat, lng) → NASA POWER entrega irradiación real de la zona del cliente
+4. calculateMicrogrid(consumo, pico, irradiacion, nivel, equipamiento, presupuesto)
+   → sizing personalizado: exactamente cuántos paneles + baterías + inversor para SU caso
+   → CapEx estimado dentro de SU presupuesto, ROI, payback, CO₂ evitado
+5. matchProviders(configuracion, zona, presupuesto)
+   → consulta Firestore → retorna proveedores certificados que pueden entregar esa config
+6. Angular muestra: recomendación personalizada + comparativa CRE vs sistema + proveedores
+7. Resultado guardado en Firestore
 ```
 
 ### Flujo B — Nuevo emprendedor
 
 ```
-1. Usuario selecciona rubro (panadería, taller, galpón logístico, etc.) + zona (Warnes, Cotoca, etc.)
-2. Angular llama a estimateConsumption() → consumo estimado basado en tabla INE Bolivia
-3. Function llama a NASA POWER con coordenadas de la zona seleccionada
-4. Function ejecuta calculateMicrogrid() → sizing + CapEx (microred) vs CapEx (transformador CRE)
-5. Angular muestra comparativa: pagar $15k-$50k a CRE vs invertir en microred propia
-6. Resultado se guarda en Firestore
+1. Usuario responde 4 inputs: nivel de independencia, equipamiento (ninguno), presupuesto, rubro + zona
+2. estimateConsumption(rubro, zona) → consumo estimado por benchmarks INE Bolivia
+3. getSolarData(lat, lng) → NASA POWER irradiación de la zona seleccionada
+4. calculateMicrogrid(consumo, picoEstimado, irradiacion, nivel, {}, presupuesto)
+   → sizing personalizado para ese rubro + nivel de independencia deseado
+   → compara: CapEx CRE ($15k–$50k muerto) vs CapEx microred (activo propio)
+5. matchProviders(configuracion, zona, presupuesto) → proveedores en esa zona
+6. Angular muestra: recomendación + comparativa + proveedores
+7. Resultado guardado en Firestore
 ```
 
 ---

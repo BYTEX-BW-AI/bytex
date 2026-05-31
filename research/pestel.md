@@ -45,22 +45,22 @@ El mercado objetivo está en el departamento económicamente más dinámico del 
 **Costo solar global en caída**
 El precio de paneles solares cayó ~90% en la última década. Baterías de litio caen ~20% por año. El payback se acorta naturalmente con el tiempo, independientemente de lo que haga Bolivia.
 
-**Modelo EaaS elimina la barrera del CapEx**
-El leasing energético convierte una inversión grande ($80k–$200k) en una cuota mensual equivalente a la factura actual. Elimina la objeción más grande en un mercado con tarifa subsidiada.
+**Los proveedores ya tienen modelos de financiamiento**
+InnovaSol opera con leasing/PPA desde 2020. Otros proveedores ofrecen financiamiento directo. La plataforma conecta clientes con los proveedores que tienen el modelo que necesitan — no nosotros lo financiamos.
 
 ### Factores de riesgo ⚠️
 
 **Tarifa industrial subsidiada (~$0.084/kWh) — la más baja de Sudamérica**
-Payback actual: 5–8 años (vs. 3–4 en Brasil o Chile). Reduce el sentido de urgencia para empresas que no han vivido un apagón prolongado.
+Payback actual: 5–8 años (vs. 3–4 en Brasil o Chile). Reduce el sentido de urgencia para empresas que no han vivido un apagón prolongado. **Pero el subsidio vence antes de 2031.**
 
-**Crisis fiscal boliviana y escasez de USD**
-Bolivia tiene reservas internacionales en mínimos históricos. El acceso a divisas para importar equipos solares puede complicarse. Los contratos en USD son sensibles al tipo de cambio oficial vs. paralelo.
+**Crisis fiscal boliviana y escasez de USD — afecta a los proveedores, no a la plataforma**
+Bolivia tiene reservas internacionales bajas. Los proveedores que importan equipos en USD enfrentan restricciones de acceso a divisas. Esto les da más razón para usar la plataforma — que les aporte leads calificados sin que tengan que gastar en marketing.
 
 **Reservas de gas en colapso → shock tarifario inminente**
-Las reservas cayeron 65% en 12 años (10.45 → 3.7 TCF). YPFB admitió (marzo 2026) que Bolivia podría importar gas antes de 2031. Importar a precio internacional = ~$400M/año adicionales que se trasladan a la tarifa. **Este riesgo es también una oportunidad**: quien instale microred ahora se cubre antes del shock.
+Las reservas cayeron 65% en 12 años (10.45 → 3.7 TCF). YPFB admitió (marzo 2026) que Bolivia podría importar gas antes de 2031. Importar a precio internacional = ~$400M/año adicionales que se trasladan a la tarifa. **Este riesgo es también nuestra oportunidad**: quien tenga la plataforma cuando el shock llegue ya capturó el mercado.
 
 **Inflación y devaluación**
-La inflación en Bolivia y la presión sobre el tipo de cambio encarecen los equipos importados progresivamente.
+La inflación encarece los equipos importados. Los proveedores necesitan más volumen de ventas para mantener márgenes — la plataforma les aporte ese volumen.
 
 ---
 

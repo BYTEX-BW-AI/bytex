@@ -3,18 +3,32 @@
 
 ---
 
-## HALLAZGO CRÍTICO
+## REENCUADRE ESTRATÉGICO — De competidores a ecosistema
 
-> **Ninguna empresa en Bolivia ofrece un simulador de microgrid con IA ni calculadora de ROI con datos locales reales.**
-> Este espacio está completamente vacío.
+> **Con el modelo marketplace, las empresas solares bolivianas ya NO son competidores — son proveedores potenciales de la plataforma.**
 
-Lo que existe son calculadoras básicas (S.Solar, Enersol) sin IA, sin datos de tarifas CRE reales, sin irradiación por zona, sin modelado de microgrids con almacenamiento. Herramientas genéricas externas (PVGIS, PVSyst) no están localizadas para Bolivia.
+Lo que antes se analizaba como "competencia" ahora es el **ecosistema de proveedores** que la plataforma conecta con clientes. Enersol, InnovaSol, Bolpegas, EnerLogic y los distribuidores Huawei son los primeros candidatos a pagar suscripción y recibir leads calificados.
+
+**El competidor real** no es quien instala paneles — es quien construya una plataforma de análisis energético con IA similar a la nuestra. Ese espacio está vacío en Bolivia.
 
 ---
 
-## TIER 1 — LÍDERES ESTABLECIDOS
+## HALLAZGO CRÍTICO (se mantiene)
 
-### 1. Enersol S.A. ⚠️ (competidor indirecto — mayor brand awareness)
+> **Ninguna empresa en Bolivia ofrece un motor de análisis energético con IA ni calculadora de ROI personalizada con datos locales reales.**
+> Este espacio está completamente vacío — y es exactamente lo que construimos.
+
+Lo que existe son calculadoras básicas (S.Solar, Enersol) sin IA, sin datos de tarifas CRE reales, sin irradiación por zona, sin análisis personalizado. Herramientas genéricas externas (PVGIS, PVSyst) no están localizadas para Bolivia.
+
+---
+
+## ECOSISTEMA DE PROVEEDORES POTENCIALES
+
+> Estas empresas son candidatas a ser proveedores en la plataforma, no competidores. El símbolo 🤝 indica prioridad de onboarding como proveedor ancla.
+
+## TIER 1 — PROVEEDORES ANCLA PRIORITARIOS
+
+### 1. Enersol S.A. 🤝 (proveedor ancla ideal — mayor escala y brand awareness)
 - **Sede:** Santa Cruz de la Sierra (Doble Vía a la Guardia Km 3.5)
 - **Modelo:** Full-service EPC (consultoría → ingeniería → instalación → monitoreo → mantenimiento) + tienda online
 - **Mercado:** Residencial, comercial/industrial, agrícola, rural. B2C y B2B.
@@ -32,7 +46,7 @@ Lo que existe son calculadoras básicas (S.Solar, Enersol) sin IA, sin datos de 
 - **Fortalezas:** Modelo financiero innovador (cero upfront), expansión agresiva, jóvenes y ambiciosos.
 - **Debilidades:** Solo 3 años de historia, sin track record probado. Meta 1 GW aspiracional. Sin datos de escala real.
 
-### 3. InnovaSol S.A. 🎯 (COMPETIDOR DIRECTO MÁS RELEVANTE)
+### 3. InnovaSol S.A. 🤝 (PROVEEDOR ANCLA — modelo leasing/PPA complementario)
 - **Sede:** Nacional (innovasol.com.bo)
 - **Modelo:** **Leasing puro / PPA** — el único en Bolivia a escala. InnovaSol es dueño del sistema. Cliente paga cuota mensual sin inversión inicial. Include diseño + adquisición + instalación + O&M + monitoreo 24/7.
 - **Mercado:** Exclusivamente **comercial e industrial** (B2B). No residencial.
@@ -66,7 +80,7 @@ Lo que existe son calculadoras básicas (S.Solar, Enersol) sin IA, sin datos de 
 - **Mercado:** Rural, comunidades remotas, oriente cruceño.
 - **Debilidades:** Muy pequeña, geografía limitada.
 
-### 7. EnerLogic ⚠️ (competidor indirecto relevante)
+### 7. EnerLogic 🤝 (proveedor potencial — especialista agroindustrial)
 - **Sede:** Calle J. Lara #3610, Santa Cruz de la Sierra
 - **Modelo:** Full-service llave en mano. On-grid, off-grid, híbridos, bombeo solar. También construcción de líneas eléctricas MT/BT.
 - **Mercado:** Residencial, comercial, **agroindustrial**.
@@ -123,34 +137,45 @@ Todos operan principalmente por Facebook. Sin diferenciación relevante para el 
 
 ---
 
-## MAPA DE BRECHAS — ESPACIOS SIN ATENDER
+## MAPA DE BRECHAS — LO QUE NINGÚN PROVEEDOR TIENE
 
-| Brecha | Estado |
-|---|---|
-| **Simulador AI con datos locales reales** | **VACÍO TOTAL en Bolivia** |
-| **ROI calculator con tarifas CRE/SIN reales** | Ninguna empresa lo tiene |
-| **Herramienta digital de captación B2B** | Solo cotizadores básicos |
-| **Leasing/PPA residencial** | InnovaSol solo hace C&I |
-| **Modelo SaaS solar** | Cero empresas en Bolivia |
-| **Net metering educación / DS 5167** | Regulación nueva (2024), sin herramientas explicativas |
+| Brecha | Estado | Oportunidad para la plataforma |
+|---|---|---|
+| **Motor de análisis IA con datos locales** | **VACÍO TOTAL en Bolivia** | Es nuestro producto central |
+| **Canal digital de leads B2B calificados** | Ningún proveedor lo tiene | Es el valor que pagamos por suscripción |
+| **ROI calculator con tarifas CRE reales** | Solo cotizadores básicos | Diferencia una simulación de una cotización |
+| **Comparación objetiva entre proveedores** | No existe | Builds trust with clients |
+| **Monitoreo post-instalación con inteligencia de negocio** | Cada proveedor tiene su app técnica | Nuestra app agrega valor encima |
+| **Upgrade simulator** | Ninguno | Activa el ciclo de expansión del cliente |
 
 ---
 
-## TABLA RESUMEN COMPETITIVA
+## COMPETIDORES REALES (quién podría construir una plataforma similar)
 
-| # | Empresa | Ciudad | Modelo | Mercado | Escala | Simulador IA |
-|---|---|---|---|---|---|---|
-| 1 | Enersol S.A. | SCZ | EPC full-service | B2C + B2B | 20+ MW, 21K inst. | ❌ |
-| 2 | S.Solar (Energía Simple) | SCZ+LPZ+CBB | Full-service + zero upfront | Todos | Joven, meta 1GW | ❌ básica |
-| 3 | InnovaSol S.A. | Nacional | Leasing/PPA | Solo C&I | 55 sistemas | ❌ |
-| 4 | Solaria Bolivia | SCZ | Full-service + app | Res + Comercial | No publicado | ❌ |
-| 5 | Tecnosol SRL | SCZ | Venta + inst. | Rural/Res | 30 años | ❌ |
-| 6 | EnerLogic | SCZ | Llave en mano | Res + Agro + C&I | 50 proyectos | ❌ |
-| 7 | Bolpegas SRL | LPZ → SCZ | EPC industrial | Industrial | 3 MW (mayor privado) | ❌ |
-| 8 | Desmart Ltda | LPZ + SCZ | Distribuidor mayorista | B2B instaladores | ISO 9001+50001 | ❌ |
-| 9 | GreenEnergy Bolivia | SCZ | BIPV + eólico | Res + Comercial | No publicado | ❌ |
-| 10 | Resto (7 retailers) | SCZ | Venta/distribución | Residencial | Muy pequeños | ❌ |
-| **Nuestro producto** | **SCZ** | **Simulador IA + EaaS** | **B2B Industrial** | **MVP** | **✅** |
+El único competidor real es quien construya un marketplace de análisis energético con IA similar al nuestro. Actualmente no existe nadie en Bolivia haciendo esto. Los riesgos son:
+
+| Riesgo | Probabilidad | Defensa |
+|---|---|---|
+| Enersol construye su propio simulador | Media — tiene recursos | Efecto de red + datos propietarios |
+| Startup regional (Chile/Argentina) entra a Bolivia | Baja — mercado pequeño aún | First mover advantage + contexto local |
+| Google/Amazon lanza herramienta genérica | Muy baja | No tiene datos CRE ni contexto boliviano |
+
+---
+
+## TABLA RESUMEN — ECOSISTEMA DE PROVEEDORES
+
+| # | Empresa | Rol en plataforma | Prioridad onboarding | Sin canal digital |
+|---|---|---|---|---|
+| 1 | Enersol S.A. | Proveedor ancla tier 1 | 🔴 Alta | ✅ |
+| 2 | InnovaSol S.A. | Proveedor leasing/PPA | 🔴 Alta | ✅ |
+| 3 | Bolpegas SRL | Proveedor proyectos grandes | 🔴 Alta | ✅ |
+| 4 | EnerLogic | Proveedor agroindustrial | 🟡 Media | ✅ |
+| 5 | Distribuidores Huawei (×5) | Proveedores equipados Huawei | 🟡 Media | ✅ |
+| 6 | S.Solar (Energía Simple) | Proveedor zero-upfront | 🟡 Media | ❌ (tiene calculadora básica) |
+| 7 | Solaria Bolivia | Proveedor con app propia | 🟢 Baja | ❌ (tiene app) |
+| 8 | Tecnosol SRL | Proveedor off-grid/rural | 🟢 Baja | ✅ |
+| 9 | Green Solar SRL | Proveedor sustitución diésel | 🟢 Baja | ✅ |
+| **Nuestra plataforma** | **Marketplace + análisis IA** | — | — | — |
 
 ---
 

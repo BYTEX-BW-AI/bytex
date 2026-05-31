@@ -1,5 +1,6 @@
-# Lean Canvas — Simulador de Soberanía Energética
+# Lean Canvas — Soberanía Energética (Marketplace)
 ## Hackathon Build With AI 2026 — Santa Cruz, Bolivia
+## v2.0 — Modelo Marketplace actualizado
 
 ---
 
@@ -7,168 +8,205 @@
 *Los 3 dolores más importantes del cliente*
 
 **① CapEx eléctrico para nuevos emprendedores**
-En zonas de expansión (Warnes, Cotoca, Montero), la CRE no tiene tendido cercano. El emprendedor debe pagar de su bolsillo transformador + postes + cableado: entre **$15.000 y $50.000 USD** antes de encender una sola máquina. Capital muerto.
+En zonas de expansión (Warnes, Cotoca, Montero), la CRE no tiene tendido cercano. El emprendedor paga transformador + postes + cableado: **$15.000–$50.000 USD de capital muerto** antes de encender una sola máquina. Ese dinero desaparece — es activo de la CRE, no del cliente.
 
 **② Penalización por picos de demanda para empresas existentes**
-La CRE cobra por **Potencia Máxima Demandada (kW)**. Una fábrica que arranca motores pesados a las 14:00 (hora pico de calor) infla toda su factura mensual. Además, los bajones de voltaje dañan maquinaria sensible — pérdidas de miles de dólares por hora de línea parada.
+La CRE cobra por **Potencia Máxima Demandada (kW)**. Una fábrica que arranca motores a las 14:00 infla toda su factura mensual. Los bajones de voltaje dañan maquinaria sensible — pérdidas de miles de dólares por hora de línea parada.
 
-**③ Incertidumbre energética nacional**
-Las reservas de gas de Bolivia cayeron **65% en 12 años** (10.45 → 3.7 TCF). YPFB admitió oficialmente (marzo 2026) que Bolivia podría importar gas antes de 2031. El 70% de la electricidad del SIN viene de gas. La tarifa subsidiada no es sostenible. Los apagones de 2023 (48h, 87.000 conexiones) ya son historia documentada.
+**③ Bolivia agotó su infraestructura energética — el reloj corre**
+Las reservas de gas cayeron **65% en 12 años** (10.45 → 3.7 TCF). YPFB admitió (marzo 2026) que Bolivia importará gas antes de 2031. Cuando eso pase, la tarifa eléctrica subsidiada sube a precio internacional. Los apagones de 2023 (48h, 87.000 conexiones) ya muestran el colapso en curso.
 
 **Alternativas existentes (status quo)**
-- Seguir pagando a CRE y rezar que no haya cortes
-- InnovaSol S.A. (55 instalaciones en todo Bolivia — mercado nasciente)
-- Enersol S.A. (foco residencial/rural, no industrial)
+- Seguir pagando a CRE sin opciones claras ni comparables
+- Contactar instaladoras sin datos objetivos de ROI ni comparación de proveedores
+- InnovaSol (55 instalaciones en todo Bolivia — mercado nasciente, sin plataforma digital)
 
 ---
 
 ## 2. SEGMENTOS DE CLIENTES
-*¿A quién le duele más?*
+*Dos lados del marketplace*
+
+### Lado Demanda — Empresas que buscan soberanía energética
 
 **Segmento A — Nuevo Emprendedor Industrial**
-- Industrias, aserraderos, agro-negocios, galpones logísticos
-- Ubicación: eje metropolitano (Warnes, Cotoca, Montero) o zonas rurales de Santa Cruz
-- Dolor principal: $15k–$50k de CapEx muerto para conectarse a la CRE
+- Industrias, aserraderos, agro-negocios, galpones logísticos en zonas de expansión
+- Warnes, Cotoca, Montero — donde la CRE cobra el tendido
+- Dolor: $15k–$50k de CapEx muerto antes de operar
 - Universo: parte de las ~10.000–12.000 empresas energo-intensivas de Santa Cruz
 
 **Segmento B — Empresa Existente con Alto Consumo**
-- Manufactureras, frigoríficos, textiles, comercio grande, oficinas con climatización intensiva
-- Ubicación: Santa Cruz ciudad + PILAT (1.350 empresas en un solo lugar)
-- Dolor principal: picos de demanda, bajones de voltaje, factura variable e impredecible
+- Manufactureras, frigoríficos, textiles, comercio grande, agroindustria
+- Santa Cruz ciudad + PILAT (1.350 empresas en un solo lugar)
+- Dolor: picos de demanda, apagones, factura impredecible
 - Universo: 12.681 empresas manufactureras + logística + agroindustria en Santa Cruz
 
-**Early adopters**
-Empresas del PILAT (Warnes) — tienen el dolor documentado (línea Warnes–Las Brechas como cuello de botella) y ya están receptivas a generación propia (el parque planifica un parque eólico propio).
+**Early adopters:** Empresas del PILAT (Warnes) — cuello de botella documentado (línea Warnes–Las Brechas), receptivas a generación propia (el parque planifica su propio parque eólico).
+
+### Lado Oferta — Proveedores certificados
+
+Empresas instaladoras activas en Bolivia que pagan para acceder a leads calificados:
+- Enersol S.A. (Fronius + Victron, 40 años, 20+ MW)
+- Bolpegas SRL (UKSOL, proyecto BFC 3MW)
+- InnovaSol S.A. (leasing/PPA, 70+ sistemas)
+- EnerLogic (agroindustrial, 50+ proyectos)
+- Distribuidores Huawei FusionSolar (AMESOL, HEXACORP, DMC, SIE SA, DIGICORP)
 
 ---
 
 ## 3. PROPUESTA DE VALOR ÚNICA
-*¿Por qué nosotros? ¿Por qué ahora?*
 
-> **"En 3 minutos, tu factura de la CRE se convierte en el plano financiero de tu propia planta de energía."**
+### Para empresas (lado demanda):
+> **"Subís tu factura. En 3 minutos sabés exactamente qué sistema necesitás, cuánto te cuesta, cuándo lo recuperás y quién te lo instala — todo verificado."**
 
-No vendemos paneles. Vendemos **independencia de un sistema que el propio Estado boliviano admite que está llegando a su límite.**
+No buscamos proveedores por vos. Tampoco te vendemos el primero que aparece. Te mostramos tus números reales y te conectamos con proveedores certificados que compiten por tu proyecto.
 
-- Para el nuevo emprendedor: en lugar de pagar $30k a la CRE por un transformador (activo de ellos, no tuyo), invertís ese capital en tu propia microred — y la owns en 4–5 años.
-- Para la empresa existente: eliminás los picos de demanda que inflan tu factura, estabilizás el voltaje, y te desconectás del riesgo de apagón.
-- Para todos: de 0.40–0.45 kg CO2/kWh (SIN/gas) a 0.02–0.05 kg CO2/kWh (solar). 90–95% menos emisiones. Real, no un folleto verde.
+### Para proveedores (lado oferta):
+> **"Accedés a leads calificados que ya saben lo que necesitan y ya decidieron invertir."**
+
+Un lead que corrió la simulación, vio su ROI y solicitó contacto no es un curioso — es un comprador. Pagás por acceder a eso, no por publicidad genérica.
 
 ---
 
 ## 4. SOLUCIÓN
-*Las 3 funcionalidades core del MVP*
+*App gratuita con dos modos*
 
-**① OCR + extracción con IA (Gemini)**
-El usuario sube foto/PDF de su factura CRE. Gemini 2.5 Flash-Lite extrae: kWh total, pico kW, costo mensual, historial. Sin formularios manuales.
+### Modo Evaluación (pre-instalación) — gratuito
 
-**② Motor de sizing de microred**
-Con los datos extraídos (o con consumo estimado por rubro para nuevos emprendedores), la IA:
-- Dimensiona paneles solares (usando irradiación NASA POWER API — 4.5–5.2 kWh/m²/día Santa Cruz)
-- Dimensiona banco de baterías (autonomía nocturna)
-- Dimensiona generador de respaldo
-- Calcula CapEx total usando benchmark IRENA Latam ($1.00–$1.50 USD/watt)
+El análisis de IA es el corazón del producto. El cliente responde 4 preguntas y la IA hace el trabajo que hoy ninguna empresa en Bolivia hace: dimensionar el sistema exacto que necesita, con sus datos reales, y conectarlo con quién puede construirlo.
 
-**③ Comparativa directa CRE vs Microred**
-| | CRE R.L. (Dependencia) | Microred Propia (Soberanía) |
-|---|---|---|
-| Costo transformador | $15k–$50k (activo de CRE) | $0 |
-| Pago mensual | Variable + picos kW | Cuota fija de amortización |
-| ROI | N/A | Payback 5–8 años (acortándose) |
-| Riesgo de apagón | ALTO (documentado 2023) | Mínimo (batería local) |
-| Emisiones | ~0.42 kg CO2/kWh | ~0.03 kg CO2/kWh |
-| Dependencia del gas | 70% | 0% |
+**Inputs del cliente (4 preguntas):**
+1. **¿Qué nivel de independencia querés?** → Reducir mi factura / Depender menos de la CRE / Independencia total
+2. **¿Qué ya tenés instalado?** → Nada / Ya tengo paneles / Ya tengo inversor
+3. **¿Cuál es tu presupuesto?** → Rango en USD
+4. **¿Quién sos?** → Subí tu factura CRE (empresa existente) o seleccioná rubro + zona (nuevo emprendedor)
+
+**Lo que hace la IA con esos inputs:**
+
+*Empresa existente:*
+Factura CRE → Gemini extrae kWh, pico kW, costo → NASA POWER entrega irradiación exacta de tu zona → motor de sizing calcula paneles + baterías + inversor necesarios para alcanzar TU nivel de independencia con TU presupuesto → comparativa personalizada CRE vs sistema recomendado.
+
+*Nuevo emprendedor:*
+Rubro + zona → IA estima consumo (tabla INE Bolivia) → calcula CapEx CRE ($15k–$50k muerto) vs microred propia dimensionada para ese rubro → recomendación personalizada.
+
+**Output personalizado (no genérico):**
+> *"Para lograr 70% de independencia con tu consumo de 47.000 kWh/mes en Warnes, necesitás exactamente 182 paneles 550W + 10 baterías Pylontech + inversor Huawei 100kW. Costo estimado: $58.000–$72.000. Payback: 4.8 años. Estos 3 proveedores en tu zona pueden instalarlo dentro de tu presupuesto."*
+
+- Componentes exactos recomendados (no tallas únicas)
+- ROI y payback calculados con TUS datos reales
+- Proveedores certificados en tu zona ordenados por precio, tiempo y reputación
+
+### Modo Gestión (post-instalación) — gratuito para clientes con sistema instalado
+
+- Dashboard en tiempo real: kWh generados, estado de baterías, dependencia CRE residual
+- Inteligencia de negocio: ahorro mensual en Bs, % de ROI alcanzado, fecha de recuperación
+- CO₂ evitado acumulado (vs grid boliviano 0.42 kg/kWh)
+- Alertas de mantenimiento y anomalías
+- Upgrade simulator: "pasarte al Pack Horizonte te ahorraría $X adicionales"
+- Integración APIs: Huawei FusionSolar + Fronius Solar API + Victron VRM
 
 ---
 
 ## 5. CANALES
-*¿Cómo llega el producto al cliente?*
 
-**Canal primario — El simulador como Lead Magnet**
-La plataforma web es gratuita y de acceso libre. Una empresa que corre la simulación y ve su ROI es un lead calificado que ya entendió el valor.
+**Canal primario — App gratuita como punto de entrada**
+Sin fricción. Sin tarjeta. La empresa llega, simula, ve su realidad en 3 minutos.
 
-**Canal secundario — Redes industriales**
-- CAINCO (Cámara de Industria, Comercio, Servicios y Turismo de Santa Cruz)
-- Núcleos empresariales del PILAT
+**Canal secundario — Redes industriales B2B**
+- CAINCO (Cámara de Industria y Comercio Santa Cruz)
+- Núcleos empresariales del PILAT (Warnes)
 - Asociaciones de agroindustriales de Santa Cruz
 
-**Canal terciario — Venta directa B2B**
-Equipo comercial que acerca el simulador a empresas del PILAT y parques industriales con problemas de suministro documentados.
+**Canal terciario — Los propios proveedores**
+Cada proveedor listado tiene incentivo para recomendar la plataforma a sus clientes — porque gestionar sus proyectos y reviews desde nuestra app les da visibilidad y credibilidad.
 
 ---
 
 ## 6. FLUJOS DE INGRESOS
-*¿Dónde está el dinero real?*
 
-El simulador es el embudo. El negocio real tiene tres pilares:
+La app es gratuita para clientes. El revenue viene del lado de los proveedores.
 
-**① Venta directa de microredes**
-Suministro físico de componentes (paneles Tier 1, inversores industriales, baterías de litio ciclo profundo), logística de importación y montaje certificado en terreno del cliente.
+**① Suscripción mensual de proveedores**
+| Plan | Precio | Beneficios |
+|---|---|---|
+| Básico | $150/mes | Perfil listado, acceso a leads de su zona |
+| Profesional | $350/mes | Perfil destacado, badge verificado, analytics |
+| Premium | $700/mes | Top de resultados, integración de monitoreo en app |
 
-**② Leasing Energético (EaaS — Energy as a Service)**
-El cliente no desembolsa capital. Nosotros financiamos el equipamiento. El cliente paga una cuota mensual equivalente (o menor) a lo que pagaba a CRE. Se convierte en dueño del sistema al cabo de 4–5 años.
-*Este modelo elimina la principal objeción: "no tengo capital para la inversión inicial."*
+**② Comisión por deal cerrado**
+3–5% sobre el valor del proyecto cerrado a través de la plataforma.
+Ejemplo: Pack Horizonte $76.000 → comisión $2.280–$3.800
 
-**③ Mantenimiento Técnico Recurrente (SaaS + Hardware IoT)**
-Contratos de servicio para monitoreo remoto de baterías, inversores y eficiencia de paneles vía red de sensores IoT. Garantiza que el sistema funcione 24/7.
+**③ Leads calificados**
+Empresas que completaron simulación y solicitaron contacto: $50–$150 por lead según tamaño estimado del sistema.
+
+**④ Placement destacado**
+Proveedores que quieren aparecer primero para cierto rubro o zona pagan por posicionamiento. Similar a Google Ads o resultados patrocinados de Amazon.
+
+**Fase 2 — Producto propio**
+Con escala y conocimiento del mercado, lanzamos nuestros propios packs bajo marca propia. Los proveedores se convierten en red de instalación subcontratada. Margen directo del 35%.
 
 ---
 
 ## 7. ESTRUCTURA DE COSTOS
-*¿Qué necesitamos para operar?*
 
-**Costos del MVP (hackathon) — prácticamente $0**
-- Gemini 2.5 Flash-Lite API: free tier (1.000 req/día)
-- NASA POWER API: gratuita
-- Hosting: free tier (Vercel / Railway / Render)
-- Dominio: ~$10/año
+**MVP — $0 operativo**
+| Componente | Costo |
+|---|---|
+| Gemini 2.5 Flash-Lite | $0 (free tier) |
+| NASA POWER API | $0 (gratuita) |
+| Firebase stack completo | $0 (Blaze free tier) |
+| Angular + AngularFire | $0 (open source) |
 
-**Costos del negocio real (post-hackathon)**
-- Importación y logística de equipos solares (principal costo variable)
-- Capital para financiar el leasing energético (principal costo de escala)
-- Equipo técnico de instalación y mantenimiento
-- Plataforma IoT para monitoreo remoto
-- Estructura comercial B2B
+**Operación inicial post-hackathon**
+| Concepto | Estimado |
+|---|---|
+| Certificación de proveedores (legal + auditoría) | $2.000–5.000 one-time |
+| Marketing B2B (CAINCO, PILAT, LinkedIn) | $1.000–2.000/mes |
+| Hosting + APIs a escala | $200–500/mes |
+| **Break-even operativo** | **10 proveedores Básico + 5 Profesional = $3.250/mes** |
 
 ---
 
 ## 8. MÉTRICAS CLAVE
-*¿Cómo sabemos que funciona?*
 
 | Métrica | Qué mide |
 |---|---|
-| Simulaciones completadas / semana | Activación del embudo |
-| Tasa simulación → consulta comercial | Conversión del lead magnet |
-| Tiempo promedio de simulación | UX y fricción del producto |
-| Cotizaciones enviadas | Pipeline de ventas |
-| Instalaciones completadas | Revenue real |
-| NPS post-instalación | Calidad del servicio |
+| Simulaciones completadas / semana | Tracción del producto |
+| Tasa simulación → solicitud de proveedor | Conversión lado demanda |
+| Proveedores activos en plataforma | Salud del lado oferta |
+| Tiempo simulación → contacto proveedor | Eficiencia del marketplace |
+| Deals cerrados / mes | Revenue real |
+| NPS empresas (post-simulación) | Calidad del producto |
+| NPS proveedores (post-deal) | Calidad del marketplace |
 | kWh generados acumulados (IoT) | Impacto demostrable |
-| ton CO2 evitadas acumuladas | Argumento de sostenibilidad |
+| ton CO₂ evitadas acumuladas | Argumento ESG |
 
 ---
 
 ## 9. VENTAJA INJUSTA
-*Lo que no se puede copiar fácilmente*
 
-**① Datos propietarios que crecen con el uso**
-Cada simulación alimenta el benchmark de consumo por rubro en Santa Cruz. Con el tiempo, las estimaciones para nuevos emprendedores son más precisas que cualquier tabla genérica de INE.
+**① Datos propietarios que crecen con cada simulación**
+Cada simulación construye el benchmark de consumo por rubro y zona en Santa Cruz. Con el tiempo, las estimaciones son más precisas que cualquier fuente pública — y ese dataset es nuestro.
 
-**② Primer simulador de este tipo en Bolivia**
-El mercado solar B2B en Bolivia tiene 55 instalaciones en todo el país (InnovaSol). No existe ninguna herramienta de este tipo — el simulador como lead magnet es una categoría nueva localmente.
+**② Primera plataforma de este tipo en Bolivia**
+No existe ningún marketplace ni simulador de soberanía energética en Bolivia. Ser primero en una categoría nueva es la ventaja más difícil de replicar.
 
-**③ Integración Gemini en contexto GDG**
-La hackathon es organizada por GDG Santa Cruz. El uso profundo de Gemini como motor de OCR + razonamiento financiero no es decorativo — es la arquitectura central del producto, y abre puertas a créditos y soporte de Google.
+**③ Efectos de red en ambos lados**
+Más proveedores → más opciones para empresas → más simulaciones → más leads → más proveedores quieren estar. El marketplace se auto-refuerza.
 
-**④ Timing irrepetible**
-El gas boliviano se está acabando. La tarifa eléctrica va a subir. El subsidio se va a eliminar. Las empresas que instalen microredes ahora van a tener payback de 3–4 años en lugar de 5–8. Quien entre ahora construye la base de clientes antes de que el mercado explote.
+**④ Gemini como motor central en contexto GDG**
+Hackathon organizada por GDG Santa Cruz. Gemini no es decorativo — es la arquitectura central del producto. Eso abre puertas a créditos de Google y soporte técnico preferencial.
+
+**⑤ Timing irrepetible**
+El gas boliviano se acaba. La tarifa va a subir antes de 2031. Quien construya su infraestructura hoy paga la mitad y entra protegido. Nosotros somos la plataforma que hace eso posible hoy.
 
 ---
 
 ## Resumen ejecutivo para el pitch
 
-- **Problema**: Las empresas de Santa Cruz dependen de un sistema eléctrico que el 70% alimenta con gas que se acaba.
-- **Solución**: Un simulador con IA que convierte tu factura en el plano financiero de tu independencia energética.
-- **Mercado**: 10.000–12.000 empresas target en Santa Cruz. TAM $80M–$200M.
-- **Modelo**: El simulador es gratuito (lead magnet). El negocio es EaaS: venta, leasing y mantenimiento de microredes solares.
-- **Tecnología**: Gemini 2.5 (OCR + razonamiento), NASA POWER API (irradiación solar), stack 100% gratuito para el MVP.
-- **Ventaja**: Primer mover en un mercado nasciente con datos propietarios que crecen con el uso.
+- **Problema**: Bolivia agotó su soberanía energética. Antes de 2031 la tarifa eléctrica subsidiada termina. Las empresas que no construyan su infraestructura hoy van a pagar el doble después.
+- **Solución**: El marketplace de soberanía energética de Bolivia. App gratuita con IA que convierte tu factura en un plan de independencia energética y te conecta con proveedores certificados.
+- **Modelo**: Gratuito para empresas. Revenue de proveedores (suscripción + comisión + leads). Fase 2: producto propio.
+- **Mercado**: 10.000–12.000 empresas target + 27 empresas solares activas como proveedores potenciales. TAM $80M–$200M.
+- **Tecnología**: Gemini 2.5 (OCR + razonamiento), NASA POWER API, Angular PWA + Firebase. Stack $0.
+- **Ventaja**: Primera plataforma de este tipo en Bolivia, datos que crecen con el uso, efectos de red en ambos lados, timing irrepetible.
