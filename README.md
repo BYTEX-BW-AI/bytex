@@ -170,9 +170,13 @@ Puertos: PostgreSQL 5432 | Backend 3001 | Frontend 4200
 
 ---
 
-## 👥 Equipo
+## 👥 Equipo ByteX
+Integrantes: 
+Julio Cesar Severiche Orellana 
+Denikin Santos Uño 
+Elizabeth Peña Rivero
 
 Proyecto desarrollado para el **Hackathon Build With AI 2026** organizado por **GDG Santa Cruz, Bolivia**.
 
----
+
 <p align="center">☀️ <strong>Bytex</strong> — Soberanía Energética para Empresas de Santa Cruz</p>
