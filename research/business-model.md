@@ -25,11 +25,11 @@ Bolivia agotó sus reservas de gas. Antes de 2031 importará energía a precio i
 
 ## Qué somos
 
-**El marketplace de soberanía energética de Bolivia.**
+**El marketplace de soberanía energética.**
 
 No somos una instaladora. No importamos equipos. No gestionamos obras.
 
-Somos la plataforma que conecta empresas bolivianas que quieren independencia energética con proveedores certificados que pueden dársela — con datos reales, simulaciones con IA y transparencia total en precios y rendimiento.
+Somos la plataforma que conecta empresas que quieren independencia energética con proveedores certificados que pueden dársela — con datos reales, simulaciones con IA y transparencia total en precios y rendimiento.
 
 ---
 
