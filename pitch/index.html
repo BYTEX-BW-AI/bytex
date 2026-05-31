@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soberanía Energética — Pitch Hackathon Build With AI 2026</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="presentation">
+        <!-- SLIDE 1: HOOK -->
+        <section class="slide" id="slide-1">
+            <div class="slide-content hook-slide">
+                <div class="timeline-container">
+                    <div class="timeline-item fade-in-1">
+                        <span class="year">2013</span>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="timeline-item fade-in-2">
+                        <span class="year">2026</span>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="timeline-item fade-in-3">
+                        <span class="year">2031</span>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+                <div class="timeline-line"></div>
+
+                <h1 class="hook-title fade-in-4">Bolivia declina energéticamente</h1>
+
+                <p class="hook-text fade-in-5">
+                    Bolivia no puede sustentarse energéticamente. En 2031 será evidente.
+                    Las empresas tienen dos caminos: rezar que algo cambie, o hacerlo ellas mismas.
+                    Pero nadie les dice cómo, cuánto cuesta, si realmente lo necesitan.
+                    <strong>Nosotros sí. En 2 minutos.</strong>
+                </p>
+            </div>
+        </section>
+
+        <!-- SLIDE 2: EVIDENCIA -->
+        <section class="slide" id="slide-2">
+            <div class="slide-content">
+                <h2 class="slide-title">¿Por qué es real? La evidencia.</h2>
+
+                <div class="evidence-grid">
+                    <!-- Gráfico de reservas -->
+                    <div class="evidence-section chart-section fade-in-1">
+                        <h3>Reservas de gas natural — Bolivia</h3>
+                        <canvas id="reservasChart"></canvas>
+                        <p class="source">Fuente: YPFB oficial + La Razón, marzo 2026</p>
+                    </div>
+
+                    <!-- Generación actual -->
+                    <div class="evidence-section stat-section fade-in-2">
+                        <div class="stat-box">
+                            <span class="stat-value">66%</span>
+                            <p class="stat-label">de la electricidad viene de termoeléctricas a gas</p>
+                        </div>
+                        <div class="stat-detail">
+                            <p>Cuando importemos gas:</p>
+                            <p class="tariff-evolution">
+                                <span class="tariff-now">Hoy: Bs 0.58/kWh</span>
+                                →
+                                <span class="tariff-future">2031: Bs 0.90–1.20/kWh</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Regulación -->
+                    <div class="evidence-section regulation-section fade-in-3">
+                        <div class="regulation-box">
+                            <h4>Regulación</h4>
+                            <p><strong>AETN</strong> regula todos los servicios eléctricos</p>
+                            <p><strong>PGD</strong> limita independencia hasta 2 MW</p>
+                            <p class="implication"><em>Los proveedores no pueden generar más.<br>Las empresas no tienen opción pasiva.</em></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 3: SOLUCIÓN -->
+        <section class="slide" id="slide-3">
+            <div class="slide-content">
+                <h2 class="slide-title">Dos opciones. Una solución.</h2>
+
+                <!-- Las dos opciones -->
+                <div class="options-container fade-in-1">
+                    <div class="option option-no">
+                        <h3>Opción 1: Presionar a tu proveedor</h3>
+                        <p>Imposible. No está en sus manos.</p>
+                    </div>
+
+                    <div class="option option-yes">
+                        <h3>Opción 2: Generar propio</h3>
+                        <p>Microsistema autosustentable.</p>
+                    </div>
+                </div>
+
+                <!-- La solución -->
+                <div class="solution-container fade-in-2">
+                    <h3 class="solution-title">Nuestra solución: Simulador IA + Marketplace</h3>
+
+                    <div class="solution-columns">
+                        <div class="column">
+                            <h4>ANALIZAMOS</h4>
+                            <p>Tu energía real</p>
+                            <p class="small">3 niveles de independencia</p>
+                        </div>
+
+                        <div class="column">
+                            <h4>DIMENSIONAMOS</h4>
+                            <p>Panel 50-200kWp</p>
+                            <p class="small">Batería 0-192kWh</p>
+                            <p class="small">Generador (si aplica)</p>
+                        </div>
+
+                        <div class="column">
+                            <h4>CONECTAMOS</h4>
+                            <p>Proveedores certificados</p>
+                            <p class="small">Instalación • Importación</p>
+                            <p class="small">Mantenimiento</p>
+                        </div>
+                    </div>
+
+                    <p class="tech-stack">
+                        <strong>Powered by:</strong> Gemini 2.5 + NASA POWER API + Firebase
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 4: PROOF -->
+        <section class="slide" id="slide-4">
+            <div class="slide-content">
+                <h2 class="slide-title">Números reales. Mercado verificado.</h2>
+
+                <!-- Tabla ROI -->
+                <div class="proof-grid">
+                    <div class="proof-section table-section fade-in-1">
+                        <table class="roi-table">
+                            <thead>
+                                <tr>
+                                    <th>Scenario</th>
+                                    <th>Inversión</th>
+                                    <th>Ahorro/año</th>
+                                    <th>Payback (Hoy)</th>
+                                    <th>Payback (2031)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="row-animate-1">
+                                    <td><strong>Comercial 50kWp</strong></td>
+                                    <td>$34.000</td>
+                                    <td>$10.069</td>
+                                    <td class="now">3.4 años</td>
+                                    <td class="future">4.2 años</td>
+                                </tr>
+                                <tr class="row-animate-2">
+                                    <td><strong>Industrial 100kWp</strong></td>
+                                    <td>$76.000</td>
+                                    <td>$20.139</td>
+                                    <td class="now">3.8 años</td>
+                                    <td class="future">5.0 años</td>
+                                </tr>
+                                <tr class="row-animate-3">
+                                    <td><strong>Industrial 200kWp</strong></td>
+                                    <td>$210.000</td>
+                                    <td>$40.278</td>
+                                    <td class="now">5.2 años</td>
+                                    <td class="future">6.6 años</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p class="table-source">Datos verificados: CRE oficial, mercado real (InnovaSol), generación NASA POWER (4.8h pico/día)</p>
+                    </div>
+
+                    <!-- Mercado + Urgencia -->
+                    <div class="proof-section market-section fade-in-2">
+                        <div class="market-stat">
+                            <div class="number">10.000</div>
+                            <p class="label">empresas energo-intensivas<br>en Santa Cruz</p>
+                            <p class="source">SEPREC Base Empresarial 2025</p>
+                        </div>
+
+                        <div class="urgency-box">
+                            <p class="urgency-text">
+                                ⚡ <strong>¿Esperar a 2031?</strong><br>
+                                Los que instalen HOY ahorran 30% más en comparación con los que esperen.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gráfico de Payback Comparison -->
+                <div class="chart-container fade-in-3">
+                    <canvas id="paybackChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 5: CIERRE -->
+        <section class="slide" id="slide-5">
+            <div class="slide-content">
+                <h2 class="slide-title">Es un negocio viable. Es urgente ahora.</h2>
+
+                <!-- Modelo de negocio -->
+                <div class="closing-grid">
+                    <div class="model-section fade-in-1">
+                        <h3>Somos un MARKETPLACE, no instaladores.</h3>
+
+                        <div class="revenue-streams">
+                            <div class="stream">
+                                <p><strong>Suscripción proveedores</strong><br>$150–$700/mes</p>
+                            </div>
+                            <div class="stream">
+                                <p><strong>Comisión por deal</strong><br>3–5% por proyecto</p>
+                            </div>
+                            <div class="stream">
+                                <p><strong>Leads calificados</strong><br>$50–$150 por lead</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Proyección -->
+                    <div class="projection-section fade-in-2">
+                        <h3>Proyección — 3 años</h3>
+                        <canvas id="projectionChart"></canvas>
+                        <p class="margin-text"><strong>Margen operativo: 53%</strong></p>
+                    </div>
+                </div>
+
+                <!-- CTA -->
+                <div class="cta-section fade-in-3">
+                    <h3>¿Listo?</h3>
+                    <p class="cta-text">Demostramos en 2 minutos que funciona.<br><strong>Queremos que lo prueben.</strong></p>
+                    <a href="#" class="cta-button">Demo en vivo</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Controles de navegación -->
+        <div class="slide-controls">
+            <button class="nav-btn prev-btn" onclick="prevSlide()">← Anterior</button>
+            <div class="slide-counter">
+                <span id="current-slide">1</span> / <span id="total-slides">5</span>
+            </div>
+            <button class="nav-btn next-btn" onclick="nextSlide()">Siguiente →</button>
+        </div>
+
+        <!-- Indicadores de slide -->
+        <div class="slide-indicators">
+            <div class="indicator active" onclick="goToSlide(1)"></div>
+            <div class="indicator" onclick="goToSlide(2)"></div>
+            <div class="indicator" onclick="goToSlide(3)"></div>
+            <div class="indicator" onclick="goToSlide(4)"></div>
+            <div class="indicator" onclick="goToSlide(5)"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

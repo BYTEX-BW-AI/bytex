@@ -1,8 +1,33 @@
-# ☀️ Bytex — Simulador de Soberanía Energética
+# ☀️ Bytex — Marketplace de Soberanía Energética
 
 **Hackathon Build With AI 2026 — GDG Santa Cruz, Bolivia**
 
-Bytex es un simulador que permite a empresas de Santa Cruz comparar el costo de su factura CRE actual vs una microred solar, con datos reales extraídos mediante IA.
+Bytex es el **marketplace que conecta empresas que buscan independencia energética con proveedores solares certificados**, mediado por análisis de IA personalizado con datos locales reales.
+
+**El problema:** Bolivia agotará sus reservas de gas antes de 2031. La tarifa eléctrica subsidiada subirá a precio internacional. Las empresas que construyan su infraestructura energética hoy pagan la mitad vs. entonces.
+
+**La solución:** Subís tu factura CRE → en 3 minutos la IA te dice exactamente qué sistema necesitás, cuánto te cuesta, cuándo lo recuperás y quién te lo instala — verificado, con proveedores certificados.
+
+---
+
+## 🎥 Pitch Video
+
+**[Ver presentación en YouTube](https://youtu.be/i2WWp4aqUr4)** — Pitch de 5–7 minutos mostrando el problema, la solución, números verificados y el equipo.
+
+---
+
+## 📊 Investigación Completa
+
+Para entender la oportunidad de mercado, análisis competitivo, modelo de negocio y proyecciones financieras:
+
+👉 **[Leer INVESTIGACION.md](INVESTIGACION.md)** — Documento completo con:
+- Lean Canvas
+- Modelo de Negocio (Fase 1 + Fase 2)
+- Análisis de Mercado (TAM: $80M–$200M)
+- Análisis Competitivo
+- FODA
+- PESTEL
+- Análisis Financiero
 
 ---
 
@@ -160,13 +185,12 @@ Puertos: PostgreSQL 5432 | Backend 3001 | Frontend 4200
 
 ## 📁 Documentación
 
-| Archivo | Contenido |
-|---------|-----------|
-| [`docs/algoritmo-simulador.md`](docs/algoritmo-simulador.md) | Algoritmo completo con fórmulas y diagrama de flujo |
-| [`docs/algoritmo-simulador.md`](research/market-research.md) | Investigación de mercado y paneles |
-| [`docs/algoritmo-simulador.md`](research/competitive-analysis.md) | Análisis competitivo |
-| [`docs/algoritmo-simulador.md`](research/lean-canvas.md) | Modelo de negocio |
-| [`docs/algoritmo-simulador.md`](research/architecture.md) | Arquitectura técnica |
+| Documento | Contenido |
+|-----------|-----------|
+| **[INVESTIGACION.md](INVESTIGACION.md)** | **📊 Investigación completa consolidada** — Lean Canvas, Modelo de Negocio, Mercado, FODA, PESTEL, Financiero |
+| [`docs/algoritmo-simulador.md`](docs/algoritmo-simulador.md) | 🧮 Algoritmo completo con fórmulas, cálculos financieros, diagrama de flujo |
+| [`research/`](research/) | Archivos de investigación originales (detalles específicos si necesitas profundizar) |
+| [`ARCHITECTURE.md`](docs/algoritmo-simulador.md#arquitectura-técnica) | 🏗️ Stack tecnológico (Angular, Express, Gemini, NASA POWER) |
 
 ---
 
