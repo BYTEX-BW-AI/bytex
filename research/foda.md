@@ -1,111 +1,106 @@
-# Análisis FODA — Simulador de Soberanía Energética
+# Análisis FODA — Marketplace de Soberanía Energética
 ## Hackathon Build With AI 2026 — Santa Cruz, Bolivia
+## v2.0 — Modelo Marketplace
 
 ---
 
 ## FORTALEZAS (interno — lo que tenemos)
 
-**F1. Único simulador con IA en Bolivia — espacio completamente vacío**
-Ninguna de las ~27 empresas solares activas en Bolivia tiene una herramienta de simulación con IA y datos locales reales. No es una ventaja marginal: es una categoría nueva.
+**F1. Único motor de análisis energético con IA en Bolivia**
+Ninguna de las ~27 empresas solares activas en Bolivia tiene una herramienta de análisis con IA y datos locales reales. No es una ventaja marginal: es una categoría nueva. El espacio está completamente vacío.
 
 **F2. Datos locales reales integrados**
-Tarifas CRE reales, irradiación solar específica de Santa Cruz (NASA POWER API), benchmark de consumo por rubro (INE Bolivia). Ningún competidor usa esto — todos recurren a herramientas genéricas internacionales (PVGIS, PVSyst) que no conocen la CRE, los picos de demanda locales ni la realidad tarifaria boliviana.
+Tarifas CRE reales, irradiación solar específica por zona en Santa Cruz (NASA POWER API), benchmark de consumo por rubro (INE Bolivia). Ningún proveedor del mercado usa esto — todos recurren a herramientas genéricas internacionales (PVGIS, PVSyst) sin contexto boliviano.
 
 **F3. Stack tecnológico 100% gratuito**
-Gemini 2.5 Flash-Lite (OCR + razonamiento), NASA POWER API, hosting free tier. Costo operativo del MVP: $0. Esto elimina la barrera de entrada para validar el producto antes de necesitar inversión.
+Gemini 2.5 Flash-Lite (OCR + razonamiento), NASA POWER API, Firebase stack. Costo operativo del MVP: $0. Elimina la barrera de entrada para validar el producto antes de necesitar inversión.
 
-**F4. Gemini como arquitectura central en una hackathon GDG**
-La hackathon es organizada por Google Developer Groups Santa Cruz. Usar Gemini no como decoración sino como motor funcional del producto es una señal de madurez técnica que los jueces van a valorar explícitamente.
+**F4. Gemini como arquitectura central en hackathon GDG**
+La hackathon es organizada por Google Developer Groups Santa Cruz. Usar Gemini como motor funcional del análisis — no como decoración — es una señal de madurez técnica que los jueces van a valorar explícitamente.
 
-**F5. Modelo EaaS elimina la objeción más grande**
-El leasing energético convierte una inversión de $80k–$200k en una cuota mensual equivalente a lo que ya paga a la CRE. El cliente no necesita capital inicial — el principal freno de adopción en un mercado con tarifa subsidiada desaparece.
+**F5. Modelo marketplace sin necesidad de capital propio**
+No importamos hardware. No instalamos. No financiamos leasing. Los proveedores traen su capital, sus equipos y su experiencia. Nosotros aportamos el análisis de IA y los leads calificados. Escala sin CapEx propio.
 
-**F6. Doble flujo cubre dos mercados distintos**
-El simulador atiende tanto a empresas existentes (suben su factura) como a nuevos emprendedores (seleccionan rubro y zona). Dos dolores distintos, una sola plataforma.
+**F6. Efectos de red en ambos lados**
+Más proveedores → más opciones para clientes → más simulaciones → más leads → más proveedores quieren estar. El marketplace se auto-refuerza. Una vez que tiene masa crítica, es muy difícil de replicar.
 
 **F7. Argumento de timing irrefutable y documentado**
-El colapso del gas boliviano (–65% en reservas en 12 años) y la admisión oficial de YPFB (marzo 2026) no son especulación — son hechos verificables con fuentes primarias. El argumento "instalá ahora antes del shock tarifario" tiene sustento periodístico y gubernamental.
+El colapso del gas boliviano (–65% en reservas en 12 años) y la admisión oficial de YPFB (marzo 2026) no son especulación — son hechos con fuentes primarias. El argumento "construí tu infraestructura hoy" tiene sustento periodístico y gubernamental verificable.
 
-**F8. Efecto de red en los datos**
-Cada simulación que corre un usuario alimenta el benchmark de consumo por rubro en Santa Cruz. Con el tiempo, las estimaciones para nuevos emprendedores son más precisas que cualquier tabla genérica. Los datos propios son una ventaja que crece sola.
+**F8. Datos propietarios que crecen con el uso**
+Cada simulación alimenta el benchmark de consumo por rubro y zona en Santa Cruz. Con el tiempo, las recomendaciones son más precisas que cualquier fuente pública. Ese dataset es nuestro y crece solo.
 
 ---
 
 ## OPORTUNIDADES (externo — lo que el contexto nos ofrece)
 
-**O1. Mercado nasciente sin líder digital**
-InnovaSol — el competidor más directo — tiene 55 sistemas instalados en todo Bolivia con $1M de capital. El mercado B2B solar no tiene dueño. Entrar ahora es entrar antes de que haya un líder consolidado.
+**O1. 27 empresas solares activas en Bolivia como proveedores potenciales**
+Lo que antes eran "competidores" son ahora el ecosistema de proveedores de la plataforma. Enersol, InnovaSol, Bolpegas, EnerLogic, los 5 distribuidores Huawei — todos necesitan leads B2B calificados y no tienen canal digital para conseguirlos. Nosotros se los damos.
 
-**O2. 10.000–12.000 empresas target en Santa Cruz sin solución digital**
-La base de clientes potenciales está identificada, concentrada geográficamente y sin una herramienta que les explique su propia situación energética.
+**O2. Proveedores sin canal digital B2B — brecha sin atender**
+Ninguna empresa solar boliviana tiene una herramienta de captación de leads B2B digital. Todas operan por referidos, ferias o contacto directo. La plataforma les resuelve ese problema desde el día 1.
 
-**O3. PILAT como beachhead perfecto**
-1.350 empresas de 20 sectores en un solo parque industrial (Warnes), con problemas de suministro documentados (línea Warnes–Las Brechas) y el propio parque planificando generación propia. Es el piloto ideal.
+**O3. 10.000–12.000 empresas target en Santa Cruz sin análisis energético disponible**
+La base de clientes potenciales está identificada, concentrada geográficamente y sin una herramienta que les explique su situación energética real. Son el lado demanda del marketplace.
 
-**O4. Shock tarifario inminente — ventana de timing única**
-Antes de 2031, Bolivia tendrá que importar gas a precio internacional (~$400M/año adicionales). La tarifa subsidiada que hoy comprime el ROI va a subir. Las empresas que instalen microredes hoy van a tener payback de 3–4 años en lugar de 8. Quien entre ahora captura ese mercado antes de que la urgencia sea obvia para todos.
+**O4. PILAT como beachhead para ambos lados**
+1.350 empresas de 20 sectores en un solo parque industrial (Warnes). Es el beachhead perfecto tanto para captar clientes (las empresas con el problema) como proveedores (instaladoras que ya trabajan en esa zona).
 
-**O5. Marco regulatorio DG consolidado y reciente (DS 4477 / 4539 / 5167)**
-La generación distribuida ya es legal, los aranceles en equipos son cero, y el net metering/billing está formalizado desde julio 2024. El contexto legal nunca fue más favorable.
+**O5. Shock tarifario inminente — ventana de timing única**
+Antes de 2031, Bolivia importará gas a precio internacional. La tarifa subsidiada sube. El payback baja de 7–10 a 3–4 años. El mercado va a explotar — quien tenga la plataforma ya construida captura ese momento.
 
-**O6. Apagones de 2023 como memoria institucional**
-Las 48 horas sin luz en pleno verano cruceño ya están grabadas en la memoria de los gerentes de planta de Santa Cruz. No hay que convencer a nadie de que el riesgo existe — ya lo vivieron.
+**O6. Marco regulatorio DG consolidado (DS 5549, feb 2026)**
+Generación distribuida legal hasta 2 MW. Aranceles en equipos reducidos. Net metering y billing formalizados. El contexto legal nunca fue más favorable para el ecosistema que nuestra plataforma conecta.
 
-**O7. Calor extremo de Santa Cruz = pico solar y pico de penalización coinciden**
-El horario de mayor penalización por kW demandado (14:00–16:00) es exactamente cuando los paneles solares generan su máxima potencia. El sistema solar no solo genera energía — activamente elimina la penalización más cara de la factura.
+**O7. Apagones 2023 como memoria institucional activa**
+48 horas sin luz en pleno verano cruceño. 87.000 conexiones afectadas. Los gerentes de planta ya saben que el riesgo es real — no hay que convencerlos del problema, solo mostrarles la solución.
 
-**O8. Contexto ESG para exportadores**
-La agroindustria cruceña exporta a mercados que exigen métricas de sostenibilidad. Una microred solar con medición de CO₂ evitado es un activo de compliance internacional.
+**O8. Contexto ESG para exportadores agroindustriales**
+La agroindustria cruceña exporta a mercados con exigencias de sostenibilidad. El análisis de CO₂ evitado que genera nuestra plataforma es un activo de compliance internacional real.
 
 ---
 
 ## DEBILIDADES (interno — lo que nos falta)
 
-**D1. MVP sin track record ni clientes reales**
-El simulador es nuevo. No hay casos de éxito bolivianos que mostrar. En un mercado conservador, la falta de referencias locales es una objeción real en la venta B2B.
+**D1. Problema de chicken & egg — el riesgo estructural del marketplace**
+Sin proveedores en la plataforma no hay valor para los clientes. Sin clientes no hay valor para los proveedores. Arrancar un marketplace de dos lados requiere resolver este problema desde el día 1. La estrategia: conseguir 3–5 proveedores ancla antes del lanzamiento público.
 
-**D2. Precios de equipos hardcodeados — sin actualización dinámica**
-El benchmark de $1.00–$1.50 USD/watt (IRENA Latam) es una estimación. No refleja precios reales de importadores bolivianos, variaciones por logística ni el tipo de cambio actual. Puede generar presupuestos inexactos.
+**D2. Sin track record ni simulaciones reales completadas**
+La plataforma es nueva. No hay casos de éxito bolivianos que mostrar. En un mercado B2B conservador, la falta de referencias locales es una objeción real tanto para clientes como para proveedores.
 
-**D3. Sin capital para financiar el modelo de leasing**
-El EaaS requiere que la empresa financie el equipamiento y lo recupere en cuotas durante 4–5 años. Para escalar este modelo se necesita capital de trabajo significativo que un equipo de hackathon no tiene.
+**D3. Calidad del servicio depende de terceros**
+No controlamos la ejecución de las instalaciones. Un proveedor que hace mal trabajo daña la reputación de la plataforma. El sistema de certificación y reviews es crítico para mitigar este riesgo — pero toma tiempo construirlo.
 
-**D4. Dependencia de hardware importado**
-Bolivia no fabrica paneles, inversores ni baterías. Todo el hardware depende de logística internacional, tiempos de importación variables y acceso a USD en un contexto de restricciones cambiarias.
+**D4. OCR de facturas CRE sujeto a calidad de imagen**
+Gemini maneja bien documentos claros, pero facturas fotografiadas con mala iluminación o formatos atípicos pueden generar extracciones incorrectas. El usuario necesita poder revisar y corregir los datos extraídos.
 
-**D5. OCR de facturas CRE sujeto a calidad de imagen**
-Gemini maneja bien documentos claros, pero facturas fotografiadas con mala iluminación, formatos atípicos o imágenes borrosas pueden generar extracciones incorrectas. El usuario necesita poder revisar y corregir los datos extraídos.
+**D5. Estimaciones de consumo por rubro son promedios**
+Para nuevos emprendedores, el simulador estima consumo usando tablas de referencia (INE/benchmarks). Una empresa real puede consumir 30% más o menos que el promedio del rubro. El resultado es orientativo, no una ingeniería de detalle.
 
-**D6. Estimaciones de consumo por rubro son promedios, no mediciones**
-Para nuevos emprendedores, el simulador estima consumo usando tablas de referencia (INE/promedios). Una panadería real puede consumir 30% más o menos que el promedio del rubro. El resultado del simulador es orientativo, no una ingeniería de detalle.
-
-**D7. Equipo sin experiencia en ingeniería eléctrica industrial**
-Dimensionar correctamente una microred industrial (protecciones, compatibilidad con maquinaria, factores de demanda) requiere conocimiento técnico especializado que va más allá del software.
+**D6. Sin experiencia en el sector energético boliviano**
+El equipo viene del software. No conoce los tiempos reales de instalación, las trabas de aduana, las complejidades técnicas de cada proyecto. Eso hace que dependamos de los proveedores también para aprender el negocio.
 
 ---
 
 ## AMENAZAS (externo — lo que el contexto nos puede dañar)
 
 **A1. Tarifa subsidiada reduce urgencia hoy**
-Mientras el subsidio al gas se mantenga, el payback de 5–8 años no genera urgencia en empresas que nunca vivieron un apagón prolongado. La propuesta de valor es más fuerte para quienes ya sufrieron el problema.
+Mientras el subsidio al gas se mantenga, el payback de 7–10 años no genera urgencia en empresas que nunca vivieron un apagón prolongado. La propuesta de valor es más fuerte para quienes ya sufrieron el problema.
 
-**A2. Inestabilidad política — decretos pueden revertirse**
-El marco regulatorio favorable (DS 4477, DS 4539, DS 5167) son decretos supremos — pueden modificarse por el ejecutivo sin proceso legislativo. Un cambio de gobierno puede alterar los incentivos.
+**A2. Un proveedor grande puede construir su propia plataforma**
+Enersol (40 años, 20+ MW) tiene los recursos para desarrollar su propio simulador y directorio. Si ven tracción en la nuestra, podrían replicarla. Nuestra defensa: los datos propietarios y el efecto de red no se replican fácilmente.
 
-**A3. Crisis de acceso a USD en Bolivia**
-Bolivia tiene reservas internacionales en mínimos históricos y restricciones crecientes al acceso de divisas. Importar hardware solar en USD puede volverse más difícil y costoso.
+**A3. Los proveedores pueden coordinarse entre ellos y saltear la plataforma**
+Si los proveedores se conocen entre sí (y se conocen — el mercado solar boliviano es pequeño), podrían acordar derivarse leads directamente sin pasar por la plataforma. La defensa: el análisis de IA y la confianza del cliente son el valor que ningún proveedor puede dar por separado.
 
-**A4. Competidores establecidos pueden replicar el simulador**
-Enersol (con 40 años y recursos) o S.Solar (con ambición de 1 GW) pueden desarrollar su propio simulador si ven tracción en el nuestro. La ventaja de ser primero es real pero tiene una vida útil limitada.
+**A4. Inestabilidad política — decretos pueden revertirse**
+El marco regulatorio favorable (DS 4477, DS 5167, DS 5549) son decretos supremos modificables por el ejecutivo. Un cambio de gobierno puede alterar los incentivos para el sector.
 
-**A5. Límite regulatorio de 350 kW para generación distribuida**
-Proyectos industriales grandes superan este límite y requieren licencia bajo Ley 1604 — proceso más largo, más burocrático y con mayor incertidumbre regulatoria.
+**A5. DS 5549 — límite de 2 MW puede no ser suficiente para grandes industriales**
+Proyectos mayores a 2 MW requieren proceso de licencia bajo Ley 1604 — más largo y complejo. Limita el tamaño máximo de proyectos que los proveedores pueden ofrecer en la plataforma.
 
 **A6. Resistencia cultural en PyMEs tradicionales**
-Muchas empresas familiares de Santa Cruz tienen mentalidad conservadora. "Llevan 20 años pagando a la CRE" y el cambio genera fricción, especialmente cuando el interlocutor no es el dueño sino un encargado administrativo.
-
-**A7. Logística de importación impredecible**
-Los tiempos de llegada de contenedores con paneles y baterías desde China o Europa pueden extenderse por meses. El negocio de instalación depende de una cadena de suministro que Bolivia no controla.
+Muchas empresas familiares de Santa Cruz tienen mentalidad conservadora. La fricción de adoptar una herramienta digital para una decisión de $70.000+ es real, especialmente cuando el interlocutor no es el dueño.
 
 ---
 
@@ -114,35 +109,37 @@ Los tiempos de llegada de contenedores con paneles y baterías desde China o Eur
 ### Estrategias FO (Fortalezas + Oportunidades) — Atacar
 | | |
 |---|---|
-| F1 + O1 | Posicionarse como **el** simulador solar de Bolivia antes de que exista competencia digital. Primero en el mercado = referencia de la categoría. |
-| F7 + O4 | Usar el argumento del shock tarifario 2031 como urgencia de ventas. El timing documentado convierte la propuesta de valor en una decisión de riesgo, no de conveniencia. |
-| F2 + O3 | Pilotear en PILAT con datos reales de tarifas CRE y consumo industrial cruceño. Un caso de éxito en el parque industrial más grande de Bolivia vale por 1.000 folletos. |
-| F5 + O2 | El modelo EaaS (leasing) como puerta de entrada al mercado masivo. Sin CapEx = sin objeción de inversión = funnel de conversión más corto. |
+| F1 + O2 | Posicionarse como el canal de leads B2B que los proveedores no tienen. El análisis de IA es el argumento de venta para que los proveedores paguen la suscripción. |
+| F7 + O5 | Usar el argumento del shock tarifario 2031 en el pitch a proveedores: "los clientes que hoy usan nuestra plataforma son los que van a instalar cuando la urgencia explote — vos querés estar ahí." |
+| F6 + O1 | Activar el efecto de red desde el día 1: onboardear los 5 proveedores más relevantes antes del lanzamiento para que los primeros clientes ya tengan opciones reales. |
+| F8 + O4 | PILAT como piloto: primeras simulaciones + primeros proveedores activos en Warnes. Un caso real en el parque industrial más grande de Bolivia es el mejor argumento para escalar. |
 
 ### Estrategias DA (Debilidades + Amenazas) — Defender
 | | |
 |---|---|
-| D1 + A6 | Construir casos de uso con datos reales lo antes posible. Un testimonio de un gerente del PILAT vale más que cualquier argumento técnico para una PyME conservadora. |
-| D3 + A3 | Diseñar el modelo de leasing con cuotas en bolivianos indexadas a la tarifa CRE — no en USD — para proteger al cliente y al negocio de la volatilidad cambiaria. |
-| D2 + A4 | Actualizar precios de equipos trimestralmente con cotizaciones reales de importadores locales. Esto también es una barrera de replicación para competidores: los datos dinámicos requieren relaciones comerciales reales. |
+| D1 + A2 | Resolver el chicken & egg antes del lanzamiento con acuerdos de proveedor ancla. Enersol o InnovaSol como primer partner validado le da credibilidad a ambos lados. |
+| D3 + A3 | Construir el sistema de reviews verificados desde el MVP. La reputación pública de cada proveedor es el incentivo para no saltear la plataforma — los clientes confían en ella. |
+| D2 + A6 | Primer simulación = primer caso de éxito. Documentar el ROI de las primeras empresas que usan la plataforma y lo publican — eso baja la resistencia cultural de las PyMEs conservadoras. |
 
 ---
 
 ## Resumen visual
 
 ```
-                    POSITIVO          NEGATIVO
-              ┌─────────────────┬─────────────────┐
-   INTERNO    │  FORTALEZAS     │  DEBILIDADES    │
-              │  F1–F8          │  D1–D7          │
-              │  Simulador IA   │  Sin track rec. │
-              │  único en BOL   │  Sin capital    │
-              │  Stack $0       │  Hardware dep.  │
-              ├─────────────────┼─────────────────┤
-   EXTERNO    │  OPORTUNIDADES  │  AMENAZAS       │
-              │  O1–O8          │  A1–A7          │
-              │  Mercado vacío  │  Tarifa subsid. │
-              │  PILAT beachh.  │  Inestab. pol.  │
-              │  Shock 2031     │  Copias posibles│
-              └─────────────────┴─────────────────┘
+                    POSITIVO              NEGATIVO
+              ┌───────────────────┬───────────────────┐
+   INTERNO    │  FORTALEZAS       │  DEBILIDADES      │
+              │  F1–F8            │  D1–D6            │
+              │  IA única en BOL  │  Chicken & egg    │
+              │  Marketplace sin  │  Calidad depende  │
+              │  capital propio   │  de terceros      │
+              │  Stack $0         │  Sin track record │
+              ├───────────────────┼───────────────────┤
+   EXTERNO    │  OPORTUNIDADES    │  AMENAZAS         │
+              │  O1–O8            │  A1–A6            │
+              │  27 proveedores   │  Tarifa subsid.   │
+              │  potenciales      │  Replicación por  │
+              │  Sin canal leads  │  proveedor grande │
+              │  Shock 2031       │  Inestab. pol.    │
+              └───────────────────┴───────────────────┘
 ```
