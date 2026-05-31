@@ -76,9 +76,118 @@ Marketplace de dos lados. **NO somos instaladores.**
 
 ## 🚀 Quick Start
 
+```bash
+# 1. Backend — configurar variables de entorno
+cd backend
+cp .env.example .env
+# Editar .env con GEMINI_API_KEY
+npm install
+npm run dev
 
+# 2. Frontend (otra terminal)
+cd frontend
+npm install
+npm start
+```
 
 Demo en vivo: https://bytex-demo.web.app
+
+---
+
+## 🧠 Cómo funciona el simulador
+
+### Flujo de análisis en 5 pasos
+
+```
+Empresa sube factura CRE (JPG/PNG/PDF)
+         ↓
+   Gemini OCR extrae: consumo (kWh), pico (kW), costo (Bs)
+         ↓
+NASA POWER API entrega irradiación solar real (4.8 kWh/m²/día Santa Cruz)
+         ↓
+Motor de sizing calcula: paneles, inversor, baterías, MPPT necesarios
+         ↓
+FinancialCalculator devuelve: payback, TIR, VAN, ahorro 25 años
+         ↓
+Salida: "Necesitás X paneles + Y baterías + Z inversor. Payback: 4.5 años. 3 proveedores en tu zona pueden instalarlo."
+```
+
+### Funcionalidades principales
+
+| Feature | Descripción |
+|---------|-------------|
+| 📷 **OCR con Gemini 2.5** | Extrae consumo, costo, tarifa de facturas CRE automáticamente |
+| ⚡ **Dimensionamiento dinámico** | Calcula paneles, inversor, baterías modulares y MPPT según consumo real |
+| 📈 **Proyección 25 años** | Gráfico interactivo Chart.js: CRE vs Solar, break-even visual |
+| 📊 **3 Escenarios** | Pesimista (+3%), Base (+5.2%), Optimista (+8%) con ROI en cada uno |
+| 💰 **Análisis financiero** | Payback, TIR (Newton-Raphson), VAN, LCOE, ahorro acumulado |
+| 🌍 **Impacto ambiental** | CO₂ evitado, árboles equivalentes, litros de agua ahorrados vs grid boliviano |
+| 🔐 **Datos reales** | NASA POWER API (irradiación verificada), tarifas CRE oficiales |
+
+---
+
+## 🛠️ Stack Técnico Completo
+
+```
+Frontend:
+├─ Angular 21.2 (standalone components)
+├─ NgRx 21.1 (state management)
+├─ TailwindCSS 3.4 (styling)
+├─ Chart.js 4.5 (gráficos)
+├─ AngularFire (Firebase integration)
+└─ PWA (offline-ready)
+
+Backend:
+├─ TypeScript 5.7 (type-safe)
+├─ Express 4.21 (HTTP routing)
+├─ Gemini 2.5 Flash-Lite API (IA core)
+├─ NASA POWER API (solar data)
+├─ Prisma 6.2 (data layer)
+└─ PostgreSQL 16 (persistence)
+
+Infrastructure:
+├─ Docker (containerization)
+├─ Firebase Hosting (frontend)
+└─ Cloud Firestore (post-MVP)
+
+Free Tier Services:
+├─ Gemini API: 1.000 req/día free
+├─ NASA POWER: gratuita sin límite
+├─ Firebase: Spark plan + Blaze for growth
+└─ Costo MVP: $0/mes
+```
+
+**Arquitectura:** Core domain (calculadora pura) → Application layer (orquestación) → Infrastructure (APIs externas + persistencia)
+
+---
+
+## 📊 Análisis de mercado incluido
+
+El repositorio contiene análisis completo:
+- **research/lean-canvas.md** — 9 bloques: problema, solución, TAM $80–$200M
+- **research/business-model.md** — Modelo marketplace + Fase 2 (instaladora propia)
+- **research/financial-analysis.md** — Proyección 3 años, margen 53–71%, break-even Q1
+- **research/competitive-analysis.md** — 27 competidores solares analizados, FODA, PESTEL
+- **research/market-research.md** — Santa Cruz: 117k empresas, 10-12k target, PILAT beachhead
+
+---
+
+## 🎯 Roadmap
+
+**Fase 1 (ahora):** Marketplace MVP
+- Clientes corren simulaciones gratis
+- Proveedores pagan suscripción + comisión por deals
+- Revenue: $132k año 1
+
+**Fase 2 (año 2):** Instaladora propia
+- Con datos + relaciones de Fase 1
+- Bytex importa equipos y ofrece EaaS
+- Márgenes: 35–40% en instalaciones
+
+**Fase 3 (año 3+):** Plataforma IoT completa
+- Monitoreo remoto de sistemas 24/7
+- Mantenimiento predictivo con IA
+- SaaS recurrente para operación
 
 ---
 
