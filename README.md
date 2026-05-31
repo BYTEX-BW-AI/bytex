@@ -1,99 +1,178 @@
-# 🌞 ByteX EnergyHub — Marketplace de IA para la independencia energética empresarial
+# ☀️ Bytex — Simulador de Soberanía Energética
 
-> **Bolivia agotó el gas que genera el 66% de su electricidad. En 2031 tendrá que importar gas a precio internacional. Las empresas que construyan infraestructura propia hoy pagarán 50–60% menos que las que esperen.**
+**Hackathon Build With AI 2026 — GDG Santa Cruz, Bolivia**
 
-**Status:** Negocio real en validación. Compite en hackathon Build With AI 2026.
-
----
-
-## 🎯 El Problema Real (Verificable)
-
-### Colapso de reservas de gas en Bolivia
-- **2013:** 10.45 TCF de reservas probadas
-- **2026 (hoy):** 3.7 TCF (caída del 65%)
-- **2031:** Bolivia importará gas a precio internacional
-
-**Fuente:** [YPFB advierte que Bolivia podría importar gas desde 2031](https://prensamercosur.org/2026/04/01/reservas-de-gas-caen-a-37-tcf-y-ypfb-advierte-que-bolivia-podria-importar-gas-desde-2031/)
-
-### Electricidad = Gas quemado
-- **66% de la electricidad viene de termoeléctricas a gas natural**
-- Cuando Bolivia importe gas, el costo sube de $0.084 a $0.15–$0.20/kWh
-
-**Fuente:** [World Bank: Electricity generation from gas in Bolivia](https://datos.bancomundial.org/indicador/EG.ELC.NGAS.ZS?locations=BO)
-
-### Mercado cautivo: 10.000–12.000 empresas B2B en Santa Cruz
-- **117.894 empresas registradas en Santa Cruz** (29.9% de Bolivia)
-- **Energo-intensivas:** 10.000–12.000 empresas
-
-**Fuente:** [SEPREC Base Empresarial 2025](https://www.seprec.gob.bo/)
-
-### No existe simulador con IA en Bolivia
-**Hallazgo crítico:** Ninguna empresa ofrece análisis de IA + marketplace integrado.
+Bytex es un simulador que permite a empresas de Santa Cruz comparar el costo de su factura CRE actual vs una microred solar, con datos reales extraídos mediante IA.
 
 ---
 
-## ✅ Nuestra Solución
+## 🚀 Demo rápida
 
-Marketplace de IA que analiza la energía real de una empresa y la conecta con proveedores certificados.
+```bash
+# 1. Backend — configurar variables de entorno
+cd backend
+cp .env.example .env
+# Editar .env con GEMINI_API_KEY
+npm install
+npx tsx src/index.ts
 
+# 2. Frontend (otra terminal)
+cd frontend
+npm install
+npx ng serve
+```
 
-
-**Output:** Recomendación personalizada con ROI exacto.
-
----
-
-## 💰 Modelo de Negocio
-
-Marketplace de dos lados. **NO somos instaladores.**
-
-### Revenue Streams (Año 1)
-
-| Stream | Precio | Volumen | Revenue anual |
-|---|---|---|---|
-| Suscripción proveedores | $150–$700/mes | 5 proveedores promedio | $28.000 |
-| Comisión por deal | 3–5% proyecto | 30 deals × $2.500 | $84.000 |
-| Leads calificados | $50–$150 | 200 leads × $75 | $15.000 |
-| **TOTAL** | — | — | **$132.000** |
-
-**Margen operativo: 53%** (vs. 20–32% instaladora directa)
+> ⚠️ **Obligatorio**: Copiar `backend/.env.example` → `backend/.env` y configurar `GEMINI_API_KEY` para OCR real.
 
 ---
 
-## 🏗️ Tech Stack (MVP)
+## 🧠 Funcionalidades
 
-| Componente | Tecnología |
-|---|---|
-| Frontend | Angular 18 + PWA |
-| Backend | Firebase Cloud Functions |
-| Database | Cloud Firestore |
-| **IA Central** | **Gemini 2.5 Flash-Lite** |
-| **Datos solares** | **NASA POWER API** |
-| Hosting | Firebase Hosting |
-
-**Costo:** $0 (free tiers)
-
----
-
-## 🚀 Quick Start
-
-
-
-Demo en vivo: https://bytex-demo.web.app
+| Funcionalidad | Descripción |
+|--------------|-------------|
+| 📷 **OCR con Gemini** | Subí tu factura CRE (JPG, PNG, PDF) y extraemos consumo, costo, tarifa |
+| ⚡ **Dimensionamiento dinámico** | Calculamos paneles, inversor, baterías modulares y MPPT según tu consumo real |
+| 📈 **Proyección 25 años** | Gráfico interactivo Chart.js mostrando el cruce CRE vs Solar |
+| 📊 **3 Escenarios** | Pesimista (+3%), Base (+5.2%), Optimista (+8%) con payback, TIR y ahorro |
+| 💱 **Tipo de cambio en vivo** | dolarapi.com (Binance) — actualizado cada hora |
+| 🌱 **Impacto ambiental** | CO₂ evitado, árboles equivalentes, litros de agua ahorrados |
+| 🔒 **Sin formularios** | Solo subí tu factura, el resto lo hace la IA |
 
 ---
 
-## 🔗 Todas las Fuentes
+## 🏗️ Stack
 
-- [YPFB: Bolivia importará gas desde 2031](https://prensamercosur.org/2026/04/01/)
-- [World Bank: Electricity from gas](https://datos.bancomundial.org/indicador/EG.ELC.NGAS.ZS?locations=BO)
-- [SEPREC: Empresas registradas](https://www.seprec.gob.bo/)
-- [CRE: Tarifas oficiales](https://www.cre.com.bo/)
-- [PILAT](https://pilatsrl.com/)
-- [Enersol](https://www.enersol-sa.com/)
-- [InnovaSol](https://innovasol.com.bo/)
+```
+bytex/
+├── frontend/        # Angular 21.2 + NgRx 21.1 + TailwindCSS 3.4 + Chart.js 4.5
+├── backend/         # TypeScript + Express 4.21 + Prisma + PostgreSQL 16
+├── docs/            # Documentación técnica
+│   ├── algoritmo-simulador.md   # Algoritmo completo con fórmulas
+│   └── ...                       # Research, arquitectura, análisis de mercado
+├── research/        # Investigación de mercado y paneles solares
+├── img/             # Imágenes de prueba (facturas CRE)
+└── docker-compose.yml
+```
 
 ---
 
-**Negocio real. La hackathon es solo la primera etapa.**
+## 📐 Algoritmo en 5 pasos
 
-Hecho con ❤️ para la soberanía energética de Bolivia.
+```
+Factura CRE → Gemini OCR → consumoKwh, costoTotalBs
+     ↓
+Tipo de cambio (dolarapi.com) → Bs → USD
+     ↓
+MicrogridSizer → paneles, inversor, baterías modulares, MPPT
+     ↓
+Desglose CapEx → hardware + transporte escalable + instalación + ingeniería
+     ↓
+FinancialCalculator → payback, TIR, VAN, LCOE, ahorro 25 años
+     ↓
+3 Escenarios → pesimista (+3%), base (+5.2%), optimista (+8%)
+     ↓
+Impacto ambiental → CO₂, árboles, agua
+```
+
+📖 Ver [`docs/algoritmo-simulador.md`](docs/algoritmo-simulador.md) para fórmulas completas.
+
+---
+
+## 🖥️ Frontend (`frontend/README.md`)
+
+- **Stack**: Angular 21.2, NgRx 21.1, TailwindCSS 3.4, Chart.js 4.5
+- **Estructura**: Feature-based (simulator, auth, dashboard, learn)
+- **Estado**: NgRx Store (actions, effects, reducer, selectors)
+- **Pipes**: CurrencyUsdPipe, CurrencyBsPipe, NumberFormatPipe, PercentagePipe
+
+```bash
+cd frontend
+npm install
+npx ng serve --host 0.0.0.0 --port 4200
+```
+
+---
+
+## ⚙️ Backend (`backend/README.md`)
+
+- **Stack**: TypeScript, Express 4.21, Prisma 6.2, PostgreSQL 16
+- **Arquitectura**: Hexagonal (core/application/infrastructure/api)
+- **OCR**: Gemini 2.5 Flash-Lite
+- **Tipo de cambio**: [`dolarapi.com`](https://bo.dolarapi.com/v1/dolares/binance) (cache 1h)
+
+```bash
+cd backend
+npm install
+cp .env.example .env  # Configurar GEMINI_API_KEY
+npx tsx src/index.ts  # Puerto 3001
+```
+
+### Endpoints
+
+| Método | Ruta | Descripción |
+|--------|------|-------------|
+| `GET` | `/health` | Health check |
+| `GET` | `/api/panels` | Catálogo de paneles |
+| `GET` | `/api/sectors` | Rubros empresariales (INE Bolivia) |
+| `GET` | `/api/zones` | Zonas de Santa Cruz |
+| `GET` | `/api/solar-data` | Irradiancia solar |
+| `POST` | `/api/simulation/extract-bill` | OCR con Gemini |
+| `POST` | `/api/simulation/calculate` | Cálculo principal |
+| `POST` | `/api/simulation/estimate-consumption` | Estimación por sector |
+
+---
+
+## 🐳 Docker
+
+```bash
+docker compose up --build
+```
+
+Puertos: PostgreSQL 5432 | Backend 3001 | Frontend 4200
+
+---
+
+## 📊 Catálogo de paneles
+
+| Panel | Tecnología | Potencia | Eficiencia | Precio landed |
+|-------|-----------|----------|------------|---------------|
+| Jinko Tiger NEO III 78HC | TOPCon | 670W | 24.8% | $108 |
+| Aiko Stellar 3N+72 | ABC | 685W | 25.4% | $195 |
+| LONGi Hi-MO X10 Scientist | HPBC | 670W | 24.8% | $135 |
+| Recom Black Tiger 665W | BC | 665W | 24.8% | $161 |
+| Trina Vertex S+ 54c | TOPCon | 475W | 23.8% | $70 |
+| PERC Estándar 72c | PERC | 450W | 20.0% | $48 |
+
+---
+
+## 🔑 Variables clave
+
+| Variable | Valor | Fuente |
+|----------|-------|--------|
+| Irradiancia Santa Cruz | 4.8 kWh/m²/día | NASA POWER |
+| Incremento CRE anual | 5.2% | Histórico Bolivia |
+| Tasa de descuento | 12% | Estándar proyectos |
+| Degradación paneles | 0.5%/año | Garantía fabricante |
+| Factor emisión CO₂ | 0.42 kg/kWh | Mix eléctrico Bolivia |
+| Tipo de cambio | 9.96 Bs/USD (variable) | dolarapi.com (Binance) |
+
+---
+
+## 📁 Documentación
+
+| Archivo | Contenido |
+|---------|-----------|
+| [`docs/algoritmo-simulador.md`](docs/algoritmo-simulador.md) | Algoritmo completo con fórmulas y diagrama de flujo |
+| [`docs/algoritmo-simulador.md`](research/market-research.md) | Investigación de mercado y paneles |
+| [`docs/algoritmo-simulador.md`](research/competitive-analysis.md) | Análisis competitivo |
+| [`docs/algoritmo-simulador.md`](research/lean-canvas.md) | Modelo de negocio |
+| [`docs/algoritmo-simulador.md`](research/architecture.md) | Arquitectura técnica |
+
+---
+
+## 👥 Equipo
+
+Proyecto desarrollado para el **Hackathon Build With AI 2026** organizado por **GDG Santa Cruz, Bolivia**.
+
+---
+<p align="center">☀️ <strong>Bytex</strong> — Soberanía Energética para Empresas de Santa Cruz</p>
