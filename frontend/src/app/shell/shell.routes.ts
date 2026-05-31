@@ -11,6 +11,14 @@ export const shellRoutes: Routes = [
         loadChildren: () => import('../features/landing/landing.routes').then(m => m.landingRoutes),
       },
       {
+        path: 'sales',
+        loadComponent: () => import('../features/landing/pages/sales.page').then(m => m.SalesPage),
+      },
+      {
+        path: 'providers',
+        loadComponent: () => import('../features/landing/pages/providers.page').then(m => m.ProvidersPage),
+      },
+      {
         path: 'simulador',
         loadChildren: () => import('../features/simulator/simulator.routes').then(m => m.simulatorRoutes),
       },

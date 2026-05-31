@@ -1,5 +1,10 @@
 export const APP_ROUTES = {
   HOME: '/',
+  LANDING: {
+    ROOT: '/',
+    SALES: '/sales',
+    PROVIDERS: '/providers',
+  },
   SIMULATOR: {
     ROOT: '/simulador',
     TYPE: '/simulador/tipo',
