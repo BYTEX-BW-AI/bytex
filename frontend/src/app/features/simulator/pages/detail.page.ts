@@ -3,12 +3,14 @@ import { Router } from '@angular/router';
 import { SimulatorFacade } from '../data-access/services/simulator-facade';
 import { DecimalPipe } from '@angular/common';
 import { CurrencyUsdPipe } from '../../../shared/pipes';
+import { ButtonComponent } from '../../../shared/components/ui/button/button.component';
+import { CardComponent } from '../../../shared/components/ui/card/card.component';
 import { APP_ROUTES } from '../../../core/constants/app-routes';
 
 @Component({
   selector: 'bytex-detail-page',
   standalone: true,
-  imports: [CurrencyUsdPipe, DecimalPipe],
+  imports: [ButtonComponent, CardComponent, CurrencyUsdPipe, DecimalPipe],
   template: `
     <div class="min-h-screen px-4 py-8">
       <div class="max-w-4xl mx-auto">
