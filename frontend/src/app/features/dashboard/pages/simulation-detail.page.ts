@@ -4,12 +4,13 @@ import { DashboardFacade } from '../data-access/services/dashboard-facade';
 import { SpinnerComponent } from '../../../shared/components/ui/spinner/spinner.component';
 import { DecimalPipe } from '@angular/common';
 import { CurrencyUsdPipe } from '../../../shared/pipes';
+import { ButtonComponent } from '../../../shared/components/ui/button/button.component';
 import { APP_ROUTES } from '../../../core/constants/app-routes';
 
 @Component({
   selector: 'bytex-simulation-detail-page',
   standalone: true,
-  imports: [SpinnerComponent, CurrencyUsdPipe, DecimalPipe],
+  imports: [ButtonComponent, SpinnerComponent, CurrencyUsdPipe, DecimalPipe],
   template: `
     @if (facade.selectedSimulation(); as sim) {
       <div class="min-h-screen px-4 py-8">

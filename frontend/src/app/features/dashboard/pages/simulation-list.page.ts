@@ -6,12 +6,13 @@ import { EmptyStateComponent } from '../../../shared/components/ui/empty-state/e
 import { SpinnerComponent } from '../../../shared/components/ui/spinner/spinner.component';
 import { DecimalPipe } from '@angular/common';
 import { CurrencyUsdPipe } from '../../../shared/pipes';
+import { ButtonComponent } from '../../../shared/components/ui/button/button.component';
 import { APP_ROUTES } from '../../../core/constants/app-routes';
 
 @Component({
   selector: 'bytex-simulation-list-page',
   standalone: true,
-  imports: [EmptyStateComponent, SpinnerComponent, CurrencyUsdPipe, DatePipe, DecimalPipe],
+  imports: [EmptyStateComponent, SpinnerComponent, ButtonComponent, CurrencyUsdPipe, DatePipe, DecimalPipe],
   template: `
     <div class="min-h-screen px-4 py-8">
       <div class="max-w-4xl mx-auto">
