@@ -1,0 +1,44 @@
+# ─── Node.js ───────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# ─── Build outputs ────────────────────────────────
+dist/
+build/
+*.tsbuildinfo
+
+# ─── Environment ──────────────────────────────────
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ─── IDE / Editor ─────────────────────────────────
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ─── Logs ─────────────────────────────────────────
+logs/
+*.log
+
+# ─── Prisma ───────────────────────────────────────
+backend/prisma/*.db
+backend/prisma/*.db-journal
+
+# ─── Frontend (Angular) ──────────────────────────
+frontend/.angular/
+frontend/.cache/
+
+# ─── Docker ──────────────────────────────────────
+docker-data/

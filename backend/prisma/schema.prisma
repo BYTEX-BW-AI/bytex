@@ -1,0 +1,89 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum SimulationType {
+  EXISTING
+  NEW
+}
+
+enum PanelTechnology {
+  PERC
+  TOPCon
+  HJT
+  ABC
+  IBC
+  HPBC
+}
+
+model User {
+  id          String   @id @default(uuid())
+  email       String   @unique
+  displayName String?
+  photoUrl    String?
+  googleUid   String?  @unique
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  simulations Simulation[]
+}
+
+model Simulation {
+  id             String          @id @default(uuid())
+  userId         String?
+  type           SimulationType
+  status         String          @default("pending")
+  
+  // Input data
+  billImageBase64 String?
+  consumoKwh     Float?
+  potenciaMaximaKw Float?
+  costoTotales   Float?
+  periodoFacturacion String?
+  sectorId       String?
+  zoneId         String?
+  
+  // Solar data
+  irradiance     Float?
+  latitude       Float?
+  longitude      Float?
+  
+  // Panel selection
+  selectedPanelId String?
+  
+  // Results (JSON)
+  sizing         Json?
+  financial      Json?
+  costs          Json?
+  environmental  Json?
+  result         Json?
+  
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  user           User?    @relation(fields: [userId], references: [id])
+}
+
+model Panel {
+  id          String          @id
+  brand       String
+  model       String
+  technology  PanelTechnology
+  wattPeak    Int
+  efficiency  Float
+  dimensions  String
+  areaM2      Float
+  wattPerM2   Float
+  coeffTemp   Float
+  warranty    Int
+  priceFob     Float
+  priceLanded  Float
+  pricePerWatt Float
+  active      Boolean         @default(true)
+  createdAt   DateTime        @default(now())
+}
